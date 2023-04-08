@@ -1,0 +1,7 @@
+TEA_INF_01 = {	
+	name = "Infantry Unit"
+	for_countries = { TEA }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "Theresa %d Division"
+}

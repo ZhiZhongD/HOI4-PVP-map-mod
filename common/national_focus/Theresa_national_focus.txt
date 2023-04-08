@@ -1,0 +1,11 @@
+focus_tree = {
+	id = Theresa_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = TEA
+		}
+	}
+    default = no
+}

@@ -1,0 +1,8 @@
+TEA = {
+	color = rgb { 0 239 255 }
+	color_ui  = rgb { 0 239 255 }
+}
+TEA_ROMA = {
+	color = rgb { 0 239 255 }
+	color_ui  = rgb { 0 239 255 }
+}

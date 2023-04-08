@@ -1,0 +1,9 @@
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		1464 1518 1553 1610 1617 1660 1687 1700 1761 1785 1790 1830 1860 1901 1910 1935 2007 2023 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,8 @@
+leader_traits = {
+    Theresa_is_the_lovest ={
+        stability_factor = 0.25
+        war_support_factor = 0.25
+        political_power_gain = 1
+        political_power_factor = 1
+    }
+}
