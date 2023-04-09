@@ -1,4 +1,4 @@
-﻿capital = 516 #Taymyr
+﻿capital = 1
 
 #oob = "TAY_1936"
 

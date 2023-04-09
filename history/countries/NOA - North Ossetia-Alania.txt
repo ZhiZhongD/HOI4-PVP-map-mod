@@ -1,4 +1,4 @@
-﻿capital = 828 #Ordzhonikidze
+﻿capital = 1
 
 #oob = "NOA_1936"
 

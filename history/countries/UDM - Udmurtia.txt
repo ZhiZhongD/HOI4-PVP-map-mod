@@ -1,4 +1,4 @@
-﻿capital = 399 #Izhevsk
+﻿capital = 1
 
 #oob = "UDM_1936"
 

@@ -1,4 +1,4 @@
-﻿capital = 408 #vladivostok
+﻿capital = 1
 
 #oob = "VLA_1936"
 

@@ -1,4 +1,4 @@
-﻿capital = 829 #Engels
+﻿capital = 1
 
 #oob = "VGE_1936"
 

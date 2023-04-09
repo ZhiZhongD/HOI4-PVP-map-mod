@@ -1,4 +1,4 @@
-﻿capital = 812
+﻿capital = 1
 
 oob = "EST_1936"
 if = {

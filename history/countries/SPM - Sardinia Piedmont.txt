@@ -1,4 +1,4 @@
-﻿capital = 158
+﻿capital = 1
 
 
 

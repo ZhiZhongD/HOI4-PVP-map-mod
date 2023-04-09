@@ -1,5 +1,4 @@
-﻿capital = 275
-
+﻿capital = 1
 oob = "SAF_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

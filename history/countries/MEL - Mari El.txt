@@ -1,4 +1,4 @@
-﻿capital = 833 #Yoshkar-Ola
+﻿capital = 1
 
 #oob = "MEL_1936"
 

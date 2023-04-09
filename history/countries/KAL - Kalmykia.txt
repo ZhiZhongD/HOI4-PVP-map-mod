@@ -1,4 +1,4 @@
-﻿capital = 237 #Elista
+﻿capital = 1
 
 #oob = "KAL_1936"
 

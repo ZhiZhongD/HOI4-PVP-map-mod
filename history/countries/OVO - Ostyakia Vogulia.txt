@@ -1,4 +1,4 @@
-﻿capital = 580 #Khanty-Mansiysk (Tobolsk state) 
+﻿capital = 1
 
 #oob = "OVO_1936"
 

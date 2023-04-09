@@ -1,4 +1,4 @@
-﻿capital = 825 #Naryan-Mar
+﻿capital = 1
 
 #oob = "NEN_1936"  # Troops should probably not be able to use nen
 

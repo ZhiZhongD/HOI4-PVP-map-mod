@@ -1,4 +1,4 @@
-﻿capital = 249 #Kazan
+﻿capital = 1
 
 #oob = "TAT_1936"
 

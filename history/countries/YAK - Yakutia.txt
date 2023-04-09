@@ -1,4 +1,4 @@
-﻿capital = 574 #Yakutsk
+﻿capital = 1
 
 #oob = "YAK_1936"
 
