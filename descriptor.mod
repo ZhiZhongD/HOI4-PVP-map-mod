@@ -3,7 +3,7 @@ version="0.1"
 tags={
 	"Map"
 }
-replace_path="common/country_tags"
+
 replace_path="history/states"
 dependencies={
 	"Magna Europa: Reloaded"
