@@ -1,0 +1,29 @@
+state={
+	id=2310
+	name="STATE_2310"
+	provinces={
+		813 1504 9235 9256 13498 13516 13565 13622 
+	}
+	history = {
+		victory_points = { 813 5 }
+		owner = GER
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = DNB
+		add_core_of = DKR
+		buildings = {
+			infrastructure = 3
+		}
+		1933.11.12 = {
+			owner = GER
+			SOV = {
+				set_province_controller = 1504
+				set_province_controller = 9256
+			}
+		}
+	}
+	manpower=503100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

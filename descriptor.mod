@@ -1,17 +1,13 @@
+name="Magna Europa: Reloaded PVP对战修改版"
 version="0.1"
 tags={
-	"MAP"
+	"Map"
 }
-replace_path="common/ai_areas"
-replace_path="common/ai_equipment"
-replace_path="common/ai_focuses"
-replace_path="common/ai_strategy"
-replace_path="common/ai_strategy_plans"
-replace_path="common/ai_templates"
-replace_path="history/countries"
+replace_path="common/country_tags"
 replace_path="history/states"
-replace_path="map/strategicregions"
-replace_path="map/supplyareas"
+dependencies={
+	"Magna Europa: Reloaded"
+}
 picture="thumbnail.png"
-name="PVP map mod"
-supported_version="1.12.*"
+supported_version="1.13.*"
+remote_file_id="3073249825"
