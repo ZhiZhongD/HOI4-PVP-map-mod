@@ -761,7 +761,14 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	fuel_refining = 1
 	basic_train = 1
 }
-
+add_offsite_building = {
+	type = industrial_complex
+	level = 20
+}
+add_offsite_building = {
+	type = arms_factory
+	level = 40
+}
 SOV_lazy_load_oob = yes
 
 

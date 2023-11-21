@@ -8,14 +8,13 @@
 # 	}
 # 	set_oob = "GER_1936"
 # }
-add_manpower = 1000000
 add_offsite_building = {
 	type = industrial_complex
 	level = 20
 }
 add_offsite_building = {
 	type = arms_factory
-	level = 20
+	level = 40
 }
 
 

@@ -1,4 +1,11 @@
 GER_lazy_load_oob = {
+    GER = {
+        add_manpower = 2000000 #无法直接加10M人力，蠢驴这个数据有上限
+        add_manpower = 2000000
+        add_manpower = 2000000
+        add_manpower = 2000000
+        add_manpower = 2000000
+    }
     division_template = {
         name = "Infanterie-Division"
         division_names_group = GER_Inf_01
@@ -46,6 +53,13 @@ GER_lazy_load_oob = {
 
 }
 SOV_lazy_load_oob = {
+    SOV = {
+        add_manpower = 2000000 #无法直接加10M人力，蠢驴这个数据有上限
+        add_manpower = 2000000
+        add_manpower = 2000000
+        add_manpower = 2000000
+        add_manpower = 2000000
+    }
     division_template = {
         name = "Infanterie-Division"
         division_names_group = GER_Inf_01
