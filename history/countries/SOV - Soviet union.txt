@@ -1,4 +1,14 @@
-﻿
+﻿SOV_remove_paranoia_effect = yes
+
+set_technology = {
+	mass_assault = 1
+	pocket_defence = 1
+	defence_in_depth = 1
+	large_front_operations = 1
+	deep_operations = 1
+	operational_concentration = 1
+	vast_offensives = 1
+}
 ####
 #### NO STEP BACK
 ####
@@ -753,7 +763,11 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	paratroopers = 1
+
 	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+
 	interwar_antiair = 1
 	mass_assault = 1
 	fleet_in_being = 1
@@ -769,9 +783,6 @@ add_offsite_building = {
 	type = arms_factory
 	level = 40
 }
-SOV_lazy_load_oob = yes
-
-
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -779,7 +790,8 @@ if = {
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
-
+		basic_medium_tank = 1
+		basic_heavy_tank = 1
 	}
 }
 if = {
@@ -790,6 +802,8 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
+		basic_medium_tank_chassis =1
+		basic_heavy_tank_chassis = 1
 		engine_tech_1 = 1
 		engine_tech_2 = 1
 	}
@@ -835,6 +849,9 @@ if = {
 		armored_car1 = 1
 	}
 }
+
+
+
 
 set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
@@ -1310,6 +1327,17 @@ if = {
 		icon = "GFX_SOV_fighter1_medium"
 	}
 	create_equipment_variant = {
+		name = "IBSH"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_SOV_CAS1_medium"
+	}
+	create_equipment_variant = {
 		name = "DB-3" #
 		type = medium_plane_airframe_0
 		modules = {
@@ -1725,3 +1753,5 @@ if = {
 		}
 	}
 }
+SOV_lazy_load_oob = yes
+SOV_lazy_load_oob_army = yes

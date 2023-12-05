@@ -6,6 +6,31 @@ GER_lazy_load_oob = {
         add_manpower = 2000000
         add_manpower = 2000000
     }
+    create_equipment_variant = {
+		name = "Defaut Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_cannon #中型加农炮
+
+			turret_type_slot = tank_medium_three_man_tank_turret #中型三人炮塔
+
+			suspension_type_slot = tank_torsion_bar_suspension #扭力杆
+
+			armor_type_slot = tank_riveted_armor #铆接装甲
+
+			engine_type_slot = tank_gasoline_engine #汽油引擎
+
+			special_type_slot_1 = tank_radio_1 #基础无线电
+			special_type_slot_2 = wet_ammo_storage #湿弹药架
+
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4 #四级引擎
+			tank_nsb_armor_upgrade = 4 #四级装甲
+		}
+	}
+
     division_template = {
         name = "Infanterie-Division"
         division_names_group = GER_Inf_01
@@ -15,24 +40,27 @@ GER_lazy_load_oob = {
             infantry = { x = 0 y = 1 }
             infantry = { x = 0 y = 2 }
             infantry = { x = 0 y = 3 }
+            infantry = { x = 0 y = 4 }
             infantry = { x = 1 y = 0 }
             infantry = { x = 1 y = 1 }
             infantry = { x = 1 y = 2 }
-            artillery_brigade = { x = 2 y = 0 }
-            artillery_brigade = { x = 2 y = 1 }
+            infantry = { x = 1 y = 3 }
+            infantry = { x = 1 y = 4 }
+            infantry = { x = 2 y = 0 }
+            medium_armor = { x = 3 y = 0 }
+            medium_armor = { x = 3 y = 1 }
+            medium_armor = { x = 3 y = 2 }
+            medium_armor = { x = 3 y = 3 }
+            medium_armor = { x = 3 y = 4 }
+            medium_armor = { x = 4 y = 0 }
+            medium_armor = { x = 4 y = 1 }
+            medium_armor = { x = 4 y = 2 }
+            medium_armor = { x = 4 y = 3 }
         }
         
         support = {
             engineer = { x = 0 y = 0 }
             artillery = { x = 0 y = 1 }
-        }
-    }
-
-    capital_scope = {
-        create_unit = { 
-            division = "name = \"GER Militia\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5"
-            owner = GER 
-            count = 24
         }
     }
     # add_equipment_to_stockpile = {
@@ -52,6 +80,30 @@ GER_lazy_load_oob = {
     # }
 
 }
+GER_lazy_load_oob_army = {
+    add_equipment_to_stockpile = {
+        type = medium_tank_chassis_1
+        amount = 500
+        variant_name = "Defaut Medium Tank"
+    }
+    add_equipment_to_stockpile = {
+        type = small_plane_airframe_1
+        amount = 500
+        variant_name = "Bf 109 D"
+    }
+    add_equipment_to_stockpile = {
+        type = small_plane_cas_airframe_1
+        amount = 100
+        variant_name = "Ju 87"
+    }
+    capital_scope = {
+        create_unit = { 
+            division = "name = \"GER Militia\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5"
+            owner = GER 
+            count = 24
+        }
+    }
+}
 SOV_lazy_load_oob = {
     SOV = {
         add_manpower = 2000000 #无法直接加10M人力，蠢驴这个数据有上限
@@ -60,6 +112,30 @@ SOV_lazy_load_oob = {
         add_manpower = 2000000
         add_manpower = 2000000
     }
+    create_equipment_variant = {
+		name = "Defaut Medium Tank"
+		type = medium_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_cannon #中型加农炮
+
+			turret_type_slot = tank_medium_three_man_tank_turret #中型三人炮塔
+
+			suspension_type_slot = tank_torsion_bar_suspension #扭力杆
+
+			armor_type_slot = tank_riveted_armor #铆接装甲
+
+			engine_type_slot = tank_gasoline_engine #汽油引擎
+
+			special_type_slot_1 = tank_radio_1 #基础无线电
+			special_type_slot_2 = wet_ammo_storage #湿弹药架
+
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 4 #四级引擎
+			tank_nsb_armor_upgrade = 4 #四级装甲
+		}
+	}
     division_template = {
         name = "Infanterie-Division"
         division_names_group = GER_Inf_01
@@ -69,11 +145,22 @@ SOV_lazy_load_oob = {
             infantry = { x = 0 y = 1 }
             infantry = { x = 0 y = 2 }
             infantry = { x = 0 y = 3 }
+            infantry = { x = 0 y = 4 }
             infantry = { x = 1 y = 0 }
             infantry = { x = 1 y = 1 }
             infantry = { x = 1 y = 2 }
-            artillery_brigade = { x = 2 y = 0 }
-            artillery_brigade = { x = 2 y = 1 }
+            infantry = { x = 1 y = 3 }
+            infantry = { x = 1 y = 4 }
+            infantry = { x = 2 y = 0 }
+            medium_armor = { x = 3 y = 0 }
+            medium_armor = { x = 3 y = 1 }
+            medium_armor = { x = 3 y = 2 }
+            medium_armor = { x = 3 y = 3 }
+            medium_armor = { x = 3 y = 4 }
+            medium_armor = { x = 4 y = 0 }
+            medium_armor = { x = 4 y = 1 }
+            medium_armor = { x = 4 y = 2 }
+            medium_armor = { x = 4 y = 3 }
         }
         
         support = {
@@ -81,7 +168,23 @@ SOV_lazy_load_oob = {
             artillery = { x = 0 y = 1 }
         }
     }
-
+}
+SOV_lazy_load_oob_army = {
+    add_equipment_to_stockpile = {
+        type = medium_tank_chassis_1
+        amount = 500
+        variant_name = "Defaut Medium Tank"
+    }
+    add_equipment_to_stockpile = {
+        type = small_plane_airframe_1
+        amount = 500
+        variant_name = "I-16"
+    }
+    add_equipment_to_stockpile = {
+        type = small_plane_cas_airframe_1
+        amount = 100
+        variant_name = "IBSH"
+    }
     capital_scope = {
         create_unit = { 
             division = "name = \"GER Militia\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5"

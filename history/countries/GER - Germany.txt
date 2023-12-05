@@ -16,7 +16,15 @@ add_offsite_building = {
 	type = arms_factory
 	level = 40
 }
-
+set_technology = {
+	mass_assault = 1
+	pocket_defence = 1
+	defence_in_depth = 1
+	large_front_operations = 1
+	deep_operations = 1
+	operational_concentration = 1
+	vast_offensives = 1
+}
 
 if = {
 	limit = { has_dlc = "La Resistance" }
@@ -24,14 +32,8 @@ if = {
 	set_faction_spymaster = yes
 }
 
-add_opinion_modifier = {
-	target = SOV
-	modifier = pre_sov_ger_treaty_trade
-}
-
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "GER_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			aa_cannon_1 = 1
@@ -46,7 +48,6 @@ if = {
 			iw_large_airframe = 1
 		}
 	else = {
-		set_air_oob = "GER_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			fighter1 = 1
@@ -77,24 +78,19 @@ set_technology = {
 	tech_military_police = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
+
 	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+
 	interwar_antiair = 1
 	basic_train = 1
-	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
 	synth_oil_experiments = 1
 	fuel_silos = 1
 	fuel_refining = 1
 }
-
-GER_lazy_load_oob = yes
-
-declare_war_on = {
-	target = SOV
-	type = annex_everything
-}
-
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -104,6 +100,7 @@ if = {
 		basic_light_tank = 1
 		improved_light_tank = 1
 		basic_heavy_tank = 1
+		basic_medium_tank = 1
 	}
 }
 if = {
@@ -114,6 +111,7 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
 		engine_tech_1 = 1
 	}
@@ -178,6 +176,14 @@ if = {
 		armored_car1 = 1
 	}
 }
+
+
+declare_war_on = {
+	target = SOV
+	type = annex_everything
+}
+
+
 
 set_variable = { var = ger_gateway_to_europe_influence value = 0 }
 
@@ -945,3 +951,5 @@ if = {
 		}
 	}
 }
+GER_lazy_load_oob = yes
+GER_lazy_load_oob_army = yes
