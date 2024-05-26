@@ -4,17 +4,18 @@ state={
 	name="STATE_2600"
 
 	history={
-		owner = SWE
+		owner = ITA
 		add_core_of = ITA
 		add_core_of = LAZ
 		buildings = {
 			infrastructure = 4
+
 		}
 
 	}
 
 	provinces={
-		20010 
+		20010 21888 
 	}
 	manpower=121716
 	buildings_max_level_factor=1.000

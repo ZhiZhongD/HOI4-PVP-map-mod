@@ -1,0 +1,26 @@
+
+state={
+	id=2985
+	name="STATE_2985"
+	provinces={
+		11579 21722 21724 21725 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+			industrial_complex = 1
+
+		}
+		add_core_of = PRE
+		add_core_of = BRN
+		add_core_of = BRL
+
+	}
+	manpower=223131
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

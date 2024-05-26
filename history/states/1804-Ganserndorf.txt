@@ -4,7 +4,7 @@ state={
 	name="STATE_1804"
 
 	history={
-		owner = SWE
+		owner = AUS
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 3
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		2619 3800 7864 13402 20841 
+		3800 7864 13402 20841 
 	}
 	manpower=221091
 	buildings_max_level_factor=1.000

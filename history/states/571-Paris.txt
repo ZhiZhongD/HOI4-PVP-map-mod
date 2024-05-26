@@ -2,23 +2,27 @@
 state={
 	id=571
 	name="STATE_571"
-	provinces={
-		19865 
-	}
+
 	history={
-		owner = SWE
+		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 			air_base = 5
 			industrial_complex = 2
+
 		}
-        victory_points = {
-            19865 80 #Paris
-        }
-    }
+		victory_points = {
+			19865 80 
+		}
+
+	}
+
+	provinces={
+		21862 21866 21869 
+	}
 	manpower=2829800
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
-	state_category = megalopolis
 }

@@ -4,10 +4,11 @@ state={
 	name="STATE_327"
 
 	history={
-		owner = SWE
+		owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = PRE
 		add_core_of = BRN
@@ -15,7 +16,7 @@ state={
 	}
 
 	provinces={
-		680 4240 4484 4787 5248 8569 20582 
+		680 4240 4484 4787 5248 8569 21706 
 	}
 	manpower=307885
 	buildings_max_level_factor=1.000

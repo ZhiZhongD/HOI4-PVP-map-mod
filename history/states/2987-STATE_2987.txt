@@ -1,0 +1,24 @@
+state={
+	id=2987
+	name="STATE_2987"
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			arms_factory = 1
+			infrastructure = 4
+
+		}
+		add_core_of = PRE
+		add_core_of = BRN
+		add_core_of = BRL
+
+	}
+	provinces={
+		11603 20575 21713 21714 21717 21718 21721 
+	}
+	manpower=1546812
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

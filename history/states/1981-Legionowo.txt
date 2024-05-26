@@ -4,13 +4,14 @@ state={
 	name="STATE_1981"
 
 	history={
-		owner = SWE
+		owner = POL
 		add_core_of = POL
 		ADD_core_of = MZV
 		buildings = {
 			arms_factory = 2
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			5243 5 
@@ -19,7 +20,7 @@ state={
 	}
 
 	provinces={
-		246 2388 3409 3781 5243 8127 8534 11747 11801 11837 
+		2388 11747 21783 21786 21799 21800 
 	}
 	manpower=1150472
 	buildings_max_level_factor=1.000

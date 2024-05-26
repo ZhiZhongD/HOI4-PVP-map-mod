@@ -2,11 +2,9 @@
 state={
 	id=2792
 	name="STATE_2792"
-	provinces={
-		1424 9973 10005 10012 17228 
-	}
+
 	history={
-		owner = SWE
+		owner = SOV
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = IGR
@@ -22,10 +20,16 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
+
 		}
+
+	}
+
+	provinces={
+		9973 21814 21821 
 	}
 	manpower=413901
-	state_category=city
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }

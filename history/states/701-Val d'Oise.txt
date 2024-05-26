@@ -2,24 +2,28 @@
 state={
 	id=701
 	name="STATE_701"
-	provinces={
-		6945 13088 13099 13124 
-	}
+
 	history={
-		owner = SWE
+		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
+
 		}
-        victory_points = {
-            6945 10 #Argenteuil
-        }
-        victory_points = {
-            13124 2 #Pontoise
-        }
-    }
+		victory_points = {
+			6945 10 
+		}
+		victory_points = {
+			13124 2 
+		}
+
+	}
+
+	provinces={
+		6945 13088 13099 21873 
+	}
 	manpower=350500
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
-	state_category = city
 }

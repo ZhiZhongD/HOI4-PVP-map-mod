@@ -1,0 +1,21 @@
+
+state={
+	id=2994
+	name="STATE_2994"
+	provinces={
+		13358 21702 
+	}
+	history={
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+	manpower=300461
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

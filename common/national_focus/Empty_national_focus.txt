@@ -1,15 +1,7 @@
 focus_tree = {
 	id = EMP_focus
 	country = {
-		factor = 100
-		modifier = {
-			add = 1000
-			OR = {
-				tag = GER
-				tag = SOV
-				tag = SWE
-			}
-		}
+		factor = 200
 	}
     default = no
 }

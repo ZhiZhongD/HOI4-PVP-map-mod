@@ -2,20 +2,24 @@
 state={
 	id=568
 	name="STATE_568"
+
 	history={
-		owner = SWE
+		owner = AUS
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
+
 		}
+
 	}
+
 	provinces={
-		5271 5929 8046 8128 9570 13439 13476 
+		5271 5929 8046 8128 9570 13439 13476 21686 21687 21690 21691 21692 21693 21695 21696 21698 
 	}
 	manpower=153869
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-	state_category = town
 }

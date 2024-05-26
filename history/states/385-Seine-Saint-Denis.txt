@@ -2,19 +2,23 @@
 state={
 	id=385
 	name="STATE_385"
+
 	history={
-		owner = SWE
+		owner = FRA
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
+
 		}
-    }
+
+	}
+
 	provinces={
-		19888 
+		19888 21856 21857 21859 21865 21867 
 	}
 	manpower=776400
 	buildings_max_level_factor=1.000
+	state_category=large_city
 	local_supplies=0.000
-	state_category = large_city
 }

@@ -1,11 +1,10 @@
+
 state={
 	id=2480
 	name="STATE_2480"
-	provinces={
-		19078 19095 
-	}
-	history = {
-		owner = SWE
+
+	history={
+		owner = SOV
 		add_core_of = SOV
 		add_core_of = RUS
 		buildings = {
@@ -13,13 +12,19 @@ state={
 			air_base = 10
 			industrial_complex = 1
 			arms_factory = 2
+
 		}
 		victory_points = {
-			19095 10
+			19095 10 
 		}
+
+	}
+
+	provinces={
+		19078 19095 21905 21912 
 	}
 	manpower=2074473
-	state_category=megalopolis
 	buildings_max_level_factor=1.000
+	state_category=megalopolis
 	local_supplies=0.000
 }

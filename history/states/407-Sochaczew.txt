@@ -2,22 +2,26 @@
 state={
 	id=407
 	name="STATE_407"
-	provinces={
-		3034 4365 7533 11767 11845 11855 
-	}
+
 	history={
-		owner = SWE
+		owner = POL
 		add_core_of = POL
 		ADD_core_of = MZV
 		victory_points = {
-			11767 2 #Sochaczew
+			11767 2 
 		}
 		buildings = {
 			infrastructure = 3
+
 		}
-  	}
+
+	}
+
+	provinces={
+		3034 4365 7533 11767 11845 11855 19855 21768 21774 21775 21776 21777 21780 21784 21787 21788 21790 21792 
+	}
 	manpower=179700
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-	state_category = town
 }

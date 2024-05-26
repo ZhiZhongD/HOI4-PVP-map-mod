@@ -1,0 +1,21 @@
+state={
+	id=3019
+	name="STATE_3019"
+	provinces={
+		18223 21813 21815 21818 21819 21822 21828 
+	}
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = RUS
+		add_core_of = IGR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=1350284
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

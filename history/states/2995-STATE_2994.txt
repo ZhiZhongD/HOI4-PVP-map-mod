@@ -1,0 +1,20 @@
+state={
+	id=2995
+	name="STATE_2995"
+	provinces={
+		21764 21765 21772 21773 
+	}
+	history={
+		owner = POL
+		add_core_of = POL
+		ADD_core_of = MZV
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+	manpower=1171898
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

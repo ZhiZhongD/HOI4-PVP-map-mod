@@ -2,11 +2,11 @@
 state={
 	id=457
 	name="STATE_457"
-	provinces={
-		4516 4589 5019 13000 13216 13273 13452 17784 17977 
-	}
-	history = {
-		victory_points = { 13216 80 }
+
+	history={
+		victory_points = {
+			13216 80 
+		}
 		owner = SOV
 		add_core_of = RUS
 		buildings = {
@@ -14,9 +14,15 @@ state={
 			air_base = 4
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		add_core_of = SOV
 		add_core_of = DON
+
+	}
+
+	provinces={
+		4589 13000 13216 21931 21934 21935 21937 21941 
 	}
 	manpower=856021
 	buildings_max_level_factor=1.000

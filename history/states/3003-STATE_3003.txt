@@ -1,0 +1,21 @@
+state={
+	id=3003
+	name="STATE_3003"
+	provinces={
+		9580 13245 21858 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+
+		}
+
+	}
+	manpower=1019600
+	state_category = metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

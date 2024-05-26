@@ -2,26 +2,30 @@
 state={
 	id=311
 	name="STATE_311"
-	provinces={
-		8111 9098 9299 11574 11633 11646 11694 19855 19920 
-	}
+
 	history={
-		owner = SWE
+		owner = POL
 		add_core_of = POL
 		ADD_core_of = MZV
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+
 		}
-        victory_points = {
-            19920 10 #Płock
-        }
 		victory_points = {
-			9098 2 #Plonsk
+			19920 10 
 		}
-  	}
+		victory_points = {
+			9098 2 
+		}
+
+	}
+
+	provinces={
+		8111 9098 9299 11574 11633 11646 11694 19920 
+	}
 	manpower=209500
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
-	state_category = large_town
 }

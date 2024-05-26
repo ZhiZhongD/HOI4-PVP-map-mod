@@ -2,26 +2,32 @@
 state={
 	id=513
 	name="STATE_513"
-	provinces={
-		4243 12646 12689 20056 
+	resources={
+		steel=11.000
 	}
-	resources = { steel = 11 }
+
 	history={
-		owner = SWE
+		owner = CZE
 		add_core_of = CZE
 		add_core_of = BOH
 		buildings = {
 			industrial_complex = 1
 			arms_factory = 3
 			infrastructure = 4
-                        anti_air_building = 5
+			anti_air_building = 5
+
 		}
-        victory_points = {
-            20056 80 #Praha
-        }
-    }
+		victory_points = {
+			20056 80 
+		}
+
+	}
+
+	provinces={
+		12646 20056 21747 21751 21752 21755 
+	}
 	manpower=1235600
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 	local_supplies=0.000
-	state_category = metropolis
 }
