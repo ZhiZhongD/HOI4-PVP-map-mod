@@ -9,8 +9,8 @@ starting_truck_buffer = 0.8
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.75 
-set_war_support = 0.3
+set_stability = 0.5 
+set_war_support = 0.5
 
 set_politics = {
 	ruling_party = fascism
@@ -63,20 +63,81 @@ declare_war_on = {
 	type = annex_everything
 }
 
+
+#国防军现状初始化
+set_temp_variable = {
+	var = State_of_Wehrmacht_war_support_temp
+	value = 0
+}
+add_to_temp_variable = {
+	var = State_of_Wehrmacht_war_support_temp
+	value = -0.5
+}
+set_variable = {
+	var = State_of_Wehrmacht_var_0
+	value = State_of_Wehrmacht_war_support_temp
+}
+set_variable = {
+	var = State_of_Wehrmacht_var_1
+	value = State_of_Wehrmacht_war_support_temp
+}
+multiply_variable = {
+	var = State_of_Wehrmacht_var_0
+	value = 0.5
+}
+multiply_variable = {
+	var = State_of_Wehrmacht_var_1
+	value = 0.4
+}
+add_dynamic_modifier = {
+	modifier = State_of_Wehrmacht
+}
+add_ideas = {
+	tot_econmic_mobilisation
+	scraping_the_barrel
+	Fight_to_win_or_die
+	Prevalence_of_defeatism_0
+	Allies_Terrifying_bombing_0
+}
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_technology = {
+
 			aa_lmg = 1
+			aa_hmg = 1
 			aa_cannon_1 = 1
+			aa_cannon_2 = 1
+
 			engines_1 = 1
 			engines_2 = 1
+			engines_3 = 1
+			engines_4 = 1
+			
+			range_improvements =1
+			survivability_studies = 1
+
 			early_bombs = 1
+			heavy_bombs = 1
+			armor_piercing_bombs = 1
+
 			aircraft_construction = 1
+
+			jet_engines = 1
+
 			iw_small_airframe = 1
 			basic_small_airframe = 1
+			improved_small_airframe = 1
+			advanced_small_airframe = 1
+			modern_small_airframe = 1
+
 			iw_medium_airframe = 1
 			basic_medium_airframe = 1
+			improved_medium_airframe = 1
+			advanced_medium_airframe = 1
+
 			iw_large_airframe = 1
+			basic_large_airframe = 1
 		}
 	else = {
 		set_technology = {
@@ -94,19 +155,100 @@ if = {
 	}
 }
 
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+starting_truck_buffer = 0.8
+
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+
+	improved_infantry_weapons = 1
+	improved_infantry_weapons_2 = 1
+	advanced_infantry_weapons = 1
+
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+
+	infantry_at = 1
+
+	tech_support = 1	
 	tech_recon = 1
-	tech_support = 1		
+	tech_recon2 = 1
 	tech_engineers = 1
+	tech_engineers2 = 1
 	tech_military_police = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+
+
 	tech_mountaineers = 1
+
+	tech_trucks = 1
 	motorised_infantry = 1
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+
 	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1 
+	artillery2 = 1
+	artillery3 = 1
+	artillery4 = 1
+	artillery5 = 1
+
 	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
+	antiair3 = 1
+	antiair4 = 1
+	antiair5 = 1
+
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	antitank3 = 1
+	antitank4 = 1
+	antitank5 = 1
+
 	basic_train = 1
+	wartime_train = 1
+
+	experimental_rockets = 1
+	rocket_engines = 1
+	improved_rocket_engines = 1
+
+	atomic_research = 1
+	nuclear_reactor = 1
+
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+
 	mobile_warfare = 1
+	delay = 1
+	elastic_defence = 1
+
 	trade_interdiction = 1
 	formation_flying = 1
 	synth_oil_experiments = 1
@@ -132,8 +274,21 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 		improved_light_tank_chassis = 1
+		advanced_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		improved_medium_tank_chassis = 1
+		advanced_medium_tank_chassis = 1
 		basic_heavy_tank_chassis = 1
+		improved_heavy_tank_chassis = 1
+		advanced_heavy_tank_chassis = 1
 		engine_tech_1 = 1
+		engine_tech_2 = 1
+		engine_tech_3 = 1
+		engine_tech_4 = 1
+		armor_tech_1 = 1
+		armor_tech_2 = 1
+		armor_tech_3 = 1
+		armor_tech_4 = 1
 	}
 }
 if = {

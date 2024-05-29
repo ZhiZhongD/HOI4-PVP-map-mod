@@ -1,264 +1,569 @@
-MEM_decision_categories = {
-    Prevalence_of_defeatism_up_decision_1771 = { #占领斯图加特
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        fire_only_once = yes
-        ai_will_do = {
-            base = 100
-        }
-        available = {
-            OR = {
-                ROOT = {
-                    controls_state = 1771
-                }
-                any_allied_country = {
-                    controls_state = 1771
-                }
-            }
-        }
-        visible = {
-            OR = {
-                any_allied_country = {
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
+MEM_decision_defence_categories = {
+    # Prevalence_of_defeatism_up_decision_1771 = { #占领斯图加特
+    #     cost = 0
+    #     days_remove = 0
+    #     days_re_enable = 0
+    #     fire_only_once = yes
+    #     ai_will_do = {
+    #         base = 100
+    #     }
+    #     available = {
+    #         OR = {
+    #             ROOT = {
+    #                 controls_state = 1771
+    #             }
+    #             any_allied_country = {
+    #                 controls_state = 1771
+    #             }
+    #         }
+    #     }
+    #     visible = {
+    #         OR = {
+    #             any_allied_country = {
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             has_idea = Prevalence_of_defeatism_0
+    #             has_idea = Prevalence_of_defeatism_1
+    #             has_idea = Prevalence_of_defeatism_2
+    #             has_idea = Prevalence_of_defeatism_3
+    #             has_idea = Prevalence_of_defeatism_4
+    #         }
+    #     }
+    #     complete_effect = {
+    #         every_country = {
+    #             limit = {
+    #                 is_in_faction_with = ROOT 
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             Prevalence_of_defeatism_up = yes
+    #         }
+    #     }
+    # }
+    # Prevalence_of_defeatism_up_decision_1746 = { #占领法兰克福
+    #     cost = 0
+    #     days_remove = 0
+    #     days_re_enable = 0
+    #     fire_only_once = yes
+    #     ai_will_do = {
+    #         base = 100
+    #     }
+    #     available = {
+    #         OR = {
+    #             ROOT = {
+    #                 controls_state = 1746
+    #             }
+    #             any_allied_country = {
+    #                 controls_state = 1746
+    #             }
+    #         }
+    #     }
+    #     visible = {
+    #         OR = {
+    #             any_allied_country = {
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             has_idea = Prevalence_of_defeatism_0
+    #             has_idea = Prevalence_of_defeatism_1
+    #             has_idea = Prevalence_of_defeatism_2
+    #             has_idea = Prevalence_of_defeatism_3
+    #             has_idea = Prevalence_of_defeatism_4
+    #         }
+    #     }
+    #     complete_effect = {
+    #         every_country = {
+    #             limit = {
+    #                 is_in_faction_with = ROOT 
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             Prevalence_of_defeatism_up = yes
+    #         }
+    #     }
+    # }
+    # Prevalence_of_defeatism_up_decision_1778 = { #占领纽伦堡
+    #     cost = 0
+    #     days_remove = 0
+    #     days_re_enable = 0
+    #     fire_only_once = yes
+    #     ai_will_do = {
+    #         base = 100
+    #     }
+    #     available = {
+    #         OR = {
+    #             ROOT = {
+    #                 controls_state = 1778
+    #             }
+    #             any_allied_country = {
+    #                 controls_state = 1778
+    #             }
+    #         }
+    #     }
+    #     visible = {
+    #         OR = {
+    #             any_allied_country = {
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             has_idea = Prevalence_of_defeatism_0
+    #             has_idea = Prevalence_of_defeatism_1
+    #             has_idea = Prevalence_of_defeatism_2
+    #             has_idea = Prevalence_of_defeatism_3
+    #             has_idea = Prevalence_of_defeatism_4
+    #         }
+    #     }
+    #     complete_effect = {
+    #         every_country = {
+    #             limit = {
+    #                 is_in_faction_with = ROOT 
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             Prevalence_of_defeatism_up = yes
+    #         }
+    #     }
+    # }   
+    # Prevalence_of_defeatism_up_decision_1749 = { #占领埃森
+    #     cost = 0
+    #     days_remove = 0
+    #     days_re_enable = 0
+    #     fire_only_once = yes
+    #     ai_will_do = {
+    #         base = 100
+    #     }
+    #     available = {
+    #         OR = {
+    #             ROOT = {
+    #                 controls_state = 1749
+    #             }
+    #             any_allied_country = {
+    #                 controls_state = 1749
+    #             }
+    #         }
+    #     }
+    #     visible = {
+    #         OR = {
+    #             any_allied_country = {
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             has_idea = Prevalence_of_defeatism_0
+    #             has_idea = Prevalence_of_defeatism_1
+    #             has_idea = Prevalence_of_defeatism_2
+    #             has_idea = Prevalence_of_defeatism_3
+    #             has_idea = Prevalence_of_defeatism_4
+    #         }
+    #     }
+    #     complete_effect = {
+    #         every_country = {
+    #             limit = {
+    #                 is_in_faction_with = ROOT 
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             Prevalence_of_defeatism_up = yes
+    #         }
+    #     }
+    # }   
+    # Prevalence_of_defeatism_up_decision_352 = { #占领汉诺威
+    #     cost = 0
+    #     days_remove = 0
+    #     days_re_enable = 0
+    #     fire_only_once = yes
+    #     ai_will_do = {
+    #         base = 100
+    #     }
+    #     available = {
+    #         OR = {
+    #             ROOT = {
+    #                 controls_state = 352
+    #             }
+    #             any_allied_country = {
+    #                 controls_state = 352
+    #             }
+    #         }
+    #     }
+    #     visible = {
+    #         OR = {
+    #             any_allied_country = {
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             has_idea = Prevalence_of_defeatism_0
+    #             has_idea = Prevalence_of_defeatism_1
+    #             has_idea = Prevalence_of_defeatism_2
+    #             has_idea = Prevalence_of_defeatism_3
+    #             has_idea = Prevalence_of_defeatism_4
+    #         }
+    #     }
+    #     complete_effect = {
+    #         every_country = {
+    #             limit = {
+    #                 is_in_faction_with = ROOT 
+    #                 OR = {
+    #                     has_idea = Prevalence_of_defeatism_0
+    #                     has_idea = Prevalence_of_defeatism_1
+    #                     has_idea = Prevalence_of_defeatism_2
+    #                     has_idea = Prevalence_of_defeatism_3
+    #                     has_idea = Prevalence_of_defeatism_4
+    #                 }
+    #             }
+    #             Prevalence_of_defeatism_up = yes
+    #         }
+    #     }
+    # }   
+	NDF_Defence_city_mission_174 = { #GR6 -库尔兰集团军防守利耶帕亚
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 174
+                    }
+                    any_allied_country = {
+                        controls_state = 174
                     }
                 }
-                has_idea = Prevalence_of_defeatism_0
-                has_idea = Prevalence_of_defeatism_1
-                has_idea = Prevalence_of_defeatism_2
-                has_idea = Prevalence_of_defeatism_3
-                has_idea = Prevalence_of_defeatism_4
             }
-        }
-        complete_effect = {
-            every_country = {
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
                 limit = {
-                    is_in_faction_with = ROOT 
                     OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
+                        ROOT = {
+                            controls_state = 174
+                        }
+                        any_allied_country = {
+                            controls_state = 174
+                        }
                     }
                 }
                 Prevalence_of_defeatism_up = yes
             }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+	NDF_Defence_city_mission_1650 = { #GER -德意志集团军防守柏林
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 1650
+                    }
+                    any_allied_country = {
+                        controls_state = 1650
+                    }
+                }
+            }
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 1650
+                        }
+                        any_allied_country = {
+                            controls_state = 1650
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+	NDF_Defence_city_mission_709 = { #GR5 -意大利集团军防守米兰
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 709
+                    }
+                    any_allied_country = {
+                        controls_state = 709
+                    }
+                }
+            }
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 709
+                        }
+                        any_allied_country = {
+                            controls_state = 709
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+	NDF_Defence_city_mission_1790 = { #GR4 -东部集团军防守慕尼黑
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 1790
+                    }
+                    any_allied_country = {
+                        controls_state = 1790
+                    }
+                }
+            }
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 1790
+                        }
+                        any_allied_country = {
+                            controls_state = 1790
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+	NDF_Defence_city_mission_1817 = { #GR4 -东部集团军夺取维也纳
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+                OR = {
+                    ROOT = {
+                        controls_state = 1817
+                    }
+                    any_allied_country = {
+                        controls_state = 1817
+                    }
+                }
+		}
+		is_good = no
+		days_remove = 0
+		days_mission_timeout = 45
+        complete_effect = {
+            Prevalence_of_defeatism_up = yes
+        }
+		timeout_effect = {
+            add_war_support = -0.05
+		}
+	}
+	NDF_Defence_city_mission_1706 = { #GR1 - 第三装甲集团军防守基尔
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 1706
+                    }
+                    any_allied_country = {
+                        controls_state = 1706
+                    }
+                }
+            }
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 1706
+                        }
+                        any_allied_country = {
+                            controls_state = 1706
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+	NDF_Defence_city_mission_513 = { #GR3 - 中央集团军防守布拉格
+		activation = {
+			is_debug = yes
+            tag = ger
+		}
+		available = {
+			NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 513
+                    }
+                    any_allied_country = {
+                        controls_state = 513
+                    }
+                }
+            }
+		}
+		is_good = yes
+		days_remove = 0
+		days_mission_timeout = 45
+		timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 513
+                        }
+                        any_allied_country = {
+                            controls_state = 513
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+		}
+        complete_effect = {
+            add_war_support = -0.05
+        }
+	}
+    NDF_Defence_city_mission_742 = { #GR5 - 意大利集团军防守威尼斯
+        activation = {
+            is_debug = yes
+            tag = ger
+        }
+        available = {
+            NOT = {
+                OR = {
+                    ROOT = {
+                        controls_state = 742
+                    }
+                    any_allied_country = {
+                        controls_state = 742
+                    }
+                }
+            }
+        }
+        is_good = yes
+        days_remove = 0
+        days_mission_timeout = 45
+        timeout_effect = {
+            
+            if = {
+                limit = {
+                    OR = {
+                        ROOT = {
+                            controls_state = 742
+                        }
+                        any_allied_country = {
+                            controls_state = 742
+                        }
+                    }
+                }
+                Prevalence_of_defeatism_up = yes
+            }
+        }
+        complete_effect = {
+            add_war_support = -0.05
         }
     }
-    Prevalence_of_defeatism_up_decision_1746 = { #占领法兰克福
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        fire_only_once = yes
-        ai_will_do = {
-            base = 100
-        }
-        available = {
-            OR = {
-                ROOT = {
-                    controls_state = 1746
-                }
-                any_allied_country = {
-                    controls_state = 1746
-                }
-            }
-        }
-        visible = {
-            OR = {
-                any_allied_country = {
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                has_idea = Prevalence_of_defeatism_0
-                has_idea = Prevalence_of_defeatism_1
-                has_idea = Prevalence_of_defeatism_2
-                has_idea = Prevalence_of_defeatism_3
-                has_idea = Prevalence_of_defeatism_4
-            }
-        }
-        complete_effect = {
-            every_country = {
-                limit = {
-                    is_in_faction_with = ROOT 
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                Prevalence_of_defeatism_up = yes
-            }
-        }
-    }
-    Prevalence_of_defeatism_up_decision_1778 = { #占领纽伦堡
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        fire_only_once = yes
-        ai_will_do = {
-            base = 100
-        }
-        available = {
-            OR = {
-                ROOT = {
-                    controls_state = 1778
-                }
-                any_allied_country = {
-                    controls_state = 1778
-                }
-            }
-        }
-        visible = {
-            OR = {
-                any_allied_country = {
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                has_idea = Prevalence_of_defeatism_0
-                has_idea = Prevalence_of_defeatism_1
-                has_idea = Prevalence_of_defeatism_2
-                has_idea = Prevalence_of_defeatism_3
-                has_idea = Prevalence_of_defeatism_4
-            }
-        }
-        complete_effect = {
-            every_country = {
-                limit = {
-                    is_in_faction_with = ROOT 
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                Prevalence_of_defeatism_up = yes
-            }
-        }
-    }   
-    Prevalence_of_defeatism_up_decision_1749 = { #占领埃森
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        fire_only_once = yes
-        ai_will_do = {
-            base = 100
-        }
-        available = {
-            OR = {
-                ROOT = {
-                    controls_state = 1749
-                }
-                any_allied_country = {
-                    controls_state = 1749
-                }
-            }
-        }
-        visible = {
-            OR = {
-                any_allied_country = {
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                has_idea = Prevalence_of_defeatism_0
-                has_idea = Prevalence_of_defeatism_1
-                has_idea = Prevalence_of_defeatism_2
-                has_idea = Prevalence_of_defeatism_3
-                has_idea = Prevalence_of_defeatism_4
-            }
-        }
-        complete_effect = {
-            every_country = {
-                limit = {
-                    is_in_faction_with = ROOT 
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                Prevalence_of_defeatism_up = yes
-            }
-        }
-    }   
-    Prevalence_of_defeatism_up_decision_352 = { #占领汉诺威
-        cost = 0
-        days_remove = 0
-        days_re_enable = 0
-        fire_only_once = yes
-        ai_will_do = {
-            base = 100
-        }
-        available = {
-            OR = {
-                ROOT = {
-                    controls_state = 352
-                }
-                any_allied_country = {
-                    controls_state = 352
-                }
-            }
-        }
-        visible = {
-            OR = {
-                any_allied_country = {
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                has_idea = Prevalence_of_defeatism_0
-                has_idea = Prevalence_of_defeatism_1
-                has_idea = Prevalence_of_defeatism_2
-                has_idea = Prevalence_of_defeatism_3
-                has_idea = Prevalence_of_defeatism_4
-            }
-        }
-        complete_effect = {
-            every_country = {
-                limit = {
-                    is_in_faction_with = ROOT 
-                    OR = {
-                        has_idea = Prevalence_of_defeatism_0
-                        has_idea = Prevalence_of_defeatism_1
-                        has_idea = Prevalence_of_defeatism_2
-                        has_idea = Prevalence_of_defeatism_3
-                        has_idea = Prevalence_of_defeatism_4
-                    }
-                }
-                Prevalence_of_defeatism_up = yes
-            }
-        }
-    }   
 
     Allies_Terrifying_bombing_up_decision = { #部署防空炮
         cost = 0
@@ -289,4 +594,239 @@ MEM_decision_categories = {
             Allies_Terrifying_bombing_up = yes
         }
     }   
+
+
+
+    GER_NDF_occupy_city_targeted_decision = { #城镇计划决议
+		target_root_trigger = { #符合条件的国家
+            OR = {
+                is_debug = yes
+                has_completed_focus = GER_Faction_NDF_occupy_city_0
+            }
+		}
+        state_target = yes
+        targets = { 352 433 1749 1751 1746 1771 1674 280 252 }
+		target_trigger = {
+            OR = {
+                is_debug = yes
+                FROM = { #地区
+                    is_controlled_by = ROOT
+                }
+            }
+		}
+        available = {
+			FROM = { #地区
+                is_controlled_by = ROOT
+			}
+        }
+        fire_only_once = yes
+        priority = 10
+		ai_will_do = {
+			base = 100
+		}
+		remove_effect = {
+            ROOT = {
+                add_timed_idea = {
+                    idea = GER_NDF_idea
+                    days = 60
+                }
+                add_manpower = 40000
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 5000
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = 500
+                }
+            }
+		}
+	}
+    GER_NDF_occupy_town_targeted_decision = { #城镇计划决议
+        target_root_trigger = { #符合条件的国家
+            OR = {
+                is_debug = yes
+                has_completed_focus = GER_Faction_NDF_occupy_town_0
+            }
+        }
+        state_target = yes
+        targets = { 392 440 418 1778 1765 1745 469 1732 }
+        target_trigger = {
+            OR = {
+                is_debug = yes
+                FROM = { #地区
+                    is_controlled_by = ROOT
+                }
+            }
+            
+        }
+        available = {
+            FROM = { #地区
+                is_controlled_by = ROOT
+            }
+        }
+        fire_only_once = yes
+        priority = 10
+        ai_will_do = {
+            base = 100
+        }
+        remove_effect = {
+            ROOT = {
+                add_manpower = 20000
+                add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 5000
+                }
+                add_equipment_to_stockpile = {
+                    type = artillery_equipment
+                    amount = 500
+                }
+            }
+        }
+    }
+    GER_NDF_occupy_vill_targeted_decision = { #乡村计划决议
+        target_root_trigger = { #符合条件的国家
+            OR = {
+                is_debug = yes
+                has_completed_focus = GER_Faction_NDF_occupy_vill_0
+            }
+        }
+        state_target = yes
+        targets = { 331 364 1319 373 393 1687 1784 492 553 1783 1735 339 1667 1665 }
+        target_trigger = {
+            OR = {
+                is_debug = yes
+                FROM = { #地区
+                    is_controlled_by = ROOT
+                }
+            }
+        }
+        available = {
+            FROM = { #地区
+                is_controlled_by = ROOT
+            }
+        }
+        fire_only_once = yes
+        priority = 10
+        ai_will_do = {
+            base = 100
+        }
+        remove_effect = {
+            ROOT = {
+                add_manpower = 10000
+            }
+        }
+    }
+}
+
+
+
+
+
+MEM_rebuild_empire_decision_categories = {
+    MEM_rebuild_ITA = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 100
+        }
+        available = {
+            876 = {
+                is_controlled_by = ROOT
+            }
+        } 
+        allowed = {
+            tag = GR5
+        }
+        visible = {
+            OR = {
+                709 = {
+                    is_controlled_by = ROOT
+                }
+                876 = {
+                    is_controlled_by = ROOT
+                }
+                1379 = {
+                    is_controlled_by = ROOT
+                }
+            }
+        }
+        complete_effect = {
+            set_cosmetic_tag = ITA
+        }
+    }
+}
+
+
+
+
+
+MEM_Peace_decision_categories = {
+    MEM_peace_with_ENG = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 100
+        }
+        available = {
+            FRA = {
+                has_capitulated = yes
+            }
+            ENG = {
+                NOT ={
+                    controls_state = 2475
+                }
+            }
+            GR5 = {
+                controls_state = 1412
+            }
+        } 
+        visible = {
+
+        }
+        complete_effect = {
+            start_peace_conference = {
+                tag = ENG
+                score_factor = 10000
+            }
+            start_peace_conference = {
+                tag = FRA
+                score_factor = 10000
+            }
+            white_peace = USA
+        }
+    }
+    MEM_peace_with_SOV = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 100
+        }
+        available = {
+            SOV = {
+                NOT = {
+                    OR = {
+                        controls_state = 119
+                        controls_state = 229
+                        controls_state = 457
+                    }
+                }
+            }
+        } 
+        visible = {
+
+        }
+        complete_effect = {
+            start_peace_conference = {
+                tag = SOV
+                score_factor = 10000
+            }
+        }
+    }
 }

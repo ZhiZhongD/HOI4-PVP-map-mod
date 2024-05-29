@@ -1941,3 +1941,447 @@ joint_focus = {
         add_ideas = Final_victory
     }
 }
+
+joint_focus = {
+    id = GER_Faction_NDF_commander_chief_0
+    icon = GFX_focus_generic_league_of_nations
+
+    x = 24
+    y = 1
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_timed_idea = {
+            idea = Reorganize_ND_line
+            days = 180
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = Reorganize_ND_line
+            days = 180
+        }
+    }
+}
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_0 #汉尼拔行动
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = -7
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_174
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_174
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_1 #坚守柏林
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = -5
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_1650
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_1650
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_2 #葡萄弹行动
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = -3
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_709
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_709
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_3 #保卫慕尼黑
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = -1
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_1790
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_1790
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_4 #维也纳战役
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = 1
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_1817
+        custom_effect_tooltip = GER_Faction_NDF_Defence_city_4_tt
+        # 1817 = {
+        #     add_state_modifier = {
+        #         modifier = { 
+        #             army_core_attack_factor = 0.15
+        #             army_core_defence_factor = 0.15
+        #         }
+        #     }
+        # }
+        hidden_effect = {
+            GR4 = {
+                every_core_state = {
+                    limit = {
+                        NOT = {
+                            is_owned_and_controlled_by = GR4
+                        }
+                        is_core_of = AUS
+                    }
+                    add_state_modifier = {
+                        modifier = { 
+                            army_core_attack_factor = 0.15
+                            army_core_defence_factor = 0.15
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_1817
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_5 #易北河防线
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = 3
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_1706
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_1706
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_6 #缓解布拉格的压力
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = 5
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_513
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_513
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_Defence_city_7 #水城行动
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = 7
+    y = 1
+    prerequisite = { focus = GER_Faction_NDF_commander_chief_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        activate_mission = NDF_Defence_city_mission_742
+    }
+    completion_reward_joint_member = {
+        activate_mission = NDF_Defence_city_mission_742
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_NDF_occupy_city_0 #城市计划
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_Defence_city_0
+    x = 1
+    y = 1
+    prerequisite = { 
+        focus = GER_Faction_NDF_Defence_city_0 
+        focus = GER_Faction_NDF_Defence_city_1
+    }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        unlock_decision_tooltip = GER_NDF_occupy_city_targeted_decision
+    }
+    completion_reward_joint_member = {
+        unlock_decision_tooltip = GER_NDF_occupy_city_targeted_decision
+    }
+}
+joint_focus = {
+    id = GER_Faction_NDF_occupy_town_0 #城镇计划
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_Defence_city_2
+    x = 1
+    y = 1
+    prerequisite = { 
+        focus = GER_Faction_NDF_Defence_city_2
+        focus = GER_Faction_NDF_Defence_city_3
+    }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        unlock_decision_tooltip = GER_NDF_occupy_town_targeted_decision
+    }
+    completion_reward_joint_member = {
+        unlock_decision_tooltip = GER_NDF_occupy_town_targeted_decision
+    }
+}
+joint_focus = {
+    id = GER_Faction_NDF_occupy_vill_0 #乡村计划
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_Defence_city_4
+    x = 1
+    y = 1
+    prerequisite = { 
+        focus = GER_Faction_NDF_Defence_city_4
+        focus = GER_Faction_NDF_Defence_city_5
+    }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        unlock_decision_tooltip = GER_NDF_occupy_vill_targeted_decision
+    }
+    completion_reward_joint_member = {
+        unlock_decision_tooltip = GER_NDF_occupy_vill_targeted_decision
+    }
+}
+joint_focus = {
+    id = GER_Faction_NDF_Recall_retired_generals #乡村计划
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_Defence_city_6
+    x = 1
+    y = 1
+    prerequisite = { 
+        focus = GER_Faction_NDF_Defence_city_6
+        focus = GER_Faction_NDF_Defence_city_7
+    }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+    
+    completion_reward_joint_originator = {
+        effect_tooltip = {
+            recruit_character = GER_erich_von_manstein
+        }
+        set_country_flag = GER_erich_von_manstein_back
+        if = {
+            limit = {
+                NOT = {
+                    tag = GER
+                }
+                GER_erich_von_manstein = {
+                    set_nationality = ROOT
+                }
+            }
+        }
+        add_ideas = GER_NDF_Retired_generals_back
+    }
+    completion_reward_joint_member = {
+        add_ideas = GER_NDF_Retired_generals_back
+    }
+}
+
+
+joint_focus = {
+    id = GER_Faction_NDF_The_New_Order #新秩序
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_NDF_commander_chief_0
+    x = 0
+    y = 3
+    prerequisite = { 
+        focus = GER_Faction_NDF_occupy_city_0
+    }
+    prerequisite = { 
+        focus = GER_Faction_NDF_occupy_town_0
+    }
+    prerequisite = { 
+        focus = GER_Faction_NDF_occupy_vill_0
+    }
+    prerequisite = { 
+        focus = GER_Faction_NDF_Recall_retired_generals
+    }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+    
+    completion_reward_joint_originator = {
+        unlock_decision_category_tooltip =         MEM_Peace_decision_categories
+    }
+    completion_reward_joint_member = {
+        unlock_decision_category_tooltip =         MEM_Peace_decision_categories
+    }
+}

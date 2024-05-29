@@ -204,8 +204,8 @@ characters={
 			slot = theorist
 			idea_token = manstein
 			ledger = army
-			allowed = {
-				original_tag = GER
+			visible = {
+				has_country_flag = GER_erich_von_manstein_back
 			}
 			traits = {
 				mobile_warfare_expert
@@ -213,6 +213,9 @@ characters={
 		}
 		
 		corps_commander={
+			visible = {
+				has_country_flag = GER_erich_von_manstein_back
+			}
 			traits={ brilliant_strategist armor_officer trickster trait_engineer }
 			skill=4
 			attack_skill=2

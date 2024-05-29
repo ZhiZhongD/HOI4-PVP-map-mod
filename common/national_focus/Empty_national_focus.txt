@@ -1,7 +1,0 @@
-focus_tree = {
-	id = EMP_focus
-	country = {
-		factor = 200
-	}
-    default = no
-}

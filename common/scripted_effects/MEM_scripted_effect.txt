@@ -39,7 +39,34 @@ Prevalence_of_defeatism_up = {
         limit = {
             has_idea = Prevalence_of_defeatism_4
         }
-        remove_ideas = Prevalence_of_defeatism_4
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_4
+            add_idea = Prevalence_of_defeatism_5
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_5
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_5
+            add_idea = Prevalence_of_defeatism_6
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_6
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_6
+            add_idea = Prevalence_of_defeatism_7
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_7
+        }
+        remove_ideas = Prevalence_of_defeatism_7
     }
 }
 Allies_Terrifying_bombing_up = {

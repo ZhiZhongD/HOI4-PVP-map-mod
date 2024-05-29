@@ -1,4 +1,4 @@
-MEM_decision_categories ={
+MEM_decision_defence_categories ={
     visible = {
         OR = {
             tag = GER
@@ -11,4 +11,33 @@ MEM_decision_categories ={
         }
     }
     priority = 100
+}
+MEM_rebuild_empire_decision_categories = {
+    visible = {
+        OR = {
+            tag = GER
+            tag = GR1
+            tag = GR2
+            tag = GR3
+            tag = GR4
+            tag = GR5
+            tag = GR6
+        }
+    }
+    priority = 50
+}
+MEM_Peace_decision_categories = {
+    visible = {
+        OR = {
+            tag = GER
+            tag = GR1
+            tag = GR2
+            tag = GR3
+            tag = GR4
+            tag = GR5
+            tag = GR6
+        }
+        has_completed_focus = GER_Faction_NDF_The_New_Order
+    }
+    priority = 120
 }

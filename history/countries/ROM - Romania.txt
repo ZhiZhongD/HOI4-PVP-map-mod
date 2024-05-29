@@ -1,30 +1,36 @@
 ﻿capital = 46
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	else = {
-	}
-}
+# if = {
+# 	limit = {
+# 		NOT = {
+# 			has_dlc = "No Step Back"
+# 		}
+# 	}
+# 	set_oob = "ROM_1936"
+# }
+# if = {
+# 	limit = {
+# 		has_dlc = "No Step Back"
+# 	}
+# 	set_oob = "ROM_1936_nsb"
+# }
+# if = {
+# 	limit = { has_dlc = "Man the Guns" }
+# 		set_naval_oob = "ROM_1936_naval_mtg"
+# 	else = {
+# 		set_naval_oob = "ROM_1936_naval_legacy"
+# 	}
+# }
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+		# set_air_oob = "ROM_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			aa_lmg = 1
 			engines_1 = 1
 		}
 	else = {
+		# set_air_oob = "ROM_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 
@@ -274,7 +280,7 @@ set_convoys = 10
 		complete_national_focus = ROM_vanatori_de_munte
 		complete_national_focus = ROM_hunedoara_steel_works
 		complete_national_focus = ROM_appoint_german_friendly_government
-		complete_national_focus = ROM_invite_german_advisors
+		unlock_national_focus = ROM_invite_german_advisors
 		complete_national_focus = ROM_iron_guard
 
 		#King stuff
@@ -300,16 +306,20 @@ set_convoys = 10
 			complete_national_focus = production_effort
 		}
 	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		else = {
-		}
-	}
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-		else = {
-		}
-	}
+	# if = {
+	# 	limit = { has_dlc = "Man the Guns" }
+	# 		set_naval_oob = "ROM_1939_naval_mtg"
+	# 	else = {
+	# 		set_naval_oob = "ROM_1939_naval_legacy"
+	# 	}
+	# }
+	# if = {
+	# 	limit = { has_dlc = "By Blood Alone" }
+	# 		set_air_oob = "ROM_1939_air_bba"
+	# 	else = {
+	# 		set_air_oob = "ROM_1939_air_legacy"
+	# 	}
+	# }
 }
 
 set_politics = {
@@ -374,15 +384,24 @@ set_popularities = {
 	}
 }
 
+# 1945.1.1 = {
+# 	set_oob = "ROM_1945_1_12"
+# }
 
-1945.4.1 = {
-	if = {
-		limit = { NOT = { has_dlc = "No Step Back" } }
-	}
-	if = {
-		limit = { has_dlc = "No Step Back" } 
-	}	
-}
+# 1945.2.28 = {
+# 	set_oob = "ROM_1945_3_6"
+# }
+
+# 1945.4.1 = {
+# 	if = {
+# 		limit = { NOT = { has_dlc = "No Step Back" } }
+# 		set_oob = "ROM_1939"
+# 	}
+# 	if = {
+# 		limit = { has_dlc = "No Step Back" } 
+# 		set_oob = "ROM_1939_nsb"
+# 	}	
+# }
 ### VARIANTS ###
 # 1936 Start #
 if = {

@@ -20,4 +20,5 @@ focus_tree = {
     shared_focus = GER_Faction_weapon_0
     shared_focus = GER_Faction_industory_0
     shared_focus = GER_Faction_war_defence_0
+    shared_focus = GER_Faction_NDF_commander_chief_0
 }

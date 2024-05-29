@@ -1,16 +1,27 @@
 ﻿l_simp_chinese:
 
 #决议
- Prevalence_of_defeatism_up_decision_1771: "占领斯图加特"
- Prevalence_of_defeatism_up_decision_1746: "占领法兰克福"
- Prevalence_of_defeatism_up_decision_1778: "占领纽伦堡"
- Prevalence_of_defeatism_up_decision_1749: "占领埃森"
- Prevalence_of_defeatism_up_decision_352: "占领汉诺威"
+ MEM_decision_defence_categories: "防御本土"
  Allies_Terrifying_bombing_up_decision: "部署防空炮"
+ NDF_Defence_city_mission_174: "汉尼拔行动"
+ NDF_Defence_city_mission_1650: "坚守柏林"
+ NDF_Defence_city_mission_709: "葡萄弹行动"
+ NDF_Defence_city_mission_1790: "保卫慕尼黑"
+ NDF_Defence_city_mission_1817: "维也纳战役"
+ GER_Faction_NDF_Defence_city_4_tt: "在维也纳地区获得§Y45§!天§G15%§!进攻防御能力加成"
+ NDF_Defence_city_mission_1706: "易北河防线"
+ NDF_Defence_city_mission_513: "缓解布拉格的压力"
+ NDF_Defence_city_mission_742: "水城行动"
 
+ GER_NDF_occupy_city_targeted_decision: "占领[FROM.GETNAME]"
+ GER_NDF_occupy_town_targeted_decision: "占领[FROM.GETNAME]"
+ GER_NDF_occupy_vill_targeted_decision: "占领[FROM.GETNAME]"
+ MEM_rebuild_empire_decision_categories: "重建国家"
+ MEM_rebuild_ITA: "重建意大利"
 
-
-
+ MEM_Peace_decision_categories: "同同盟国和谈"
+ MEM_peace_with_ENG: "盟军谈和"
+ MEM_peace_with_SOV: "苏军谈和"
 
 #国策
  GER_Faction_weapon_0: "重组科技"
@@ -44,6 +55,28 @@
  GER_Faction_war_defence_9: "继续战争"
  GER_Faction_war_defence_10: "最后的胜利即将到来"
 
+ GER_Faction_NDF_commander_chief_0: "国防军最高统帅"
+ GER_Faction_NDF_Defence_city_0: "汉尼拔行动"
+ GER_Faction_NDF_Defence_city_1: "坚守柏林"
+ GER_Faction_NDF_Defence_city_2: "葡萄弹行动"
+ GER_Faction_NDF_Defence_city_3: "保卫慕尼黑"
+ GER_Faction_NDF_Defence_city_4: "维也纳战役"
+ GER_Faction_NDF_Defence_city_5: "易北河防线"
+ GER_Faction_NDF_Defence_city_6: "缓解布拉格的压力"
+ GER_Faction_NDF_Defence_city_7: "水城行动"
+ GER_Faction_NDF_occupy_city_0: "城市计划"
+ GER_Faction_NDF_occupy_town_0: "城镇计划"
+ GER_Faction_NDF_occupy_vill_0: "乡村计划"
+ GER_Faction_NDF_Recall_retired_generals: "召回退休将领"
+ GER_Faction_NDF_The_New_Order: "新秩序"
+
+
+
+
+
+
+
+
 #民族精神
  Fight_to_win_or_die: "背水一战"
  Prevalence_of_defeatism_0: "失败主义盛行"
@@ -51,13 +84,17 @@
  Prevalence_of_defeatism_2: "失败主义盛行"
  Prevalence_of_defeatism_3: "失败主义盛行"
  Prevalence_of_defeatism_4: "失败主义盛行"
+ Prevalence_of_defeatism_5: "失败主义盛行"
+ Prevalence_of_defeatism_6: "失败主义盛行"
+ Prevalence_of_defeatism_7: "失败主义盛行"
+
  Allies_Terrifying_bombing_0: "盟军的骇人轰炸"
  Allies_Terrifying_bombing_1: "盟军的骇人轰炸"
  Allies_Terrifying_bombing_2: "盟军的骇人轰炸"
  Allies_Terrifying_bombing_3: "盟军的骇人轰炸"
  Allies_Terrifying_bombing_4: "盟军的骇人轰炸"
  Rebuild_tech: "重组科技"
- Modern_tank_produc: "现代坦克生产"
+ Modern_tank_produce: "现代坦克生产"
  Modern_plane_produce: "现代喷气机生产"
  Modern_helicopter_produce: "现代直升机生产"
  Waffen_SS_idea: "最后的党卫军"
@@ -80,6 +117,12 @@
  Continuing_war: "继续战争"
  Final_victory: "最后的胜利"
  GER_political_power_tt: "每日获得的政治点数 §G+0.05§!"
+
+ Reorganize_ND_line: "重组国防线"
+ GER_NDF_idea: "德国国防"
+ GER_NDF_Retired_generals_back: "召回退休将领"
+
+
 
  State_of_Wehrmacht: "党卫军现状"
  GER_political_power_gain: "政治点获取"
