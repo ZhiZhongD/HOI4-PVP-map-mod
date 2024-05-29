@@ -1,0 +1,67 @@
+spriteTypes = {
+	#科技图标
+	SpriteType = {
+		name = "GFX_helicopter_tech_medium"
+		texturefile = "gfx/interface/technologies/helicopter_equipment_0.dds"
+	}	
+	SpriteType = {
+		name = "GFX_helicopter_tech2_medium"
+		texturefile = "gfx/interface/technologies/helicopter_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/infantry_at2.dds"
+	}
+	SpriteType = {
+		name = "GFX_city_training_medium"
+		texturefile = "gfx/interface/technologies/tech_special_forces.dds"
+	}
+	#装备图标
+	SpriteType = {
+		name = "GFX_helicopter_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/helicopter_equipment_0.png"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/helicopter_equipment_1.dds"
+	}
+
+	#部队编制图标
+	spriteType = { #直升机
+		name = "GFX_unit_helicopter_icon_medium"				
+		textureFile = "gfx/interface/counters/divisions_large/unit_helicopter_icon.png" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { #党卫军
+		name = "GFX_unit_Waffen_SS_icon_small"			
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.dds" 
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Waffen_SS_icon_medium"				
+		textureFile = "gfx/interface/counters/divisions_large/unit_Waffen_SS_icon.png" 
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Waffen_SS_icon_medium_white"			
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.dds" 
+		noOfFrames = 2 
+	}
+
+	spriteType = { #党卫军机械化
+		name = "GFX_unit_Waffen_SS_mechanized_icon_medium"									
+		textureFile = "gfx/interface/counters/divisions_large/unit_Waffen_SS_mechanized_icon.png" 
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Waffen_SS_mechanized_icon_medium_white"			
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.dds" 
+		noOfFrames = 2 
+	}
+	spriteType = { 
+		name = "GFX_unit_Waffen_SS_mechanized_icon_small"			
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.dds" 
+		noOfFrames = 2 
+	}
+}
