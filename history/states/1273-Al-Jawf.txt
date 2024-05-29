@@ -4,6 +4,7 @@ state={
 	name="STATE_1273"
 	history = {
 		
+		owner = SAU
 		add_core_of = SAU
 		add_core_of = JBS
 		add_core_of = NJD

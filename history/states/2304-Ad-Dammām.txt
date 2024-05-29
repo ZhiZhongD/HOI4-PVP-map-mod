@@ -5,6 +5,7 @@ state={
 	resources = { oil = 4 }
 	history = {
 		
+				owner = SAU
 		add_core_of = SAU
 		add_core_of = NJD
 		buildings = {

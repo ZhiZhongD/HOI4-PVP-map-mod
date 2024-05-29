@@ -4,6 +4,7 @@ state={
 	name="STATE_2239"
 	history = {
 		
+				owner = SAU
 		add_core_of = SAU
 		add_core_of = JBS
 		buildings = {

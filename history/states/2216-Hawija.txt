@@ -4,6 +4,7 @@ state={
 	name="STATE_2216"
 	history = {
 		
+				owner = IRQ
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 2
