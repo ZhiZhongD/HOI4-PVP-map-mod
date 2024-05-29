@@ -1,0 +1,42 @@
+State_of_Wehrmacht = {
+    icon = "GFX_idea_unknown"
+	
+    enable = { 
+        OR = {
+            tag = GER
+            tag = GR1
+            tag = GR2
+            tag = GR3
+            tag = GR4
+            tag = GR5
+            tag = GR6
+        }
+	}
+	remove_trigger = { 
+		always = no
+	}
+
+    army_org_factor = State_of_Wehrmacht_var_1
+    attrition = -State_of_Wehrmacht_var_0
+    army_morale_factor = State_of_Wehrmacht_var_0
+}
+GER_political_power_gain = {
+    icon = "GFX_idea_unknown"
+	
+    enable = { 
+        OR = {
+            tag = GER
+            tag = GR1
+            tag = GR2
+            tag = GR3
+            tag = GR4
+            tag = GR5
+            tag = GR6
+        }
+	}
+	remove_trigger = { 
+		always = no
+	}
+
+    political_power_gain = GER_political_power_var
+}

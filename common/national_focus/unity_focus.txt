@@ -1,0 +1,23 @@
+focus_tree = {
+	id = unity_focus
+	country = {
+		factor = 0
+        modifier = {
+                OR = {
+                    tag = GER
+                    tag = GR1
+                    tag = GR2
+                    tag = GR3
+                    tag = GR4
+                    tag = GR5
+                    tag = GR6
+                }
+
+            add = 500
+        }
+	}
+    default = no
+    shared_focus = GER_Faction_weapon_0
+    shared_focus = GER_Faction_industory_0
+    shared_focus = GER_Faction_war_defence_0
+}

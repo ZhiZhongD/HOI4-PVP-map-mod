@@ -1,0 +1,31 @@
+on_actions = {
+    on_weekly_GER = {
+        effect = {
+			set_temp_variable = {
+				var = State_of_Wehrmacht_war_support_temp
+				value = root.has_war_support
+			}
+			add_to_temp_variable = {
+				var = State_of_Wehrmacht_war_support_temp
+				value = -0.5
+			}
+			set_variable = {
+				var = State_of_Wehrmacht_var_0
+				value = State_of_Wehrmacht_war_support_temp
+			}
+			set_variable = {
+				var = State_of_Wehrmacht_var_1
+				value = State_of_Wehrmacht_war_support_temp
+			}
+			multiply_variable = {
+				var = State_of_Wehrmacht_var_0
+				value = 0.5
+			}
+			multiply_variable = {
+				var = State_of_Wehrmacht_var_1
+				value = 0.4
+			}
+
+        }
+    }
+}

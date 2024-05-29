@@ -1,0 +1,1943 @@
+joint_focus = {
+    id = GER_Faction_weapon_0
+    icon = GFX_focus_generic_league_of_nations
+
+    x = 0
+    y = 1
+
+    cost = 1
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+		add_ideas = Rebuild_tech
+    }
+    completion_reward_joint_member = {
+		add_ideas = Rebuild_tech
+    }
+}
+joint_focus = {
+    id = GER_Faction_weapon_1
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_0
+    x = -2
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        create_equipment_variant = {
+            name = "KonigsTiger"
+            type = heavy_tank_chassis_3
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_heavy_cannon_3 #先进重型加农炮
+    
+                turret_type_slot = tank_heavy_three_man_tank_turret #重型三人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_welded_armor #焊接装甲
+    
+                engine_type_slot = tank_gasoline_engine #汽油引擎
+    
+                special_type_slot_1 = tank_radio_3 #先进无线电
+                special_type_slot_2 = smoke_launchers #烟雾发生器
+                special_type_slot_3 = additional_machine_guns #附加机枪
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 8 #四级引擎
+                tank_nsb_armor_upgrade = 11 #四级装甲
+            }
+        }
+        create_equipment_variant = {
+            name = "Panther Ausf. G"
+            type = medium_tank_chassis_3
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_medium_cannon_2 #先进重型加农炮
+    
+                turret_type_slot = tank_medium_three_man_tank_turret #重型三人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_cast_armor #焊接装甲
+    
+                engine_type_slot = tank_gasoline_engine #汽油引擎
+    
+                special_type_slot_1 = tank_radio_2 #先进无线电
+                special_type_slot_2 = smoke_launchers #烟雾发生器
+                special_type_slot_3 = additional_machine_guns #附加机枪
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 8 #四级引擎
+                tank_nsb_armor_upgrade = 10 #四级装甲
+            }
+        }
+
+        division_template = {
+            name = "Tiger-Panzer-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                heavy_armor = { x = 0 y = 0 }
+                heavy_armor = { x = 0 y = 1 }
+                heavy_armor = { x = 0 y = 2 }
+                mechanized = { x = 1 y = 0 }
+                mechanized = { x = 1 y = 1 }
+                mechanized = { x = 1 y = 2 }
+                mechanized = { x = 1 y = 3 }
+                mot_artillery_brigade = { x = 2 y = 0 }
+                mot_anti_air_brigade = { x = 2 y = 1 }
+            }
+            
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                signal_company = { x = 0 y = 4 }
+            }
+        }
+        division_template = {
+            name = "Panzer-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                medium_armor = { x = 0 y = 0 }
+                medium_armor = { x = 0 y = 1 }
+                medium_armor = { x = 0 y = 2 }
+                mechanized = { x = 1 y = 0 }
+                motorized = { x = 1 y = 1 }
+                motorized = { x = 1 y = 2 }
+                motorized = { x = 1 y = 3 }
+            }
+            
+            support = {
+                engineer = { x = 0 y = 0 }
+                anti_air = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                signal_company = { x = 0 y = 4 }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Panzer Militia\" division_template = \"Tiger-Panzer-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+            create_unit = { 
+                division = "name = \"GER Panzer Militia\" division_template = \"Panzer-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+        }
+    }
+    completion_reward_joint_member = {
+        create_equipment_variant = {
+            name = "Tiger"
+            type = heavy_tank_chassis_3
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_heavy_cannon_3 #先进重型加农炮
+    
+                turret_type_slot = tank_heavy_three_man_tank_turret #重型三人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_welded_armor #焊接装甲
+    
+                engine_type_slot = tank_gasoline_engine #汽油引擎
+    
+                special_type_slot_1 = tank_radio_3 #先进无线电
+                special_type_slot_2 = smoke_launchers #烟雾发生器
+                special_type_slot_3 = additional_machine_guns #附加机枪
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 8 
+                tank_nsb_armor_upgrade = 11 
+            }
+        }
+        create_equipment_variant = {
+            name = "Panther Ausf. G"
+            type = medium_tank_chassis_3
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_medium_cannon_2 #先进重型加农炮
+    
+                turret_type_slot = tank_medium_three_man_tank_turret #重型三人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_cast_armor #焊接装甲
+    
+                engine_type_slot = tank_gasoline_engine #汽油引擎
+    
+                special_type_slot_1 = tank_radio_2 #先进无线电
+                special_type_slot_2 = smoke_launchers #烟雾发生器
+                special_type_slot_3 = additional_machine_guns #附加机枪
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 8 
+                tank_nsb_armor_upgrade = 10 
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_chassis_3
+            variant_name = "Tiger"
+            amount = 240
+        }
+        add_equipment_to_stockpile = {
+            type = medium_tank_chassis_3
+            variant_name = "Panther Ausf. G"
+            amount = 300
+        }
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment
+            amount = 400
+        }
+    }
+}
+joint_focus = {
+    id = GER_Faction_weapon_2
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_1
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_1 }
+
+    cost = 4.3
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        set_technology = {
+            super_heavy_tank_chassis = 1
+        }
+        create_equipment_variant = {
+            name = "Rat-Tank"
+            type = super_heavy_tank_chassis
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_super_heavy_cannon #超型加农炮
+    
+                turret_type_slot = tank_super_heavy_four_man_tank_turret #四人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_cast_armor #铸造装甲
+    
+                engine_type_slot = tank_diesel_engine #柴油引擎
+    
+                special_type_slot_1 = tank_radio_1 #先进无线电
+                special_type_slot_2 = secondary_turret_small_cannon #附加跑套
+                special_type_slot_3 = easy_maintenance #易维护改装
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 12
+                tank_nsb_armor_upgrade = 4 
+            }
+        }
+        
+
+        division_template = {
+            name = "RAT-Panzer-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                infantry = { x = 0 y = 0 }
+                infantry = { x = 0 y = 1 }
+                infantry = { x = 0 y = 2 }
+                infantry = { x = 0 y = 3 }
+                infantry = { x = 1 y = 0 }
+                infantry = { x = 1 y = 1 }
+                infantry = { x = 1 y = 2 }
+                artillery_brigade = { x = 2 y = 0 }
+                anti_air_brigade = { x = 2 y = 1 }
+            }
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                super_heavy_armor = { x = 0 y = 4 }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER RAT Panzer Militia\" division_template = \"RAT-Panzer-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_chassis
+            variant_name = "Rat-Tank"
+            amount = 200
+        }
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            super_heavy_tank_chassis = 1
+        }
+        create_equipment_variant = {
+            name = "Rat-Tank"
+            type = super_heavy_tank_chassis
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_super_heavy_cannon #超型加农炮
+    
+                turret_type_slot = tank_super_heavy_four_man_tank_turret #四人炮塔
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_cast_armor #铸造装甲
+    
+                engine_type_slot = tank_diesel_engine #柴油引擎
+    
+                special_type_slot_1 = tank_radio_1 #先进无线电
+                special_type_slot_2 = secondary_turret_small_cannon #附加跑套
+                special_type_slot_3 = easy_maintenance #易维护改装
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 12
+                tank_nsb_armor_upgrade = 4 
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = super_heavy_tank_chassis
+            variant_name = "Rat-Tank"
+            amount = 40
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_3
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_2
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_2 }
+
+    cost = 6.5
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        set_technology = {
+            main_battle_tank_chassis = 1
+        }
+        create_equipment_variant = {
+            name = "E-50"
+            type = modern_tank_chassis
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_heavy_cannon_3 #先进重加农炮
+    
+                turret_type_slot = tank_modern_tank_turret #现代
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_welded_armor #焊接装甲
+    
+                engine_type_slot = tank_diesel_engine #柴油引擎
+    
+                special_type_slot_1 = tank_radio_3 #先进无线电
+                special_type_slot_2 = additional_machine_guns #附加机枪
+                special_type_slot_3 = easy_maintenance #易维护改装
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 10
+                tank_nsb_armor_upgrade = 12
+            }
+        }
+        
+
+        division_template = {
+            name = "Modern-Panzer-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                modern_armor = { x = 0 y = 0 }
+                modern_armor = { x = 0 y = 1 }
+                modern_armor = { x = 0 y = 2 }
+                mechanized = { x = 1 y = 0 }
+                mechanized = { x = 1 y = 1 }
+                mechanized = { x = 1 y = 2 }
+                mechanized = { x = 1 y = 3 }
+                mot_artillery_brigade = { x = 2 y = 0 }
+                mot_anti_air_brigade = { x = 2 y = 1 }
+            }
+            
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                signal_company = { x = 0 y = 4 }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Panzer Militia\" division_template = \"Modern-Panzer-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+        }
+        add_ideas = Modern_tank_produce
+        add_equipment_to_stockpile = {
+            type = modern_tank_chassis
+            variant_name = "E-50"
+            amount = 200
+        }
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            main_battle_tank_chassis = 1
+        }
+        create_equipment_variant = {
+            name = "E-50"
+            type = modern_tank_chassis
+            parent_version = 0
+            modules = {
+                main_armament_slot = tank_heavy_cannon_3 #先进重加农炮
+    
+                turret_type_slot = tank_modern_tank_turret #现代
+    
+                suspension_type_slot = tank_interleaved_suspension #交错负重轮
+    
+                armor_type_slot = tank_welded_armor #焊接装甲
+    
+                engine_type_slot = tank_diesel_engine #柴油引擎
+    
+                special_type_slot_1 = tank_radio_3 #先进无线电
+                special_type_slot_2 = additional_machine_guns #附加机枪
+                special_type_slot_3 = easy_maintenance #易维护改装
+                special_type_slot_4 = sloped_armor #倾斜装甲
+    
+            }
+            upgrades = {
+                tank_nsb_engine_upgrade = 10
+                tank_nsb_armor_upgrade = 12
+            }
+        }
+        add_ideas = Modern_tank_produce
+        add_equipment_to_stockpile = {
+            type = modern_tank_chassis
+            variant_name = "E-50"
+            amount = 300
+        }
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment
+            amount = 400
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_4
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_0
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+		create_equipment_variant = {
+			name = "ME-262"
+			type = small_plane_airframe_4
+			modules = {
+				fixed_main_weapon_slot = large_aircraft_cannon_2x
+				fixed_auxiliary_weapon_slot_1 = large_aircraft_cannon_2x
+                fixed_auxiliary_weapon_slot_2 = bomb_locks
+                fixed_auxiliary_weapon_slot_3 = rocket_rails
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
+			}
+		}
+        add_equipment_to_stockpile = {
+            type = small_plane_airframe_4
+            variant_name = "ME-262"
+            amount = 500
+        }
+    }
+    completion_reward_joint_member = {
+		create_equipment_variant = {
+			name = "ME-262"
+			type = small_plane_airframe_4
+			modules = {
+				fixed_main_weapon_slot = large_aircraft_cannon_2x
+				fixed_auxiliary_weapon_slot_1 = large_aircraft_cannon_2x
+                fixed_auxiliary_weapon_slot_2 = bomb_locks
+                fixed_auxiliary_weapon_slot_3 = rocket_rails
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = fuel_tanks_small
+                special_type_slot_3 = armor_plate_small
+			}
+		}
+        add_equipment_to_stockpile = {
+            type = small_plane_airframe_4
+            variant_name = "ME-262"
+            amount = 300
+        }
+    }
+}
+joint_focus = {
+    id = GER_Faction_weapon_5
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_4
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_4 }
+
+    cost = 4.3
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+		create_equipment_variant = {
+			name = "HS-132"
+			type = small_plane_airframe_4
+			modules = {
+				fixed_main_weapon_slot = tank_anti_air_cannon_2
+				fixed_auxiliary_weapon_slot_1 = tank_anti_air_cannon
+                fixed_auxiliary_weapon_slot_2 = bomb_locks
+                fixed_auxiliary_weapon_slot_3 = rocket_rails
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = fuel_tanks_small
+                special_type_slot_3 = dive_brakes_small
+			}
+		}
+        add_equipment_to_stockpile = {
+            type = small_plane_airframe_4
+            variant_name = "HS-132"
+            amount = 500
+        }
+        add_ideas = Modern_plane_produce
+    }
+    completion_reward_joint_member = {
+		create_equipment_variant = {
+			name = "HS-132"
+			type = small_plane_airframe_4
+			modules = {
+				fixed_main_weapon_slot = tank_anti_air_cannon_2
+				fixed_auxiliary_weapon_slot_1 = tank_anti_air_cannon
+                fixed_auxiliary_weapon_slot_2 = bomb_locks
+                fixed_auxiliary_weapon_slot_3 = rocket_rails
+				engine_type_slot = jet_engine_2x
+				special_type_slot_1 = self_sealing_fuel_tanks_small
+                special_type_slot_2 = fuel_tanks_small
+                special_type_slot_3 = dive_brakes_small
+			}
+		}
+        add_equipment_to_stockpile = {
+            type = small_plane_airframe_4
+            variant_name = "HS-132"
+            amount = 300
+        }
+        add_ideas = Modern_plane_produce
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_6
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_5
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_5 }
+
+    cost = 6.5
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        set_technology = {
+            helicopter_tech = 1
+        }
+        division_template = {
+            name = "Helicopter-Mechanized-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                mechanized = { x = 0 y = 0 }
+                mechanized = { x = 0 y = 1 }
+                mechanized = { x = 0 y = 2 }
+                mechanized = { x = 0 y = 3 }        
+                mechanized = { x = 1 y = 0 }
+                mechanized = { x = 1 y = 1 }
+                mechanized = { x = 1 y = 2 }
+                mechanized = { x = 1 y = 3 }
+            }
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                helicopter = { x = 0 y = 4 }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Helicopter Militia\" division_template = \"Helicopter-Mechanized-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = helicopter_equipment
+            amount = 200
+        }
+        add_ideas = Modern_helicopter_produce
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            helicopter_tech = 1
+        }
+        add_equipment_to_stockpile = {
+            type = helicopter_equipment
+            amount = 40
+        }
+        add_equipment_to_stockpile = {
+            type = mechanized_equipment
+            amount = 400
+        }
+        add_ideas = Modern_helicopter_produce
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_7
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_0
+    x = 2
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_0 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        division_template = {
+            name = "INF-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                militia = { x = 0 y = 0 }
+                militia = { x = 0 y = 1 }
+                militia = { x = 0 y = 2 }
+                militia = { x = 0 y = 3 }        
+                militia = { x = 1 y = 0 }
+                militia = { x = 1 y = 1 }
+                militia = { x = 1 y = 2 }
+                militia = { x = 1 y = 3 }
+            }
+            support = {
+
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Militia\" division_template = \"INF-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 24
+            }
+        }
+    }
+    completion_reward_joint_member = {
+        division_template = {
+            name = "INF-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                militia = { x = 0 y = 0 }
+                militia = { x = 0 y = 1 }
+                militia = { x = 0 y = 2 }
+                militia = { x = 0 y = 3 }        
+                militia = { x = 1 y = 0 }
+                militia = { x = 1 y = 1 }
+                militia = { x = 1 y = 2 }
+                militia = { x = 1 y = 3 }
+            }
+            support = {
+
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Militia\" division_template = \"INF-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 12
+            }
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_8
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_7
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_7 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        set_technology = {
+            infantry_at3 = 1
+        }
+
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            infantry_at3 = 1
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_9
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_8
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_8 }
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        set_technology = {
+            Waffen_SS_tech = 1
+        }
+        division_template = {
+            name = "SS-MECINF-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                Waffen_SS_mechanized = { x = 0 y = 0 }
+                Waffen_SS_mechanized = { x = 0 y = 1 }
+                Waffen_SS_mechanized = { x = 0 y = 2 }
+                Waffen_SS_mechanized = { x = 0 y = 3 }        
+                Waffen_SS_mechanized = { x = 1 y = 0 }
+                Waffen_SS_mechanized = { x = 1 y = 1 }
+                Waffen_SS_mechanized = { x = 1 y = 2 }
+            }
+            support = {
+                engineer = { x = 0 y = 0 }
+                artillery = { x = 0 y = 1 }
+                mot_recon = { x = 0 y = 2 }
+                field_hospital = { x = 0 y = 3 }
+                helicopter = { x = 0 y = 4 }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER SSMEC Militia\" division_template = \"SS-MECINF-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 2
+            }
+        }
+        add_ideas = Waffen_SS_idea
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            Waffen_SS_tech = 1
+        }
+        add_ideas = Waffen_SS_idea
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_weapon_10
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_weapon_6
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_weapon_3 }
+    prerequisite = { focus = GER_Faction_weapon_6 }
+    prerequisite = { focus = GER_Faction_weapon_9 }
+    cost = 10
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_ideas = Apocalypse_weapon_main_idea
+        add_tech_bonus = {
+            name = Apocalypse
+            bonus = 2.0
+            uses = 1
+            technology = nukes
+        }
+    }
+    completion_reward_joint_member = {
+        add_ideas = Apocalypse_weapon_idea
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_industory_0
+    icon = GFX_focus_generic_league_of_nations
+
+    x = 5
+    y = 1
+
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_ideas = Rebuild_industory
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 1 
+        }
+    }
+    completion_reward_joint_member = {
+        add_ideas = Rebuild_industory
+    }
+}
+
+
+joint_focus = {
+    id = GER_Faction_industory_1
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_industory_0
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_industory_0 }
+
+    cost = 4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 6
+        }
+    }
+    completion_reward_joint_member = {
+        add_offsite_building = {
+            type = arms_factory
+            level = 5
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_industory_2
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_industory_1
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_industory_1 }
+
+    cost = 4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 1
+        }
+        add_ideas = GER_oil_idea
+        capital_scope = {
+            add_resource = {
+                type = oil
+                amount = 10
+            }
+        }
+    }
+    completion_reward_joint_member = {
+        add_ideas = GER_oil_idea
+        capital_scope = {
+            add_resource = {
+                type = oil
+                amount = 10
+            }
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_industory_3
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_industory_2
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_industory_2 }
+
+    cost = 4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 1
+        }
+        add_ideas = All_people_army
+    }
+    completion_reward_joint_member = {
+        add_ideas = All_people_army
+
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_industory_4
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_industory_3
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_industory_3 }
+
+    cost = 4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 1
+        }
+        add_ideas = Kraft_paper_factory
+    }
+    completion_reward_joint_member = {
+        add_ideas = Kraft_paper_factory
+
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_industory_5
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_industory_4
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_industory_4 }
+
+    cost = 4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    completion_reward_joint_originator = {
+        add_offsite_building = {
+            type = industrial_complex
+            level = 1 
+        }
+        add_offsite_building = {
+            type = arms_factory
+            level = 1
+        }
+        add_ideas = Total_War
+    }
+    completion_reward_joint_member = {
+        add_ideas = Total_War
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_0
+    icon = GFX_focus_generic_league_of_nations
+
+    x = 10
+    y = 1
+
+    cost = 1
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_ideas = Turning_the_tide
+    }
+    completion_reward_joint_member = {
+        add_ideas = Turning_the_tide
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_1
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_0
+    x = -2
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_0 }
+    cost = 1
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = Turning_the_tide
+            days = 30
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = Turning_the_tide
+            days = 30
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_2
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_1
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_1 }
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = 73th_commond
+            days = 60
+        }
+        GER = {
+            every_state = {
+                limit = {
+                    is_owned_and_controlled_by = GER
+                }
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    instant_build = yes
+                    province = {
+                        all_provinces = yes
+                        limit_to_victory_point > 1
+                    }
+                }
+            }
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = 73th_commond
+            days = 60
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_3
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_2
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_2 }
+    cost = 4.4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_ideas = Force_active_defense
+    }
+    completion_reward_joint_member = {
+        add_ideas = Force_active_defense        
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_4
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_0
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_0 }
+    cost = 1
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = Defending_Berlin
+            days = 30
+        }
+        add_timed_idea = {
+            idea = Defend_SOV
+            days = 30
+        }
+        GER = {
+            every_state = {
+                limit = {
+                    is_owned_and_controlled_by = GER
+                }
+                add_state_modifier = {
+                    modifier = {
+                        army_core_attack_factor = 0.1
+                        army_core_defence_factor = 0.1
+                    }
+                }
+            }
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = Defend_SOV
+            days = 30
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_5
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_4
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_4 }
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = 74th_commond
+            days = 60
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = 74th_commond
+            days = 60
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_6
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_5
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_5 }
+    cost = 4.4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        set_technology = {
+            city_training = 1
+        }
+    }
+    completion_reward_joint_member = {
+        set_technology = {
+            city_training = 1
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_7
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_0
+    x = 2
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_0 }
+    cost = 1
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = Scorched_policy
+            days = 30
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = Scorched_policy
+            days = 30
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_8
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_7
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_7 }
+    cost = 2
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_timed_idea = {
+            idea = Strike_and_withdraw
+            days = 60
+        }
+    }
+    completion_reward_joint_member = {
+        add_timed_idea = {
+            idea = Strike_and_withdraw
+            days = 60
+        }
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_9
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_8
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_8 }
+    cost = 4.4
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_ideas = Continuing_war
+    }
+    completion_reward_joint_member = {
+        add_ideas = Continuing_war
+    }
+}
+
+joint_focus = {
+    id = GER_Faction_war_defence_10
+    icon = GFX_focus_generic_league_of_nations
+
+    relative_position_id = GER_Faction_war_defence_6
+    x = 0
+    y = 1
+    prerequisite = { focus = GER_Faction_war_defence_3 }
+    prerequisite = { focus = GER_Faction_war_defence_6 }
+    prerequisite = { focus = GER_Faction_war_defence_9 }
+    cost = 10
+
+    ai_will_do = {
+        factor = 1
+    }
+
+    joint_trigger = {
+        is_in_faction_with = GER
+    }
+
+    available = {
+
+    }
+    
+    bypass = {
+
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+    available_if_capitulated = no
+
+    completion_reward_joint_originator = {
+        add_manpower = 10000
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
+        add_ideas = Final_victory
+    }
+    completion_reward_joint_member = {
+        add_ideas = Final_victory
+    }
+}

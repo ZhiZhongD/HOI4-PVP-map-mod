@@ -5,7 +5,8 @@ state={
 		12689 21743 21744 21748 
 	}
 	history={
-		owner = CZE
+				owner = GR3
+		add_core_of = GR3
 		add_core_of = CZE
 		add_core_of = BOH
 		buildings = {

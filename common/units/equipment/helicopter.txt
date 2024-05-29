@@ -1,0 +1,62 @@
+equipments = {
+	helicopter_equipment = {
+		year = 1945
+		is_archetype = yes
+		picture = archetype_motorized_equipment
+		is_buildable = no
+		type = {
+			mechanized
+			support
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		defense = 11
+		breakthrough = 15
+
+		defense = 9
+		breakthrough = 40
+		soft_attack = 20
+		hard_attack = 25
+		ap_attack = 80
+		reliability = 0.8
+		maximum_speed = 12
+		fuel_consumption = 0.6
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 15
+		resources = {
+			aluminium = 2
+		}
+	}
+
+	helicopter_equipment_0 = {
+		year = 1945
+		
+		active = no
+		archetype = helicopter_equipment
+		priority = 20
+	}
+	
+	helicopter_equipment_1 = {
+		year = 1960
+
+		archetype = helicopter_equipment
+		parent = helicopter_equipment_0
+		defense = 9
+		breakthrough = 66
+		soft_attack = 23
+		hard_attack = 28
+		ap_attack = 91
+
+		#Offensive Abilities
+		soft_attack = 25
+		hard_attack = 25
+		ap_attack = 30
+
+		build_cost_ic = 19
+		
+	}
+}

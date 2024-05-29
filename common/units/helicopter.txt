@@ -1,0 +1,87 @@
+sub_units = {
+
+	helicopter = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 120
+		ai_priority = 25
+		active = yes
+		special_forces = no
+		can_be_parachuted = yes
+
+		type = {
+			armor
+			flame
+			support
+		}
+
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_all_armor
+			category_army
+		}
+		
+		need = {
+			helicopter_equipment = 20
+			support_equipment = 40
+		}
+		essential = {
+			support_equipment
+			helicopter_equipment 
+		}
+		combat_width = 0
+
+		manpower = 300
+
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		battalion_mult = {
+			category = category_all_infantry
+			breakthrough = 0.05
+		}
+
+		forest = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		mountain = {
+			movement = 0.1
+		}
+
+		jungle = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		marsh = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = 0.1
+			movement = 0.1
+		}
+
+		amphibious = {
+			attack = 0.1
+		}
+	}
+	
+}

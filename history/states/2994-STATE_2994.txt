@@ -6,7 +6,10 @@ state={
 		13358 21702 
 	}
 	history={
-		owner = AUS
+		owner = GR4
+		controller = SOV
+		add_core_of = GR4
+		#owner = AUS
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 4

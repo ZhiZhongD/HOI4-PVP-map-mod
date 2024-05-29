@@ -23,7 +23,7 @@ sub_units = {
 			category_special_forces
 		}
 
-		combat_width = 2
+		combat_width = 4
 
 		#Offensive Abilities
 		soft_attack = 0.1

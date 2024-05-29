@@ -56,7 +56,7 @@ sub_units = {
 			attack = 0.1
 		}
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
 			heavy_tank_chassis = 40

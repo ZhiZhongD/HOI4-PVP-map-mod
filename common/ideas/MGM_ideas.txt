@@ -1,0 +1,492 @@
+ideas = {
+    country = {
+        Fight_to_win_or_die= {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                surrender_limit = 0.5
+                army_core_attack_factor = 0.15
+                army_core_defence_factor = 0.15
+            }
+        }
+
+        Prevalence_of_defeatism_0 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = -1000
+                war_support_factor = -0.5
+                stability_factor = -0.25
+                political_power_gain = -0.5
+
+            }
+        }
+        Prevalence_of_defeatism_1 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = -800
+                war_support_factor = -0.4
+                stability_factor = -0.2
+                political_power_gain = -0.4
+
+            }
+        }
+        Prevalence_of_defeatism_2 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = -600
+                war_support_factor = -0.3
+                stability_factor = -0.15
+                political_power_gain = -0.3
+
+            }
+        }
+        Prevalence_of_defeatism_3 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = -300
+                war_support_factor = -0.2
+                stability_factor = -0.1
+                political_power_gain = -0.2
+
+            }
+        }
+        Prevalence_of_defeatism_4 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = -200
+                war_support_factor = -0.1
+                stability_factor = -0.05
+                political_power_gain = -0.1
+
+            }
+        }
+
+        Allies_Terrifying_bombing_0 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.5
+                industrial_capacity_factory = -0.25
+                production_factory_max_efficiency_factor = -0.25
+            }
+        }
+        Allies_Terrifying_bombing_1 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.4
+                industrial_capacity_factory = -0.2
+                production_factory_max_efficiency_factor = -0.2
+            }
+        }
+        Allies_Terrifying_bombing_2 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.3
+                industrial_capacity_factory = -0.15
+                production_factory_max_efficiency_factor = -0.15
+            }
+        }
+        Allies_Terrifying_bombing_3 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.2
+                industrial_capacity_factory = -0.1
+                production_factory_max_efficiency_factor = -0.1
+            }
+        }
+        Allies_Terrifying_bombing_4 = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_buildings_factor = -0.1
+                industrial_capacity_factory = -0.05
+                production_factory_max_efficiency_factor = -0.05
+            }
+        }
+        Rebuild_tech = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                research_speed_factor = 0.1
+            }
+        }
+        Modern_tank_produce = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                modern_tank_chassis = {
+                    build_cost_ic = -0.2
+                    instant = yes
+                }
+            }
+        }
+        Modern_plane_produce = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                small_plane_airframe_4 = {
+                    build_cost_ic = -0.10
+                    instant = yes
+                }
+            }
+        }
+        Modern_helicopter_produce = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                helicopter_equipment = {
+                    build_cost_ic = -0.10
+                    instant = yes
+                }
+            }
+        }
+        Waffen_SS_idea = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                special_forces_cap = 0.2
+                special_forces_attack_factor = 0.15
+                special_forces_defence_factor = 0.15
+            }
+
+        }
+        Apocalypse_weapon_main_idea = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                research_speed_factor = 0.1
+                production_speed_nuclear_reactor_factor = 0.2
+            }
+
+        }
+        Apocalypse_weapon_idea = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                research_speed_factor = 0.1
+            }
+
+        }
+        Rebuild_industory = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                industrial_capacity_factory = 0.1
+            }
+        }
+        GER_oil_idea = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                fuel_gain_factor = 0.25
+            }
+        }
+        All_people_army = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = 5000
+                stability_factor = -0.1
+                war_support_factor = -0.1
+                industrial_capacity_factory = 0.1
+                guarantee_cost = 0.5
+            }
+        }
+        Kraft_paper_factory = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                industry_repair_factor = 1
+            }
+        }
+        Total_War = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                consumer_goods_expected_value = -0.1
+                production_factory_max_efficiency_factor = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+            }
+        }
+        Turning_the_tide = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                army_speed_factor = -0.1
+                org_loss_when_moving = -0.1
+                army_core_attack_factor = 0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+        Clausewitz_action = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                org_loss_when_moving = -0.05
+            }
+            targeted_modifier = {
+                tag = SOV
+                defense_bonus_against = 0.1
+            }
+        }
+        73th_commond = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                experience_gain_army_factor = 0.15
+                command_power_gain = 0.5
+                command_abilities_cost_factor = -0.3
+            }
+        }
+        Force_active_defense = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                mobilization_speed = 0.2
+                org_loss_at_low_org_factor = 0.05
+                war_support_factor = -0.05
+            }
+        }
+        Defending_Berlin = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                global_building_slots_factor = -1
+            }
+            targeted_modifier = {
+                tag = SOV
+                defense_bonus_against = 0.25
+            }
+        }
+        Defend_SOV = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            targeted_modifier = {
+                tag = SOV
+                defense_bonus_against = 0.25
+            }
+        }
+        74th_commond = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                army_morale_factor = 0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+        Scorched_policy = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                army_speed_factor = -0.1
+                org_loss_when_moving = -0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+        Strike_and_withdraw= {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                army_speed_factor = -0.1
+                org_loss_when_moving = -0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+        Continuing_war= {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                war_support_weekly_factor = 0.001
+                army_core_defence_factor = 0.15
+                offensive_war_stability_factor = 0.15
+            }
+        }
+        Final_victory = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                army_attack_factor = 0.1
+                army_defence_factor = 0.1
+                breakthrough_factor = 0.05
+            }
+        }
+    }
+}

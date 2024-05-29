@@ -5,7 +5,7 @@ state={
 		11774 21781 21785 21789 21791 21793 
 	}
 	history={
-		owner = POL
+		owner = SOV
 		add_core_of = POL
 		ADD_core_of = MZV
 		buildings = {

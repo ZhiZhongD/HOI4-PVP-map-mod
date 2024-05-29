@@ -1,0 +1,88 @@
+Prevalence_of_defeatism_up = {
+    if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_0
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_0
+            add_idea = Prevalence_of_defeatism_1
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_1
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_1
+            add_idea = Prevalence_of_defeatism_2
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_2
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_2
+            add_idea = Prevalence_of_defeatism_3
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_3
+        }
+        swap_ideas = {
+            remove_idea = Prevalence_of_defeatism_3
+            add_idea = Prevalence_of_defeatism_4
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Prevalence_of_defeatism_4
+        }
+        remove_ideas = Prevalence_of_defeatism_4
+    }
+}
+Allies_Terrifying_bombing_up = {
+    if = {
+        limit = {
+            has_idea = Allies_Terrifying_bombing_0
+        }
+        swap_ideas = {
+            remove_idea = Allies_Terrifying_bombing_0
+            add_idea = Allies_Terrifying_bombing_1
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Allies_Terrifying_bombing_1
+        }
+        swap_ideas = {
+            remove_idea = Allies_Terrifying_bombing_1
+            add_idea = Allies_Terrifying_bombing_2
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Allies_Terrifying_bombing_2
+        }
+        swap_ideas = {
+            remove_idea = Allies_Terrifying_bombing_2
+            add_idea = Allies_Terrifying_bombing_3
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Allies_Terrifying_bombing_3
+        }
+        swap_ideas = {
+            remove_idea = Allies_Terrifying_bombing_3
+            add_idea = Allies_Terrifying_bombing_4
+        }
+    }
+    else_if = {
+        limit = {
+            has_idea = Allies_Terrifying_bombing_4
+        }
+        remove_ideas = Allies_Terrifying_bombing_4
+    }
+}

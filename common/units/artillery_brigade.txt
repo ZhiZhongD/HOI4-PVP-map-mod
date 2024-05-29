@@ -21,7 +21,7 @@ sub_units = {
 			category_artillery
 		}
 
-		combat_width = 3
+		combat_width = 6
 
 		manpower = 500
 		need = {
@@ -96,7 +96,7 @@ sub_units = {
 			category_artillery
 		}
 
-		combat_width = 3
+		combat_width = 6
 		transport = motorized_equipment
 		manpower = 500
 
@@ -174,7 +174,7 @@ sub_units = {
 			category_artillery
 		}		
 
-		combat_width = 3
+		combat_width = 6
 
 		need = {
 			rocket_artillery_equipment = 36
@@ -247,7 +247,7 @@ sub_units = {
 			category_artillery
 		}		
 
-		combat_width = 3
+		combat_width = 6
 		transport = motorized_equipment
 		need = {
 			rocket_artillery_equipment = 36
@@ -322,7 +322,7 @@ sub_units = {
 			category_artillery
 		}		
 
-		combat_width = 3
+		combat_width = 6
 
 		need = {
 			motorized_rocket_equipment = 20

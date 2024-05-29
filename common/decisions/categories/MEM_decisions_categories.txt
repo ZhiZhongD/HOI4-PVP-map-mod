@@ -1,0 +1,14 @@
+MEM_decision_categories ={
+    visible = {
+        OR = {
+            tag = GER
+            tag = GR1
+            tag = GR2
+            tag = GR3
+            tag = GR4
+            tag = GR5
+            tag = GR6
+        }
+    }
+    priority = 100
+}

@@ -24,7 +24,7 @@ sub_units = {
 		}
 
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
 			amphibious_tank_chassis = 50
@@ -92,7 +92,7 @@ sub_units = {
 		}
 
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
 			light_tank_amphibious_chassis = 50
@@ -160,7 +160,7 @@ sub_units = {
 		}
 
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
 			medium_tank_amphibious_chassis = 50
@@ -228,7 +228,7 @@ sub_units = {
 		}
 
 
-		combat_width = 2
+		combat_width = 4
 
 		need = {
 			heavy_tank_amphibious_chassis = 50

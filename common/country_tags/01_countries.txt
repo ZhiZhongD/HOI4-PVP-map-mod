@@ -1,0 +1,6 @@
+GR1 = "countries/Germany.txt"
+GR2 = "countries/Germany.txt"
+GR3 = "countries/Germany.txt"
+GR4 = "countries/Germany.txt"
+GR5 = "countries/Germany.txt"
+GR6 = "countries/Germany.txt"
