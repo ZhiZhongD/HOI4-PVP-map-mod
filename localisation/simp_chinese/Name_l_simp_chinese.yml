@@ -13,6 +13,9 @@
  NDF_Defence_city_mission_513: "缓解布拉格的压力"
  NDF_Defence_city_mission_742: "水城行动"
 
+ NDF_occupy_state: "显示占领地区决议所需地区"
+ GER_NDF_occupy_decision_open: "开启占领地区决议"
+ GER_NDF_occupy_decision_close: "关闭占领地区决议"
  GER_NDF_occupy_city_targeted_decision: "占领[FROM.GETNAME]"
  GER_NDF_occupy_town_targeted_decision: "占领[FROM.GETNAME]"
  GER_NDF_occupy_vill_targeted_decision: "占领[FROM.GETNAME]"
@@ -90,6 +93,7 @@
  GR3_national_focus_Skoda_Industries: "斯柯达工业"
  GR3_national_focus_final_fort: "最终壁垒"
  GER_national_focus_Leader_Together: "元首与我们同在"
+ GER_railway_gun: "元首列车炮"
 
  GER_national_focus: "德意志国"
  GER_national_focus_Supply_mobilization: "补给动员"
@@ -97,6 +101,7 @@
  GER_national_focus_STG44: "STG44"
  GER_national_focus_VICTORY: "最终胜利"
 
+ GR1_national_focus: "第三装甲集团军群"
  GR1_national_focus_empire_navy: "帝国海军"
  GR1_get_navy: "获得由§Y1§!战列 §Y2§!重巡 §Y3§!轻巡 §Y12§!驱逐§Y35§!潜艇组成的舰队"
  GR1_national_focus_back_to_north_europa: "重返北欧"
@@ -166,6 +171,10 @@
  jerry_build: "偷工减料"
  Elite_Veterans: "精锐老兵"
  state_cooperation: "地区合作"
+ By_Blood_Alone: "唯有浴血"
+
+
+
 
 
  State_of_Wehrmacht: "党卫军现状"
@@ -225,9 +234,9 @@
  GR6_DEF: "库尔兰集团军群"
  GR6_ADJ: "库尔兰集团军群"
 
- GER_germania: "日耳曼尼亚"
- GER_germania_DEF: "日耳曼尼亚"
- GER_germania_ADJ: "日耳曼尼亚"
+ GER_germania: "大日耳曼国"
+ GER_germania_DEF: "大日耳曼国"
+ GER_germania_ADJ: "大日耳曼国"
 
  GR6_EST: "东方专员辖区"
  GR6_EST_DEF: "东方专员辖区"

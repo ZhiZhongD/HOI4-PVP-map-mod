@@ -284,7 +284,7 @@ joint_focus = {
         }
         create_equipment_variant = {
             name = "Rat-Tank"
-            type = super_heavy_tank_chassis
+            type = super_heavy_tank_chassis_1
             parent_version = 0
             modules = {
                 main_armament_slot = tank_super_heavy_cannon #超型加农炮
@@ -341,7 +341,7 @@ joint_focus = {
             }
         }
         add_equipment_to_stockpile = {
-            type = super_heavy_tank_chassis
+            type = super_heavy_tank_chassis_1
             variant_name = "Rat-Tank"
             amount = 200
         }
@@ -352,7 +352,7 @@ joint_focus = {
         }
         create_equipment_variant = {
             name = "Rat-Tank"
-            type = super_heavy_tank_chassis
+            type = super_heavy_tank_chassis_1
             parent_version = 0
             modules = {
                 main_armament_slot = tank_super_heavy_cannon #超型加农炮
@@ -377,7 +377,7 @@ joint_focus = {
             }
         }
         add_equipment_to_stockpile = {
-            type = super_heavy_tank_chassis
+            type = super_heavy_tank_chassis_1
             variant_name = "Rat-Tank"
             amount = 40
         }
@@ -416,36 +416,37 @@ joint_focus = {
     available_if_capitulated = no
 
     completion_reward_joint_originator = {
-        set_technology = {
-            main_battle_tank_chassis = 1
-        }
-        create_equipment_variant = {
-            name = "E-50"
-            type = modern_tank_chassis
-            parent_version = 0
-            modules = {
-                main_armament_slot = tank_heavy_cannon_3 #先进重加农炮
-    
-                turret_type_slot = tank_modern_tank_turret #现代
-    
-                suspension_type_slot = tank_interleaved_suspension #交错负重轮
-    
-                armor_type_slot = tank_welded_armor #焊接装甲
-    
-                engine_type_slot = tank_diesel_engine #柴油引擎
-    
-                special_type_slot_1 = tank_radio_3 #先进无线电
-                special_type_slot_2 = additional_machine_guns #附加机枪
-                special_type_slot_3 = easy_maintenance #易维护改装
-                special_type_slot_4 = sloped_armor #倾斜装甲
-    
+        ROOT = {
+            set_technology = {
+                main_battle_tank_chassis = 1
             }
-            upgrades = {
-                tank_nsb_engine_upgrade = 10
-                tank_nsb_armor_upgrade = 12
-            }
-        }
+            create_equipment_variant = {
+                name = "E-50"
+                type = modern_tank_chassis_1
+                parent_version = 0
+                modules = {
+                    main_armament_slot = tank_heavy_cannon_3 #先进重加农炮
         
+                    turret_type_slot = tank_modern_tank_turret #现代
+        
+                    suspension_type_slot = tank_interleaved_suspension #交错负重轮
+        
+                    armor_type_slot = tank_welded_armor #焊接装甲
+        
+                    engine_type_slot = tank_diesel_engine #柴油引擎
+        
+                    special_type_slot_1 = tank_radio_3 #先进无线电
+                    special_type_slot_2 = additional_machine_guns #附加机枪
+                    special_type_slot_3 = easy_maintenance #易维护改装
+                    special_type_slot_4 = sloped_armor #倾斜装甲
+        
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 10
+                    tank_nsb_armor_upgrade = 12
+                }
+            }
+        }
 
         division_template = {
             name = "Modern-Panzer-Division"
@@ -2452,6 +2453,8 @@ shared_focus = {
         controls_state = 2597
     }
     completion_reward = {
+        set_cosmetic_tag = ITA
+        add_ideas = By_Blood_Alone
         ITA = {
             ITA_benito_mussolini ={
                 set_nationality = GR5
@@ -2491,13 +2494,14 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_light_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
                     fixed_ship_radar_slot = ship_radar_1
                     fixed_ship_engine_slot = light_ship_engine_2
                     fixed_ship_torpedo_slot = ship_torpedo_2
-                    mid_1_custom_slot = empty
-                    rear_1_custom_slot = empty
+                    front_1_custom_slot = ship_light_battery_2
+                    mid_1_custom_slot = ship_torpedo_2
+                    rear_1_custom_slot = ship_torpedo_2
                 }
             }
             create_equipment_variant = {
@@ -2507,10 +2511,10 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_light_medium_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-                    fixed_ship_radar_slot = empty
-                    fixed_ship_engine_slot = cruiser_ship_engine_1
+                    fixed_ship_radar_slot = ship_radar_2
+                    fixed_ship_engine_slot = cruiser_ship_engine_2
                     fixed_ship_armor_slot = ship_armor_cruiser_1
                     mid_1_custom_slot = ship_light_medium_battery_2
                     mid_2_custom_slot = ship_light_medium_battery_2
@@ -2524,13 +2528,14 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_medium_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-                    fixed_ship_radar_slot = empty
+                    fixed_ship_radar_slot = ship_radar_2
                     fixed_ship_engine_slot = cruiser_ship_engine_1
                     fixed_ship_armor_slot = ship_armor_cruiser_1
-                    mid_1_custom_slot = empty
-                    mid_2_custom_slot = empty
+                    front_1_custom_slot = ship_anti_air_2
+                    mid_1_custom_slot = ship_medium_battery_2
+                    mid_2_custom_slot = ship_medium_battery_2
                     rear_1_custom_slot = empty
                 }
             }
@@ -2541,12 +2546,13 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_heavy_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-                    fixed_ship_radar_slot = empty
+                    fixed_ship_radar_slot = ship_radar_2
                     fixed_ship_engine_slot = heavy_ship_engine_2
                     fixed_ship_armor_slot = ship_armor_bb_2
-                    mid_1_custom_slot = empty
+                    front_1_custom_slot = ship_anti_air_2
+                    mid_1_custom_slot = ship_heavy_battery_2
                     mid_2_custom_slot = empty
                     rear_1_custom_slot = empty
                 }
@@ -2559,7 +2565,6 @@ shared_focus = {
                     type = ship_hull_light_2
                     equipment_variant = "Base DD Class"
                     creator = ROOT
-                    name = "Base DD"
                 }
             }
             for_loop_effect = {
@@ -2569,7 +2574,6 @@ shared_focus = {
                     type = ship_hull_cruiser_2
                     equipment_variant = "Base CL Class"
                     creator = ROOT
-                    name = "Base CL"
                 }
             }
             for_loop_effect = {
@@ -2579,7 +2583,6 @@ shared_focus = {
                     type = ship_hull_cruiser_2
                     equipment_variant = "Base CA Class"
                     creator = ROOT
-                    name = "Base CA"
                 }
             }
             for_loop_effect = {
@@ -2589,7 +2592,6 @@ shared_focus = {
                     type = ship_hull_heavy_2
                     equipment_variant = "Base BB Class"
                     creator = ROOT
-                    name = "Base BB"
                 }
             }
         }
@@ -2664,11 +2666,21 @@ shared_focus = {
 
     completion_reward = {
         random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = trait_mountaineer
+                }
+            }
             add_trait = {
                 trait = trait_mountaineer
             }
         }
         random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = trait_mountaineer
+                }
+            }
             add_trait = {
                 trait = trait_mountaineer
             }
@@ -2694,11 +2706,21 @@ shared_focus = {
 
     completion_reward = {
         random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = commando
+                }
+            }
             add_trait = {
                 trait = commando
             }
         }
         random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = commando
+                }
+            }
             add_trait = {
                 trait = commando
             }
@@ -2947,6 +2969,12 @@ shared_focus = {
     }
 
     completion_reward = {
+        GER = {
+            GER_adolf_hitler = {
+                promote_character = yes
+                promote_leader = yes
+            }
+        }
         GR1 = {
             hidden_effect = {
                 transfer_units_fraction = {
@@ -3006,11 +3034,35 @@ shared_focus = {
         }
         hidden_effect = {
 
-            GER = { #移除克罗地亚核心
+            GER = { 
+                #移除克罗地亚核心
                 remove_state_core = 712
                 remove_state_core = 1466
                 remove_state_core = 1464
                 remove_state_core = 1467
+
+                add_state_core = 139
+                add_state_core = 246
+                add_state_core = 104
+                add_state_core = 80
+                add_state_core = 335
+                add_state_core = 79
+                add_state_core = 122
+                add_state_core = 82
+                add_state_core = 99
+                add_state_core = 549
+                add_state_core = 310
+                add_state_core = 287
+                add_state_core = 243
+                add_state_core = 267
+                add_state_core = 1979
+                add_state_core = 264
+                add_state_core = 2341
+                add_state_core = 546
+                add_state_core = 2567
+                add_state_core = 2262
+                add_state_core = 481
+                add_state_core = 2329
             }
             every_core_state = { #移除挪威核心
                 limit = {
@@ -3018,6 +3070,13 @@ shared_focus = {
                 }
                 remove_core_of = ROOT
             }
+            every_state = { 
+                limit = {
+                    is_core_of = GR3
+                }
+                add_core_of = ROOT
+            }
+
         }
         set_cosmetic_tag = GER_germania
         set_faction_name = Einheitspakt
@@ -3037,7 +3096,7 @@ shared_focus = {
     y = 6
 
     allow_branch = {
-        tag = GR6
+        tag = GR1
     }
 
     ai_will_do = {
@@ -3049,7 +3108,7 @@ shared_focus = {
     }
 }
 shared_focus = {
-    id = GR1_national_focus
+    id = GR1_national_focus_empire_navy
     relative_position_id = GR1_national_focus
     x = 0
     y = 1
@@ -3086,13 +3145,13 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_light_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
                     fixed_ship_radar_slot = ship_radar_1
                     fixed_ship_engine_slot = light_ship_engine_2
                     fixed_ship_torpedo_slot = ship_torpedo_2
-                    mid_1_custom_slot = empty
-                    rear_1_custom_slot = empty
+                    mid_1_custom_slot = ship_torpedo_2
+                    rear_1_custom_slot = ship_torpedo_2
                 }
             }
             create_equipment_variant = {
@@ -3102,7 +3161,7 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_light_medium_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
                     fixed_ship_radar_slot = empty
                     fixed_ship_engine_slot = cruiser_ship_engine_2
@@ -3110,7 +3169,7 @@ shared_focus = {
                     front_1_custom_slot = ship_light_medium_battery_2
                     mid_1_custom_slot = ship_light_medium_battery_2
                     mid_2_custom_slot = ship_light_medium_battery_2
-                    rear_1_custom_slot = empty
+                    rear_1_custom_slot = ship_light_medium_battery_2
                 }
             }
             create_equipment_variant = {
@@ -3125,7 +3184,8 @@ shared_focus = {
                     fixed_ship_radar_slot = empty
                     fixed_ship_engine_slot = cruiser_ship_engine_2
                     fixed_ship_armor_slot = ship_armor_cruiser_1
-                    mid_1_custom_slot = empty
+                    front_1_custom_slot = ship_anti_air_2
+                    mid_1_custom_slot = ship_medium_battery_2
                     mid_2_custom_slot = empty
                     rear_1_custom_slot = empty
                 }
@@ -3137,13 +3197,14 @@ shared_focus = {
                 parent_version = 0
                 modules = {
                     fixed_ship_battery_slot = ship_heavy_battery_2
-                    fixed_ship_anti_air_slot = empty
+                    fixed_ship_anti_air_slot = ship_anti_air_2
                     fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-                    fixed_ship_radar_slot = empty
+                    fixed_ship_radar_slot = ship_radar_2
                     fixed_ship_engine_slot = heavy_ship_engine_2
                     fixed_ship_armor_slot = ship_armor_bb_2
-                    mid_1_custom_slot = empty
-                    mid_2_custom_slot = empty
+                    front_1_custom_slot = ship_anti_air_2
+                    mid_1_custom_slot = ship_heavy_battery_2
+                    mid_2_custom_slot = ship_heavy_battery_2
                     rear_1_custom_slot = empty
                 }
             }
@@ -3154,7 +3215,6 @@ shared_focus = {
                     type = ship_hull_submarine_2
                     equipment_variant = "Base SUB Class"
                     creator = ROOT
-                    name = "Base SUB"
                 }
             }
             for_loop_effect = {
@@ -3164,7 +3224,6 @@ shared_focus = {
                     type = ship_hull_light_2
                     equipment_variant = "Base DD Class"
                     creator = ROOT
-                    name = "Base DD"
                 }
             }
             for_loop_effect = {
@@ -3174,7 +3233,6 @@ shared_focus = {
                     type = ship_hull_cruiser_2
                     equipment_variant = "Base CL Class"
                     creator = ROOT
-                    name = "Base CL"
                 }
             }
             for_loop_effect = {
@@ -3184,14 +3242,12 @@ shared_focus = {
                     type = ship_hull_cruiser_2
                     equipment_variant = "Base CA Class"
                     creator = ROOT
-                    name = "Base CA"
                 }
             }
             create_ship = {
                 type = ship_hull_heavy_2
                 equipment_variant = "Base BB Class"
                 creator = ROOT
-                name = "Base BB"
             }
         }
     }
@@ -3257,12 +3313,22 @@ shared_focus = {
 
     completion_reward = {
         add_ideas = sea_lion
-        random_character = {
+        random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = naval_invader
+                }
+            }
             add_trait = {
                 trait = naval_invader
             }
         }
-        random_character = {
+        random_army_leader = {
+            limit = {
+                NOT = {
+                    has_trait = naval_invader
+                }
+            }
             add_trait = {
                 trait = naval_invader
             }

@@ -2546,6 +2546,9 @@ technologies = {
         on_research_complete = {
             custom_effect_tooltip = mountain_artillery_TOOLTIP
         }
+		allow = {
+			always = no
+		}
 		research_cost = 2
 		start_year = 1942
 		folder = {

@@ -401,7 +401,7 @@ add_ideas = {
 
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
-# recruit_character = GER_adolf_hitler
+
 recruit_character = GER_albert_kesselring
 recruit_character = GER_alfred_jodl
 recruit_character = GER_alfred_saalwachter
@@ -497,6 +497,9 @@ recruit_character = GER_kurt_von_tippelskirch
 recruit_character = GER_walther_nehring
 recruit_character = GER_walther_wenck
 
+
+
+recruit_character = GER_adolf_hitler #洗头老
 if = {
 	limit = {
 		has_dlc = "Waking the Tiger"

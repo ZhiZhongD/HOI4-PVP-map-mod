@@ -730,6 +730,23 @@ ideas = {
                 }
                 artillery_equipment = {
                     build_cost_ic = -0.1
+                    soft_attack = -0.05
+                    hard_attack = -0.05
+                    reliability = -0.1
+                    instant = yes
+                }
+                anti_air_equipment = {
+                    build_cost_ic = -0.1
+                    soft_attack = -0.05
+                    hard_attack = -0.05
+                    reliability = -0.1
+                    instant = yes
+                }
+                anti_tank_equipment = {
+                    build_cost_ic = -0.1
+                    soft_attack = -0.05
+                    hard_attack = -0.05
+                    reliability = -0.1
                     instant = yes
                 }
             }
@@ -760,6 +777,19 @@ ideas = {
             modifier = {
                 conscription_factor = 0.2
                 non_core_manpower = 0.05
+            }
+        }
+        By_Blood_Alone = {
+            picture = unknown
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                air_superiority_bonus_in_combat = 0.2
+                air_cas_present_factor = 0.2
             }
         }
     }

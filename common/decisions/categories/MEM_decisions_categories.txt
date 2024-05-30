@@ -10,6 +10,77 @@ MEM_decision_defence_categories ={
             tag = GR6
         }
     }
+    on_map_area = {
+        state = 1650 
+        state = 352 
+        state = 433 
+        state = 1749 
+        state = 1751 
+        state = 1746 
+        state = 1771 
+        state = 1674 
+        state = 280 
+        state = 252
+        state = 392 
+        state = 440 
+        state = 418 
+        state = 1778 
+        state = 1765 
+        state = 1745 
+        state = 469 
+        state = 1732
+        state = 331 
+        state = 364 
+        state = 1319 
+        state = 373 
+        state = 393 
+        state = 1687 
+        state = 1784 
+        state = 492 
+        state = 553 
+        state = 1783 
+        state = 1735 
+        state = 339 
+        state = 1667 
+        state = 1665
+
+        # target_trigger = {
+        #     FROM = {
+        #         NOT = {
+        #             is_controlled_by = ROOT
+        #             ROOT = {
+        #                 any_allied_country = {
+        #                     NOT = {
+        #                         controls_state = FROM
+        #                     }
+        #                 }
+        #             }
+        #         }
+        #     }
+        # }
+
+        name = NDF_occupy_state
+        zoom = 700
+        target_root_trigger = {
+            OR = {
+                tag = GER
+                tag = GR1
+                tag = GR2
+                tag = GR3
+                tag = GR4
+                tag = GR5
+                tag = GR6
+            }
+            OR = {
+                has_completed_focus = GER_Faction_NDF_occupy_city_0
+                has_completed_focus = GER_Faction_NDF_occupy_town_0
+                has_completed_focus = GER_Faction_NDF_occupy_vill_0
+            }
+            NOT = {
+                has_country_flag = NDF_occupy_close
+            }
+        }
+    }
     priority = 100
 }
 MEM_rebuild_empire_decision_categories = {

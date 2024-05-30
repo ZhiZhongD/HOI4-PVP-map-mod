@@ -6,12 +6,12 @@ characters={
 				large=GFX_portrait_GER_adolf_hitler
 			}
 		}
-		# country_leader={
-		# 	ideology=nazism
-		# 	traits={ dictator }
-		# 	expire="1965.1.1.1"
-		# 	id=-1
-		# }
+		country_leader={
+			ideology=nazism
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
 	}
 
 	GER_konrad_adenauer={
