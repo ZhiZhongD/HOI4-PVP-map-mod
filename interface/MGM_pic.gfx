@@ -19,7 +19,7 @@ spriteTypes = {
 	#装备图标
 	SpriteType = {
 		name = "GFX_helicopter_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/helicopter_equipment_0.png"
+		texturefile = "gfx/interface/technologies/helicopter_equipment_0.dds"
 	}
 	SpriteType = {
 		name = "GFX_helicopter_equipment_1_medium"
@@ -35,7 +35,7 @@ spriteTypes = {
 
 	spriteType = { #党卫军
 		name = "GFX_unit_Waffen_SS_icon_small"			
-		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.png" 
 		noOfFrames = 2 
 	}
 	spriteType = { 
@@ -45,7 +45,7 @@ spriteTypes = {
 	}
 	spriteType = { 
 		name = "GFX_unit_Waffen_SS_icon_medium_white"			
-		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_icon.png" 
 		noOfFrames = 2 
 	}
 
@@ -56,12 +56,28 @@ spriteTypes = {
 	}
 	spriteType = { 
 		name = "GFX_unit_Waffen_SS_mechanized_icon_medium_white"			
-		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.png" 
 		noOfFrames = 2 
 	}
 	spriteType = { 
 		name = "GFX_unit_Waffen_SS_mechanized_icon_small"			
-		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.dds" 
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_Waffen_SS_mechanized_icon.png" 
 		noOfFrames = 2 
 	}
+
+	spriteType = { #山地炮兵
+	name = "GFX_unit_mountain_artillery_brigade_icon_medium"									
+	textureFile = "gfx/interface/counters/divisions_large/unit_mountain_artillery_brigade_icon.png" 
+	noOfFrames = 2 
+}
+spriteType = { 
+	name = "GFX_unit_mountain_artillery_brigade_icon_medium_white"			
+	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mountain_artillery_brigade_icon.png" 
+	noOfFrames = 2 
+}
+spriteType = { 
+	name = "GFX_unit_mountain_artillery_brigade_icon_small"			
+	textureFile = "gfx/interface/counters/divisions_small/onmap_unit_mountain_artillery_brigade_icon.png" 
+	noOfFrames = 2 
+}
 }
