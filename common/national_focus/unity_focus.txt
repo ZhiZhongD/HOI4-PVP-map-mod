@@ -21,4 +21,12 @@ focus_tree = {
     shared_focus = GER_Faction_industory_0
     shared_focus = GER_Faction_war_defence_0
     shared_focus = GER_Faction_NDF_commander_chief_0
+
+    #各自独立的国策
+    shared_focus = GR5_national_focus
+    shared_focus = GR4_national_focus
+    shared_focus = GR3_national_focus
+    shared_focus = GER_national_focus
+    shared_focus = GR1_national_focus
+    shared_focus = GR6_national_focus
 }

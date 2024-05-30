@@ -18,6 +18,7 @@
  GER_NDF_occupy_vill_targeted_decision: "占领[FROM.GETNAME]"
  MEM_rebuild_empire_decision_categories: "重建国家"
  MEM_rebuild_ITA: "重建意大利"
+ MEM_rebuild_EST: "重建东方专员辖区"
 
  MEM_Peace_decision_categories: "同同盟国和谈"
  MEM_peace_with_ENG: "盟军谈和"
@@ -65,6 +66,7 @@
  GER_Faction_NDF_Defence_city_6: "缓解布拉格的压力"
  GER_Faction_NDF_Defence_city_7: "水城行动"
  GER_Faction_NDF_occupy_city_0: "城市计划"
+ Unlock_occupy_targeted_decision_tt: "解锁：§Y占领地区决议§!\n占领特定的地区后会出现相应决议"
  GER_Faction_NDF_occupy_town_0: "城镇计划"
  GER_Faction_NDF_occupy_vill_0: "乡村计划"
  GER_Faction_NDF_Recall_retired_generals: "召回退休将领"
@@ -73,8 +75,37 @@
 
 
 
+ GR5_national_focus: "意大利集团军群"
+ GR5_national_focus_By_Blood_Alone: "唯有浴血"
+ GR5_national_focus_take_fleet: "夺取舰队"
+ Get_navy_tt: "获得由§Y3§!战列 §Y3§!重巡 §Y4§!轻巡 §Y10§!驱逐组成的舰队"
+ GR5_national_focus_Po_River_group: "波河集团军"
 
+ GR4_national_focus: "东部集团军群"
+ GR4_national_focus_Snow_flower: "雪绒花"
+ GR4_national_focus_Green_Demon: "绿魔"
+ GR4_national_focus_Nibelungen: "尼伯龙根"
 
+ GR3_national_focus: "中央集团军群"
+ GR3_national_focus_Skoda_Industries: "斯柯达工业"
+ GR3_national_focus_final_fort: "最终壁垒"
+ GER_national_focus_Leader_Together: "元首与我们同在"
+
+ GER_national_focus: "德意志国"
+ GER_national_focus_Supply_mobilization: "补给动员"
+ GER_national_focus_Battle_of_Berlin: "柏林保卫战"
+ GER_national_focus_STG44: "STG44"
+ GER_national_focus_VICTORY: "最终胜利"
+
+ GR1_national_focus_empire_navy: "帝国海军"
+ GR1_get_navy: "获得由§Y1§!战列 §Y2§!重巡 §Y3§!轻巡 §Y12§!驱逐§Y35§!潜艇组成的舰队"
+ GR1_national_focus_back_to_north_europa: "重返北欧"
+ GR1_national_focus_operation_sealion: "海狮计划"
+
+ GR6_national_focus: "库尔兰集团军群"
+ GR6_national_focus_jerry_build: "偷工减料"
+ GR6_national_focus_Elite_Veterans: "精锐老兵"
+ GR6_national_focus_state_cooperation: "地区合作"
 
 
 #民族精神
@@ -124,6 +155,19 @@
 
 
 
+ ITA_Po_River: "波河集团军"
+ AUS_ibelungen: "尼伯龙根"
+ Skoda_Industries: "斯柯达工业"
+ final_fort: "最终壁垒"
+ GER_Together: "元首与我们同在"
+ Supply_mobilization: "补给动员"
+ Back_north: "重返北欧"
+ sea_lion: "海狮计划"
+ jerry_build: "偷工减料"
+ Elite_Veterans: "精锐老兵"
+ state_cooperation: "地区合作"
+
+
  State_of_Wehrmacht: "党卫军现状"
  GER_political_power_gain: "政治点获取"
 
@@ -135,8 +179,8 @@
  infantry_at3: "单兵反坦克装备"
  city_training: "城市作战训练"
  URBAN_SPECIALIZATION_TOOLTIP: "§H城市§!\n     攻击：§G+20%§!\n     防御：§G+35%§!"
-
-
+ mountain_artillery: "山地炮兵"
+ 
 #装备
  helicopter_equipment: "直升飞机"
  helicopter_equipment_0: "实验性直升飞机"
@@ -145,6 +189,12 @@
  
 #编制
  helicopter: "直升机支援连"
+ Waffen_SS: "党卫军"
+ Waffen_SS_mechanized: "机械化党卫军"
+ mountain_artillery_brigade: "山地炮兵"
+
+#阵营
+ Einheitspakt: "团结协定"
 
 #国名
  GER: "维斯瓦河集团军"
@@ -175,6 +225,13 @@
  GR6_DEF: "库尔兰集团军群"
  GR6_ADJ: "库尔兰集团军群"
 
+ GER_germania: "日耳曼尼亚"
+ GER_germania_DEF: "日耳曼尼亚"
+ GER_germania_ADJ: "日耳曼尼亚"
+
+ GR6_EST: "东方专员辖区"
+ GR6_EST_DEF: "东方专员辖区"
+ GR6_EST_ADJ: "东方专员辖区"
 #state名称
 STATE_2982:0 "柏林外围地区"
 STATE_2983:0 "柏林外围地区"

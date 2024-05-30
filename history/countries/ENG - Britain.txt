@@ -456,7 +456,7 @@ add_to_faction = ENG
 # add_to_faction = AST
 # add_to_faction = NZL
 # add_to_faction = SAF
-# add_to_faction = NOR
+add_to_faction = NOR
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

@@ -5,8 +5,10 @@ tags={
 }
 replace_path="common/bookmarks"
 replace_path="history/states"
+replace_path="map"
 dependencies={
 	"Magna Europa: Reloaded"
+	"magna cn"
 }
 picture="thumbnail.png"
 supported_version="1.14.*"

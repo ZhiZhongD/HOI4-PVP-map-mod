@@ -985,7 +985,7 @@ add_ideas = {
 	################
 
 	#MR pact stuff
-	add_opinion_modifier = { target = GER modifier = MR_pact }# pact 
+	# add_opinion_modifier = { target = GER modifier = MR_pact }# pact 
 	set_global_flag = sov_yes_pact
 	add_state_claim = 146 #KARELIA (FIN)
 	add_state_claim = 147 #SALLA (FIN)
@@ -1018,16 +1018,16 @@ add_ideas = {
 	#MR pact stuff end
 
 	#Germany soviet treaty (Tank templates unlocked at the bottom of this file)
-	GER = {
-		add_opinion_modifier = {
-			target = SOV
-			modifier = sov_ger_treaty
-		}
-		add_opinion_modifier = {
-			target = SOV
-			modifier = sov_ger_treaty_trade
-		}
-	}
+	# GER = {
+	# 	add_opinion_modifier = {
+	# 		target = SOV
+	# 		modifier = sov_ger_treaty
+	# 	}
+	# 	add_opinion_modifier = {
+	# 		target = SOV
+	# 		modifier = sov_ger_treaty_trade
+	# 	}
+	# }
 	if = {
 		limit = {
 			NOT = { has_dlc = "No Step Back" }

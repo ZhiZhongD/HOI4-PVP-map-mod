@@ -599,18 +599,16 @@ MEM_decision_defence_categories = {
 
     GER_NDF_occupy_city_targeted_decision = { #城镇计划决议
 		target_root_trigger = { #符合条件的国家
-            OR = {
-                is_debug = yes
-                has_completed_focus = GER_Faction_NDF_occupy_city_0
-            }
+            has_completed_focus = GER_Faction_NDF_occupy_city_0
 		}
         state_target = yes
         targets = { 352 433 1749 1751 1746 1771 1674 280 252 }
 		target_trigger = {
-            OR = {
-                is_debug = yes
-                FROM = { #地区
-                    is_controlled_by = ROOT
+            FROM = { #地区
+                is_controlled_by = ROOT
+                
+                NOT = {
+
                 }
             }
 		}
@@ -644,21 +642,14 @@ MEM_decision_defence_categories = {
 	}
     GER_NDF_occupy_town_targeted_decision = { #城镇计划决议
         target_root_trigger = { #符合条件的国家
-            OR = {
-                is_debug = yes
-                has_completed_focus = GER_Faction_NDF_occupy_town_0
-            }
+            has_completed_focus = GER_Faction_NDF_occupy_town_0
         }
         state_target = yes
         targets = { 392 440 418 1778 1765 1745 469 1732 }
         target_trigger = {
-            OR = {
-                is_debug = yes
-                FROM = { #地区
-                    is_controlled_by = ROOT
-                }
+            FROM = { #地区
+                is_controlled_by = ROOT
             }
-            
         }
         available = {
             FROM = { #地区
@@ -686,19 +677,13 @@ MEM_decision_defence_categories = {
     }
     GER_NDF_occupy_vill_targeted_decision = { #乡村计划决议
         target_root_trigger = { #符合条件的国家
-            OR = {
-                is_debug = yes
-                has_completed_focus = GER_Faction_NDF_occupy_vill_0
-            }
+            has_completed_focus = GER_Faction_NDF_occupy_vill_0
         }
         state_target = yes
         targets = { 331 364 1319 373 393 1687 1784 492 553 1783 1735 339 1667 1665 }
         target_trigger = {
-            OR = {
-                is_debug = yes
-                FROM = { #地区
-                    is_controlled_by = ROOT
-                }
+            FROM = { #地区
+                is_controlled_by = ROOT
             }
         }
         available = {
@@ -755,6 +740,32 @@ MEM_rebuild_empire_decision_categories = {
         }
         complete_effect = {
             set_cosmetic_tag = ITA
+        }
+    }
+    MEM_rebuild_EST = {
+        cost = 0
+        days_remove = 0
+        days_re_enable = 0
+        fire_only_once = yes
+        ai_will_do = {
+            base = 100
+        }
+        available = {
+            133 = {
+                is_controlled_by = ROOT
+            }
+            172 = {
+                is_controlled_by = ROOT
+            }
+        } 
+        allowed = {
+            tag = GR6
+        }
+        visible = {
+            has_completed_focus = GR6_national_focus_state_cooperation
+        }
+        complete_effect = {
+            set_cosmetic_tag = GR6_EST
         }
     }
 }
