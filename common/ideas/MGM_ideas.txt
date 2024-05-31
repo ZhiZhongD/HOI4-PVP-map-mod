@@ -1,7 +1,21 @@
 ideas = {
     country = {
+        Hitler_Leader = {
+            picture = GER_adolf_hitler
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                stability_factor = 0.1
+                war_support_factor = 0.1
+                command_abilities_cost_factor = 0.2
+            }
+        }
         Fight_to_win_or_die= {
-            picture = unknown
+            picture = FRA_scw_intervention_republicans_focus
             allowed = {
                 always = yes
             }
@@ -16,7 +30,7 @@ ideas = {
         }
 
         Prevalence_of_defeatism_0 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -32,7 +46,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_1 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -48,7 +62,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_2 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -64,7 +78,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_3 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -80,7 +94,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_4 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -95,7 +109,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_5 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -109,7 +123,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_6 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -123,7 +137,7 @@ ideas = {
             }
         }
         Prevalence_of_defeatism_7 = {
-            picture = unknown
+            picture = chi_incompetent_officers
             allowed = {
                 always = yes
             }
@@ -139,7 +153,7 @@ ideas = {
         }
 
         Allies_Terrifying_bombing_0 = {
-            picture = unknown
+            picture = SWE_marauder_bombers
             allowed = {
                 always = yes
             }
@@ -153,7 +167,7 @@ ideas = {
             }
         }
         Allies_Terrifying_bombing_1 = {
-            picture = unknown
+            picture = SWE_marauder_bombers
             allowed = {
                 always = yes
             }
@@ -167,7 +181,7 @@ ideas = {
             }
         }
         Allies_Terrifying_bombing_2 = {
-            picture = unknown
+            picture = SWE_marauder_bombers
             allowed = {
                 always = yes
             }
@@ -181,7 +195,7 @@ ideas = {
             }
         }
         Allies_Terrifying_bombing_3 = {
-            picture = unknown
+            picture = SWE_marauder_bombers
             allowed = {
                 always = yes
             }
@@ -195,7 +209,7 @@ ideas = {
             }
         }
         Allies_Terrifying_bombing_4 = {
-            picture = unknown
+            picture = SWE_marauder_bombers
             allowed = {
                 always = yes
             }
@@ -209,7 +223,7 @@ ideas = {
             }
         }
         Rebuild_tech = {
-            picture = unknown
+            picture = generic_research_bonus
             allowed = {
                 always = yes
             }
@@ -221,7 +235,7 @@ ideas = {
             }
         }
         Modern_tank_produce = {
-            picture = unknown
+            picture = man_five_year_plan_tank
             allowed = {
                 always = yes
             }
@@ -236,7 +250,7 @@ ideas = {
             }
         }
         Modern_plane_produce = {
-            picture = unknown
+            picture = air_support_focus
             allowed = {
                 always = yes
             }
@@ -251,7 +265,7 @@ ideas = {
             }
         }
         Modern_helicopter_produce = {
-            picture = unknown
+            picture = air_war_plans_division_focus
             allowed = {
                 always = yes
             }
@@ -266,7 +280,7 @@ ideas = {
             }
         }
         Waffen_SS_idea = {
-            picture = unknown
+            picture = saf_ossewabrandwag_fascism
             allowed = {
                 always = yes
             }
@@ -281,7 +295,7 @@ ideas = {
 
         }
         Apocalypse_weapon_main_idea = {
-            picture = unknown
+            picture = SOV_atomic_bomb_project
             allowed = {
                 always = yes
             }
@@ -295,7 +309,7 @@ ideas = {
 
         }
         Apocalypse_weapon_idea = {
-            picture = unknown
+            picture = SOV_atomic_bomb_project
             allowed = {
                 always = yes
             }
@@ -308,7 +322,7 @@ ideas = {
 
         }
         Rebuild_industory = {
-            picture = unknown
+            picture = generic_build_infrastructure
             allowed = {
                 always = yes
             }
@@ -320,7 +334,7 @@ ideas = {
             }
         }
         GER_oil_idea = {
-            picture = unknown
+            picture = generic_fuel_reserves
             allowed = {
                 always = yes
             }
@@ -332,7 +346,7 @@ ideas = {
             }
         }
         All_people_army = {
-            picture = unknown
+            picture = SPR_the_popular_front
             allowed = {
                 always = yes
             }
@@ -348,7 +362,7 @@ ideas = {
             }
         }
         Kraft_paper_factory = {
-            picture = unknown
+            picture = generic_improved_industries
             allowed = {
                 always = yes
             }
@@ -360,7 +374,7 @@ ideas = {
             }
         }
         Total_War = {
-            picture = unknown
+            picture = saf_ossewabrandwag_2
             allowed = {
                 always = yes
             }
@@ -374,7 +388,7 @@ ideas = {
             }
         }
         Turning_the_tide = {
-            picture = unknown
+            picture = saf_ossewabrandwag_fascism
             allowed = {
                 always = yes
             }
@@ -389,7 +403,7 @@ ideas = {
             }
         }
         Clausewitz_action = {
-            picture = unknown
+            picture = saf_soviet_advisers
             allowed = {
                 always = yes
             }
@@ -405,7 +419,7 @@ ideas = {
             }
         }
         73th_commond = {
-            picture = unknown
+            picture = generic_constitutional_guarantees
             allowed = {
                 always = yes
             }
@@ -419,7 +433,7 @@ ideas = {
             }
         }
         Force_active_defense = {
-            picture = unknown
+            picture = SOV_scientist_defect
             allowed = {
                 always = yes
             }
@@ -433,7 +447,7 @@ ideas = {
             }
         }
         Defending_Berlin = {
-            picture = unknown
+            picture = YUG_federal_defense_council
             allowed = {
                 always = yes
             }
@@ -449,7 +463,7 @@ ideas = {
             }
         }
         Defend_SOV = {
-            picture = unknown
+            picture = NOR_anti_communist_sentiment
             allowed = {
                 always = yes
             }
@@ -462,7 +476,7 @@ ideas = {
             }
         }
         74th_commond = {
-            picture = unknown
+            picture = generic_constitutional_guarantees
             allowed = {
                 always = yes
             }
@@ -475,7 +489,7 @@ ideas = {
             }
         }
         Scorched_policy = {
-            picture = unknown
+            picture = SWI_spirit_of_helvetia_defensive_war
             allowed = {
                 always = yes
             }
@@ -489,7 +503,7 @@ ideas = {
             }
         }
         Strike_and_withdraw= {
-            picture = unknown
+            picture = ICE_general_strike
             allowed = {
                 always = yes
             }
@@ -503,7 +517,7 @@ ideas = {
             }
         }
         Continuing_war= {
-            picture = unknown
+            picture = ger_bulwark_against_bolshevism
             allowed = {
                 always = yes
             }
@@ -517,7 +531,7 @@ ideas = {
             }
         }
         Final_victory = {
-            picture = unknown
+            picture = ast_abandon_the_westminster_system_fascism
             allowed = {
                 always = yes
             }
@@ -531,7 +545,7 @@ ideas = {
             }
         }
         Reorganize_ND_line = {
-            picture = unknown
+            picture = generic_wall_line
             allowed = {
                 always = yes
             }
@@ -545,7 +559,7 @@ ideas = {
             }
         }
         GER_NDF_idea = {
-            picture = unknown
+            picture = ast_volunteer_defence_corps
             allowed = {
                 always = yes
             }
@@ -558,7 +572,7 @@ ideas = {
             }
         }
         GER_NDF_Retired_generals_back = {
-            picture = unknown
+            picture = german_advisors
             allowed = {
                 always = yes
             }
@@ -570,7 +584,7 @@ ideas = {
             }
         }
         ITA_Po_River = {
-            picture = unknown
+            picture = ITA_regio_esercito_3
             allowed = {
                 always = yes
             }
@@ -586,7 +600,7 @@ ideas = {
             }
         }
         AUS_ibelungen = {
-            picture = unknown
+            picture = DEN_flyvertroppernes_organization.
             allowed = {
                 always = yes
             }
@@ -608,7 +622,7 @@ ideas = {
             }
         }
         Skoda_Industries = {
-            picture = unknown
+            picture = cze_skoda_armor
             allowed = {
                 always = yes
             }
@@ -627,7 +641,7 @@ ideas = {
             }
         }
         final_fort = {
-            picture = unknown
+            picture = FRA_fortification_focus
             allowed = {
                 always = yes
             }
@@ -641,7 +655,7 @@ ideas = {
             }
         }
         GER_Together = {
-            picture = unknown
+            picture = soviet_german_friendship
             allowed = {
                 always = yes
             }
@@ -654,7 +668,7 @@ ideas = {
             }
         }
         Supply_mobilization = {
-            picture = unknown
+            picture = generic_supply_line
             allowed = {
                 always = yes
             }
@@ -668,7 +682,7 @@ ideas = {
             }
         }
         STG44 = {
-            picture = unknown
+            picture = SWE_let_fly_all_guns
             allowed = {
                 always = yes
             }
@@ -680,7 +694,7 @@ ideas = {
             }
         }
         Back_north = {
-            picture = unknown
+            picture = generic_attack_norway
             allowed = {
                 always = yes
             }
@@ -696,7 +710,7 @@ ideas = {
             }
         }
         sea_lion = {
-            picture = unknown
+            picture = generic_sea_focused_navy
             allowed = {
                 always = yes
             }
@@ -710,7 +724,7 @@ ideas = {
             }
         }
         jerry_build = {
-            picture = unknown
+            picture = generic_army_problems
             allowed = {
                 always = yes
             }
@@ -752,7 +766,7 @@ ideas = {
             }
         }
         Elite_Veterans = {
-            picture = unknown
+            picture = tur_kemalist_army_officers_minimal_power_disloyal
             allowed = {
                 always = yes
             }
@@ -767,7 +781,7 @@ ideas = {
             }
         }
         state_cooperation = {
-            picture = unknown
+            picture = generic_political_support
             allowed = {
                 always = yes
             }
@@ -780,7 +794,7 @@ ideas = {
             }
         }
         By_Blood_Alone = {
-            picture = unknown
+            picture = ITA_italia_irredenta_achieved
             allowed = {
                 always = yes
             }
@@ -792,5 +806,43 @@ ideas = {
                 air_cas_present_factor = 0.2
             }
         }
+        Hitler_Youth_League = {
+            picture = chi_army_corruption3
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                weekly_manpower = 1000
+            } 
+        }
+        Emphasize_stability = {
+            picture = ARG_civilian_economy_boost
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                stability_weekly = 0.005
+            } 
+        }
+        Gestapo = {
+            picture = generic_secret_police
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                compliance_gain = 0.1
+                resistance_damage_to_garrison = -0.25
+            } 
+        }
+        
     }
 }

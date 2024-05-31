@@ -1,9 +1,10 @@
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_0
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ARG_fascist_researchers
 
-    x = 0
-    y = 1
+    x = 19
+    y = 5
 
     cost = 1
 
@@ -35,8 +36,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_1
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_BRA_acquire_german_tanks
 
     relative_position_id = GER_Faction_weapon_0
     x = -2
@@ -248,8 +250,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_2
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_NZL_bob_semple_tank
 
     relative_position_id = GER_Faction_weapon_1
     x = 0
@@ -385,8 +388,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_3
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_army_tanks2
 
     relative_position_id = GER_Faction_weapon_2
     x = 0
@@ -530,8 +534,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_4
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_jet_planes
 
     relative_position_id = GER_Faction_weapon_0
     x = 0
@@ -604,8 +609,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_5
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_copy_plane_designs
 
     relative_position_id = GER_Faction_weapon_4
     x = 0
@@ -681,8 +687,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_6
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_air_defense
 
     relative_position_id = GER_Faction_weapon_5
     x = 0
@@ -767,8 +774,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_7
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 
     relative_position_id = GER_Faction_weapon_0
     x = 2
@@ -854,8 +862,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_8
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_BUL_condemn_macedonian_organizations
 
     relative_position_id = GER_Faction_weapon_7
     x = 0
@@ -898,8 +907,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_9
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_fascist_troops
 
     relative_position_id = GER_Faction_weapon_8
     x = 0
@@ -971,8 +981,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_weapon_10
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_secret_weapon
 
     relative_position_id = GER_Faction_weapon_6
     x = 0
@@ -1017,10 +1028,11 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_0
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_modernize_industry
 
-    x = 5
+    x = 12
     y = 1
 
     cost = 2
@@ -1063,8 +1075,9 @@ joint_focus = {
 
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_1
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_DEN_limited_regulations
 
     relative_position_id = GER_Faction_industory_0
     x = 0
@@ -1100,8 +1113,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_2
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_oil_refinery
 
     relative_position_id = GER_Faction_industory_1
     x = 0
@@ -1147,8 +1161,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_3
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_full_social_mobilization
 
     relative_position_id = GER_Faction_industory_2
     x = 0
@@ -1183,8 +1198,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_4
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_SOV_organize_wreckers
 
     relative_position_id = GER_Faction_industory_3
     x = 0
@@ -1219,8 +1235,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_industory_5
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ITA_banda_carita
 
     relative_position_id = GER_Faction_industory_4
     x = 0
@@ -1254,11 +1271,12 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_0
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_coastal_fort
 
-    x = 10
-    y = 1
+    x = 29
+    y = 5
 
     cost = 1
 
@@ -1309,8 +1327,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_1
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_forceful_treaty
 
     relative_position_id = GER_Faction_war_defence_0
     x = -2
@@ -1357,22 +1376,35 @@ joint_focus = {
             }
         }
         custom_effect_tooltip = GER_political_power_tt
+        GER = {
+            every_controlled_state = {
+                add_building_construction = {
+                    type = bunker
+                    level = 3
+                    province = {
+                        all_provinces = yes
+                    }
+                    instant_build = yes
+                }
+            }
+        }
         add_timed_idea = {
-            idea = Turning_the_tide
+            idea = Clausewitz_action
             days = 30
         }
     }
     completion_reward_joint_member = {
         add_timed_idea = {
-            idea = Turning_the_tide
+            idea = Clausewitz_action
             days = 30
         }
     }
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_2
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_occupy_states_ongoing_war
 
     relative_position_id = GER_Faction_war_defence_1
     x = 0
@@ -1449,8 +1481,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_3
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_support_fascism
 
     relative_position_id = GER_Faction_war_defence_2
     x = 0
@@ -1505,8 +1538,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_4
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_SWE_hedgehog_defense
 
     relative_position_id = GER_Faction_war_defence_0
     x = 0
@@ -1584,8 +1618,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_5
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_occupy_states_ongoing_war
 
     relative_position_id = GER_Faction_war_defence_4
     x = 0
@@ -1646,8 +1681,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_6
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_fortify_city
 
     relative_position_id = GER_Faction_war_defence_5
     x = 0
@@ -1706,8 +1742,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_7
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_conspiracy
 
     relative_position_id = GER_Faction_war_defence_0
     x = 2
@@ -1768,8 +1805,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_8
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_SWE_rapid_defense_force
 
     relative_position_id = GER_Faction_war_defence_7
     x = 0
@@ -1830,8 +1868,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_9
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_spr_crush_the_revolution
 
     relative_position_id = GER_Faction_war_defence_8
     x = 0
@@ -1886,8 +1925,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_war_defence_10
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ETH_freedom_at_gunpoint
 
     relative_position_id = GER_Faction_war_defence_6
     x = 0
@@ -1944,8 +1984,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_commander_chief_0
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ger_oppose_hitler
 
     x = 24
     y = 1
@@ -1974,8 +2015,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_0 #汉尼拔行动
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_defence
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = -7
@@ -2001,8 +2043,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_1 #坚守柏林
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_SWE_hedgehog_defense
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = -5
@@ -2028,8 +2071,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_2 #葡萄弹行动
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ARG_march_to_la_casa_rosada
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = -3
@@ -2055,8 +2099,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_3 #保卫慕尼黑
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_generic_fortify_city
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = -1
@@ -2082,8 +2127,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_4 #维也纳战役
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_POL_habsburg
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = 1
@@ -2137,8 +2183,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_5 #易北河防线
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_offshore_oil_rig
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = 3
@@ -2164,9 +2211,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_6 #缓解布拉格的压力
-    icon = GFX_focus_generic_league_of_nations
-
+    icon = GFX_focus_generic_spread_fascism
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = 5
     y = 1
@@ -2191,8 +2238,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Defence_city_7 #水城行动
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ITA_alpine_division
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = 7
@@ -2218,8 +2266,9 @@ joint_focus = {
 }
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_occupy_city_0 #城市计划
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_FIN_salvaged_and_retooled
 
     relative_position_id = GER_Faction_NDF_Defence_city_0
     x = 1
@@ -2247,8 +2296,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_occupy_town_0 #城镇计划
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_goal_tfv_saf_support_ossebrandwag
 
     relative_position_id = GER_Faction_NDF_Defence_city_2
     x = 1
@@ -2276,8 +2326,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_occupy_vill_0 #乡村计划
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_generic_farmland
 
     relative_position_id = GER_Faction_NDF_Defence_city_4
     x = 1
@@ -2305,8 +2356,9 @@ joint_focus = {
     }
 }
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_Recall_retired_generals #退休将领
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ger_return_of_the_kaiser
 
     relative_position_id = GER_Faction_NDF_Defence_city_6
     x = 1
@@ -2358,8 +2410,9 @@ joint_focus = {
 
 
 joint_focus = {
+    text_icon = NORDIC_focus_style
     id = GER_Faction_NDF_The_New_Order #新秩序
-    icon = GFX_focus_generic_league_of_nations
+    icon = GFX_focus_ger_reichskommisariats
 
     relative_position_id = GER_Faction_NDF_commander_chief_0
     x = 0
@@ -2416,9 +2469,10 @@ joint_focus = {
 
 shared_focus = {
     id = GR5_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GR5
@@ -2434,7 +2488,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR5_national_focus_By_Blood_Alone
-
+    icon = GFX_focus_generic_italy_first
     cost = 1
 
     relative_position_id = GR5_national_focus
@@ -2464,12 +2518,37 @@ shared_focus = {
             promote_character = yes
             promote_leader = yes
         }
+        division_template = {
+            name = "INF-Division"
+            division_names_group = GER_Inf_01
+            is_locked = no
+            regiments = {
+                militia = { x = 0 y = 0 }
+                militia = { x = 0 y = 1 }
+                militia = { x = 0 y = 2 }
+                militia = { x = 0 y = 3 }        
+                militia = { x = 1 y = 0 }
+                militia = { x = 1 y = 1 }
+                militia = { x = 1 y = 2 }
+                militia = { x = 1 y = 3 }
+            }
+            support = {
+
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"ITA Militia\" division_template = \"INF-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 10
+            }
+        }
     }
 }
 
 shared_focus = {
     id = GR5_national_focus_take_fleet
-
+    icon = GFX_focus_generic_merchant_fleet
     cost = 5
 
     relative_position_id = GR5_national_focus
@@ -2600,7 +2679,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR5_national_focus_Po_River_group
-
+    icon = GFX_focus_generic_military_dictatorship
     cost = 5
 
     relative_position_id = GR5_national_focus
@@ -2634,9 +2713,10 @@ shared_focus = {
 
 shared_focus = {
     id = GR4_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GR4
@@ -2653,6 +2733,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR4_national_focus_Snow_flower
+    icon = GFX_focus_SMB_a_land_of_mountains
     cost = 5
     relative_position_id = GR4_national_focus
     x = -2
@@ -2693,6 +2774,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR4_national_focus_Green_Demon
+    icon = GFX_focus_spr_masters_of_our_own_fate
     cost = 5
     relative_position_id = GR4_national_focus
     x = 0
@@ -2756,6 +2838,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR4_national_focus_Nibelungen
+    icon = GFX_focus_generic_support_the_left_right
     cost = 5
     relative_position_id = GR4_national_focus
     x = 2
@@ -2783,10 +2866,11 @@ shared_focus = {
 
 shared_focus = {
     id = GR3_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
 
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GR3
@@ -2803,6 +2887,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR3_national_focus_Skoda_Industries
+    icon = GFX_focus_CZE_military_research_institute
     cost = 5
     relative_position_id = GR3_national_focus
     x = -2
@@ -2820,6 +2905,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR3_national_focus_final_fort
+    icon = GFX_goal_generic_fortify_city
     cost = 5
     relative_position_id = GR3_national_focus
     x = 0
@@ -2837,6 +2923,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GER_national_focus_Leader_Together
+    icon = GFX_focus_generic_railway_gun
     cost = 5
     relative_position_id = GR3_national_focus
     x = 2
@@ -2875,10 +2962,11 @@ shared_focus = {
 
 shared_focus = {
     id = GER_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
 
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GER
@@ -2895,6 +2983,7 @@ shared_focus = {
 
 shared_focus = {
     id = GER_national_focus_Supply_mobilization
+    icon = GFX_focus_generic_supply_line
     cost = 5
     relative_position_id = GER_national_focus
     x = -2
@@ -2912,6 +3001,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GER_national_focus_Battle_of_Berlin
+    icon = GFX_focus_eng_expose_the_belly_of_the_bear
     cost = 5
     relative_position_id = GER_national_focus
     x = 0
@@ -2933,6 +3023,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GER_national_focus_STG44
+    icon = GFX_focus_secret_rearmament
     cost = 5
     relative_position_id = GER_national_focus
     x = 2
@@ -2950,6 +3041,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GER_national_focus_VICTORY
+    icon = GFX_focus_ger_reichskommisariats
     cost = 5
     relative_position_id = GER_national_focus
     x = 0
@@ -2963,7 +3055,9 @@ shared_focus = {
     prerequisite = { 
         focus = GER_national_focus_STG44
     }
-
+    available = {
+        has_war = no 
+    }
     ai_will_do = {
         factor = 1
     }
@@ -2975,6 +3069,8 @@ shared_focus = {
                 promote_leader = yes
             }
         }
+        remove_ideas = sour_loser
+        add_ideas = triumphant_will
         GR1 = {
             hidden_effect = {
                 transfer_units_fraction = {
@@ -3084,16 +3180,72 @@ shared_focus = {
 }
 
 
+# shared_focus = {
+#     id = GER_improve_national_spirit
+#     relative_position_id = GER_national_focus_VICTORY
+#     x = 0
+#     y = 1
+#     prerequisite = { focus = GER_national_focus_VICTORY }
+
+#     icon = GFX_goal_support_fascism
+#     available = {
+#         custom_trigger_tooltip = {
+#             tooltip = GER_improve_national_spirit_tooltip
+#             OR = {
+#                 GER = { controls_state = 3004 }
+#                 any_other_country = {
+#                     is_in_faction_with = GER
+#                     controls_state = 3004
+#                 }
+#             }
+#             OR = {
+#                 GER = { controls_state = 2475 }
+#                 any_other_country = {
+#                     is_in_faction_with = GER
+#                     controls_state = 2475
+#                 }
+#             }
+#         }
+#     }
+#     cancel = {
+#         AND = {
+#             has_war = no
+#             3004 = {
+#                 owner = {
+#                     NOT = { tag = GER }
+#                     NOT = { is_in_faction_with = GER }
+#                 }
+#             }
+#             2475 = {
+#                 owner = {
+#                     NOT = { tag = GER }
+#                     NOT = { is_in_faction_with = GER }
+#                 }
+#             }
+#         }
+#     }
+#     cancel_if_invalid = no
+
+#     cost = 10
+#     ai_will_do = {
+#         factor = 10
+#     }	
+#     completion_reward = {
+#         remove_ideas = sour_loser
+#         add_ideas = triumphant_will
+#     }
+# }
 
 
 
 
 shared_focus = {
     id = GR1_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
 
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GR1
@@ -3109,6 +3261,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR1_national_focus_empire_navy
+    icon = GFX_focus_generic_north_atlantic_fleet
     relative_position_id = GR1_national_focus
     x = 0
     y = 1
@@ -3255,6 +3408,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR1_national_focus_back_to_north_europa
+    icon = GFX_focus_generic_attack_nordic_territory
     cost = 5
     relative_position_id = GR1_national_focus_empire_navy
     x = 0
@@ -3300,6 +3454,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR1_national_focus_operation_sealion
+    icon = GFX_focus_ICE_infiltrating_the_british_isles
     cost = 5
     relative_position_id = GR1_national_focus_back_to_north_europa
     x = 0
@@ -3345,10 +3500,11 @@ shared_focus = {
 
 shared_focus = {
     id = GR6_national_focus
+    icon = GFX_focus_attack_germany
     cost = 1
 
-    x = 24
-    y = 6
+    x = 4
+    y = 1
 
     allow_branch = {
         tag = GR6
@@ -3365,6 +3521,7 @@ shared_focus = {
 
 shared_focus = {
     id = GR6_national_focus_jerry_build
+    icon = GFX_focus_NOR_broken_gun_policies
     cost = 5
     relative_position_id = GR6_national_focus
     x = -2
@@ -3382,6 +3539,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR6_national_focus_Elite_Veterans
+    icon = GFX_focus_generic_commonwealth_build_infantry
     cost = 5
     relative_position_id = GR6_national_focus
     x = 0
@@ -3399,6 +3557,7 @@ shared_focus = {
 }
 shared_focus = {
     id = GR6_national_focus_state_cooperation
+    icon = GFX_focus_LAT_lightning_strike
     cost = 5
     relative_position_id = GR6_national_focus
     x = 2
@@ -3413,5 +3572,497 @@ shared_focus = {
     completion_reward = {
         add_ideas = state_cooperation
         unlock_decision_tooltip = MEM_rebuild_EST
+    }
+}
+
+
+
+shared_focus = {
+    id = GER_Dip_Focus
+    icon = GFX_goal_generic_improve_relations
+    cost = 1
+    x = 4
+    y = 8
+
+    ai_will_do = {
+        factor = 1
+    }
+    
+    allow_branch = {
+        tag = GER
+    }
+
+    completion_reward = {
+        add_political_power = 100
+    }
+}
+
+
+
+shared_focus = {
+    id = GER_turkey_puppet_0
+    icon = GFX_goal_generic_forceful_treaty
+    relative_position_id = GER_Dip_Focus
+    x = -4
+    y = 1
+    prerequisite = { focus = GER_Dip_Focus }
+    mutually_exclusive = { focus =  GER_turkey_friend_0 }
+    available = {
+        is_subject = no
+        has_government = fascism
+        GRE = {
+            OR = {
+                is_in_faction_with = GER
+                all_owned_state = {
+                    controller = { is_in_faction_with = GER }
+                }
+            }
+        }
+        NOT = { has_war_with = SOV }
+        country_exists = TUR
+    }
+
+
+    cost = 5
+    ai_will_do = {
+        factor = 1
+    }	
+
+    completion_reward = {
+        TUR = { country_event = { id = germany.79 days = 1 } }
+    }
+}
+
+shared_focus = {
+    id = GER_turkey_friend_0
+    icon = GFX_goal_generic_improve_relations
+    prerequisite = { focus = GER_Dip_Focus }
+    mutually_exclusive = { focus = GER_turkey_puppet_0 }
+    x = -2
+    y = 1
+    relative_position_id = GER_Dip_Focus
+    available = { 
+        is_subject = no 
+        NOT = { has_war_with = TUR }
+        TUR = {
+            exists = yes
+            is_subject = no
+        }
+
+        TUR = {
+            custom_trigger_tooltip = {
+                tooltip = GER_alone_or_peace_faction_tt
+                is_alone_or_in_faction_at_peace_with_GER = yes
+            }
+        }
+    }
+
+    #bypass = {
+    #	OR = {
+    #		TUR = { is_in_faction_with = GER }
+    #		NOT = { country_exists = TUR }
+    #	}
+    #}
+
+    cost = 5
+
+    ai_will_do = {
+        factor = 1
+    }	
+
+    available_if_capitulated = no
+    completion_reward = {
+        TUR = {
+            add_opinion_modifier = { target = GER modifier = ger_tur_diplomacy_focus }
+            if = {
+                limit = {
+                    TUR = {
+                        is_ai = yes
+                        NOT = {
+                            is_in_faction = yes
+                        }
+                        NOT = {
+                            is_puppet = yes
+                        }
+                        has_government = ROOT
+                    }
+                    GER = { is_faction_leader = yes }
+                }
+                TUR = {
+                    country_event = generic.5
+                }
+                add_ai_strategy = {
+                    type = alliance
+                    id = "GER"
+                    value = 200
+                }
+            }
+            if = {
+                limit = {
+                    GER = {
+                        has_government = fascism
+                    }
+                }
+                add_timed_idea = { idea = fascist_influence days = 1095 }
+            }
+            if = {
+                limit = {
+                    GER = {
+                        has_government = communism
+                    }
+                }
+                add_timed_idea = { idea = communist_influence days = 1095 }
+            }
+            if = {
+                limit = {
+                    GER = {
+                        has_government = democratic
+                    }
+                }
+                add_timed_idea = { idea = democratic_influence days = 1095 }
+            }
+            country_event = { id = generic.1 }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_operation_tannenbaum
+    icon = GFX_goal_generic_occupy_states_ongoing_war
+    prerequisite = { focus = GER_Dip_Focus }
+    available = {
+        is_subject = no
+        NOT = { is_in_faction_with = SWI }
+    }
+    bypass = {
+        NOT = { country_exists = SWI }
+        has_war_with = SWI
+    }
+    cancel_if_invalid = yes
+    will_lead_to_war_with = SWI
+    x = 2
+    y = 1
+    relative_position_id = GER_Dip_Focus
+    cost = 5
+
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            factor = 0
+            is_historical_focus_on = yes
+        }
+    }
+    
+    completion_reward = {
+        create_wargoal = {
+            type = annex_everything
+            target = SWI
+            expire = 0
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_nationalist_spain_ally
+    icon = GFX_goal_generic_major_alliance
+    prerequisite = { focus = GER_Dip_Focus }
+    available = {
+        if = {
+            limit = {
+                NOT = { has_dlc = "La Resistance" }
+            }
+            SPR = { has_civil_war = no }
+            any_other_country = {
+                original_tag = SPR
+                has_government = fascism
+                NOT = { has_war_with = GER }
+                NOT = { is_in_faction_with = GER }
+            }
+        }
+        if = {
+            limit = {
+                has_dlc = "La Resistance"
+            }
+            SPA = {
+                exists = yes
+                has_civil_war = no
+                NOT = { has_war_with = GER }
+                NOT = { is_in_faction_with = GER }
+                NOT = { has_completed_focus = SPA_join_the_allies }
+            }
+        }
+        FRA = {
+            OR = {
+                exists = no
+                has_capitulated = yes
+                has_government = fascism
+            }
+        }
+    }
+    
+    #bypass = {
+    #	any_other_country = {
+    #		original_tag = SPR
+    #		has_government = fascism
+    #		is_in_faction_with = GER
+    #	}
+    #}
+    x = 0
+    y = 1
+    relative_position_id = GER_Dip_Focus
+    cost = 5
+    ai_will_do = {
+        factor = 10
+        modifier = {
+            factor = 0
+            OR = {
+                is_historical_focus_on = yes
+                date < 1942.01.01
+                surrender_progress > 0
+                AND = {
+                    has_war_with = ENG
+                    ENG = { surrender_progress < 0.2 }
+                }
+            }
+        }
+    }
+    completion_reward = {
+        if = {
+            limit = {
+                OR = { 
+                    AND = {
+                        NOT = { has_dlc = "La Resistance" }
+                        NOT = { country_exists = SPR }
+                        SPR = { NOT = { has_government = fascism } }
+                    }
+                    AND = {
+                        has_dlc = "La Resistance"
+                        NOT = { country_exists = SPA }
+                    }
+                }
+            }
+            custom_effect_tooltip = GER_nationalist_spain_ally_tt
+        }
+        if = {
+            limit = {
+                NOT = { has_dlc = "La Resistance" }
+            }
+            random_other_country = {
+                limit = {
+                    original_tag = SPR
+                    has_government = fascism
+                }
+                remove_ideas = SPA_recovering_from_civil_war
+                add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
+            }
+        }
+        if = {
+            limit = {
+                has_dlc = "La Resistance"
+            }
+            SPA = {
+                remove_ideas = SPA_recovering_from_civil_war
+                add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_SWE_pupet
+    icon = GFX_goal_generic_cavalry
+    cost = 5
+    relative_position_id = GER_Dip_Focus
+    x = 4
+    y = 1
+    prerequisite = { focus = GER_Dip_Focus }
+    available = {
+        NOR = {
+            NOT = {
+                controls_state = 118
+            }
+        }
+    }
+    completion_reward = {
+        SWE = {
+            country_event = { id = MEM_event.1 days = 1 }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Hitler_Youth_League
+    icon = GFX_focus_generic_fascist_propaganda
+    cost = 5
+    x = 0
+    y = 5
+
+    completion_reward = {
+        add_ideas = Hitler_Youth_League
+    }
+}
+
+shared_focus = {
+    id = GER_Search_machine_tools
+    icon = GFX_focus_generic_industry_3
+    cost = 5
+    x = 2
+    y = 5
+    
+    completion_reward = {
+        capital_scope = {
+            add_extra_state_shared_building_slots = 3
+            add_building_construction = {
+                type = industrial_complex
+                level = 3
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_setup_factories
+    icon = GFX_focus_ICE_state_corporatism
+    cost = 5
+    x = 4
+    y = 5
+    
+    completion_reward = {
+        capital_scope = {
+            add_extra_state_shared_building_slots = 3
+            add_building_construction = {
+                type = arms_factory
+                level = 3
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Emphasize_stability
+    icon = GFX_focus_hol_abandon_the_gold_standard
+    cost = 2
+    x = 6
+    y = 5
+    
+    completion_reward = {
+        add_timed_idea = {
+            idea = Emphasize_stability
+            days = 90
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Surrender_resources
+    icon = GFX_focus_generic_resource_extraction
+    cost = 5
+    x = 8
+    y = 5
+    
+    completion_reward = {
+        capital_scope = {
+            add_resource = {
+                type = chromium
+                amount = 10
+            }
+            add_resource = {
+                type = aluminium
+                amount = 10
+            }
+            add_resource = {
+                type = steel
+                amount = 10
+            }
+            add_resource = {
+                type = tungsten
+                amount = 10
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Expand_airport
+    icon = GFX_goal_generic_air_production
+    cost = 5
+    x = 0
+    y = 6
+    
+    completion_reward = {
+        capital_scope = {
+            add_building_construction = {
+                type = air_base
+                level = 5
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Expand_antiair
+    icon = GFX_focus_FIN_coastal_defense
+    cost = 5
+    x = 2
+    y = 6
+    
+    completion_reward = {
+        capital_scope = {
+            add_building_construction = {
+                type = anti_air_building
+                level = 5
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Requisition_trains
+    icon = GFX_focus_generic_railroad
+    cost = 5
+    x = 4
+    y = 6
+    
+    completion_reward = {
+        add_equipment_to_stockpile = {
+            type = train_equipment
+            amount = 30
+        }
+    }
+}
+
+shared_focus = {
+    id = GER_Gestapo
+    icon = GFX_focus_ETH_boots_on_the_shore
+    cost = 5
+    x = 6
+    y = 6
+    
+    completion_reward = {
+        add_ideas = Gestapo
+    }
+}
+
+shared_focus = {
+    id = GER_compound
+    icon = GFX_focus_BRA_rubber_war
+    cost = 5
+    x = 8
+    y = 6
+    
+    completion_reward = {
+        capital_scope = {
+            add_resource = {
+                type = rubber
+                amount = 10
+            }
+        }
+        modify_building_resources = {
+            building = synthetic_refinery
+            resource = rubber
+            amount = 2
+        }
     }
 }

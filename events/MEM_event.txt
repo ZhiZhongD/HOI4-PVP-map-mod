@@ -1,0 +1,31 @@
+add_namespace = MEM_event
+
+country_event = {
+	id = MEM_event.1
+	title = MEM_event.1.t
+	desc = MEM_event.1.desc
+
+	
+	is_triggered_only = yes 
+
+
+	option = {
+		name = MEM_event.1.a
+        GER = {
+            set_autonomy = {
+                target = SWE
+                autonomous_state = autonomy_puppet
+                freedom_level = 0.2
+            }
+        }
+	}
+    option = {
+		name = MEM_event.1.b
+        GER = {
+            create_wargoal = {
+                target = SWE
+                type = annex_everything
+            }
+        }
+	}
+}

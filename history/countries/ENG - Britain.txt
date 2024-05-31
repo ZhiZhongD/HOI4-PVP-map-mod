@@ -635,18 +635,8 @@ if = {
 		add_command_power = 100
 		add_political_power = 1900
 
-		add_to_faction = LUX
-		add_to_faction = BEL
-		add_to_faction = INS
-		add_to_faction = ETH
 		add_to_faction = USA
-		add_to_faction = PHI
-		add_to_faction = MEX
 		add_to_faction = GRE
-		add_to_faction = TUR
-		add_to_faction = DEN
-		add_to_faction = BRA
-		add_to_faction = CZE
 
     complete_national_focus = ENG_motorized_focus
     complete_national_focus = uk_industrial_focus

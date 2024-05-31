@@ -30,6 +30,436 @@ on_actions = {
     }
 	on_startup = {
 		effect = {
+			#看不清的地块添加一级堡
+			2579 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2601 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2600 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			1395 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			1396 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2598 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2599 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2607 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			876 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3005 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3004 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			58 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3001 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3003 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3002 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			3000 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			2600 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			385 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}
+			}
+			558 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2602 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2597 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3016 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			119 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3019 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2792 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3010 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3011 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3012 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3013 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3014 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3015 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3016 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			229 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2480 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			
+			2479 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2481 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3009 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3008 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3007 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			3006 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			457 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+			2721 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes 
+					}
+				}	
+			}
+
+
+
+
+
+
+
+			#
 			GR1 = {
 				every_core_state = {
 					add_core_of = GER

@@ -1961,7 +1961,7 @@ characters={
 	}
 
 	GER_lothar_rendulic={ #HERE
-		name="Lothar Rendulic"
+		name="洛塔尔·伦杜利克"
 		portraits={
 			civilian = {
 				large="gfx/leaders/GER/mod_portrait_ger_lothar_rendulic.png"
@@ -1989,8 +1989,8 @@ characters={
 		}
 	}
 
-	GER_carl_hilpert={
-		name="Carl Hilpert"
+	GER_carl_hilpert = {
+		name = "卡尔·奥古斯特·希尔珀特"
 		portraits={
 			civilian = {
 				large="gfx/leaders/GER/mod_portrait_ger_carl_hilpert.png"
@@ -2019,7 +2019,7 @@ characters={
 	}
 
 	GER_otto_woehler={ #HERE
-		name="Otto Wöhler"
+		name=GER_otto_woehler
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_otto_wohler.png"
@@ -2036,7 +2036,7 @@ characters={
 		}
 	}
 	GER_erich_brandenberger={
-		name="Erich Brandenberger"
+		name="埃里希·布兰登贝尔格"
 		portraits={
 			army={
 				large="gfx/leaders/GER/portrait_ger_erich_brandenberger.dds"
@@ -2052,8 +2052,8 @@ characters={
 			legacy_id=-1
 		}
 	}
-	GER_traugott_herr={
-		name="Traugott Herr"
+	GER_traugott_her = {
+		name = "特劳戈特·赫尔"
 		portraits={
 			army={
 				large="gfx/leaders/GER/portrait_ger_traugott_herr.dds"
@@ -2070,7 +2070,7 @@ characters={
 		}
 	}
 	GER_dietrich_von_saucken={
-		name="Dietrich von Saucken"
+		name="迪特里希·冯·绍肯"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_dietrich_von_saucken.png"
@@ -2087,7 +2087,7 @@ characters={
 		}
 	}
 	GER_erich_straube={
-		name="Erich Straube"
+		name="埃里希·施特劳贝"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_erich_straube.png"
@@ -2104,7 +2104,7 @@ characters={
 		}
 	}
 	GER_franz_böhme={
-		name="Franz Böhme"
+		name="弗朗茨·博梅"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_franz_bohme.png"
@@ -2121,7 +2121,7 @@ characters={
 		}
 	}
 	GER_heinrich_von_vietinghoff={
-		name="Heinrich von Vietinghoff"
+		name="海因里希·冯·维廷霍夫"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_heinrich_von_vietingoff.png"
@@ -2138,7 +2138,7 @@ characters={
 		}
 	}
 	GER_georg_otto_hermann_balck={
-		name="Georg Otto Hermann Balck"
+		name="乔治·奥托·赫尔曼·巴尔克"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_hermann_balck.png"
@@ -2155,7 +2155,7 @@ characters={
 		}
 	}
 	GER_joachim_lemelsen={
-		name="Joachim Lemelsen"
+		name="约阿希姆·莱梅尔森"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_joachim_lemelsen.png"
@@ -2172,7 +2172,7 @@ characters={
 		}
 	}
 	GER_josef_harpe={
-		name="Josef Harpe"
+		name= "约瑟夫·哈佩"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_josef_harpe.png"
@@ -2189,7 +2189,7 @@ characters={
 		}
 	}
 	GER_gustavadolf_von_zangen={
-		name="Gustav-Adolf von Zangen"
+		name= "古斯塔夫·阿道夫·冯·赞根"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_gustav_von_zangen.png"
@@ -2205,7 +2205,7 @@ characters={
 		}
 	}
 	GER_kurt_von_tippelskirch={
-		name="Kurt von Tippelskirch"
+		name="蒂普尔斯克瑞奇"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_kurt_von_tippelskirch.png"
@@ -2222,7 +2222,7 @@ characters={
 		}
 	}
 	GER_hans_krebs={
-		name="Hans Krebs"
+		name=GER_hans_krebs
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_hans_krebs.png"
@@ -2239,7 +2239,7 @@ characters={
 		}
 	}
 	GER_hans_obstfelder={
-		name="Hans von Obstfelder"
+		name=GER_hans_obstfelder
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_hans_von_obstfelder.png"
@@ -2256,7 +2256,7 @@ characters={
 		}
 	}
 	GER_hermann_fegelein={
-		name="Hermann Fegelein"
+		name=GER_hermann_fegelein
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_hermann_fegelein.png"
@@ -2273,7 +2273,7 @@ characters={
 		}
 	}
 	GER_ernst_busch={
-		name="Ernst Busch"
+		name=GER_ernst_busch
 		portraits={
 			army={
 				large="gfx/leaders/GER/portrait_mod_ger_ernst_busch_refined.png"
@@ -2290,7 +2290,7 @@ characters={
 		}
 	}
 	GER_walther_luch={
-		name="Walther Lucht"
+		name=GER_walther_luch
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_walther_lucht.png"
@@ -2307,7 +2307,7 @@ characters={
 		}
 	}
 	GER_walther_nehring={
-		name="Walther Nehring"
+		name="瓦尔特·内林"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_walter_nehring.png"
@@ -2324,7 +2324,7 @@ characters={
 		}
 	}
 	GER_theodor_busse={
-		name="Theodor Busse"
+		name=GER_theodor_busse
 		portraits={
 			army={
 				large="gfx/leaders/GER/portrait_mod_ger_theodor_busse.png"
@@ -2341,7 +2341,7 @@ characters={
 		}
 	}
 	GER_walther_wenck={
-		name="Walther Wenck"
+		name="瓦尔特·温克"
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_walther_wenck.png"
@@ -2358,7 +2358,7 @@ characters={
 		}
 	}
 	GER_ehrenfriedoskar_boege={
-		name="Ehrenfried-Oskar Boege"
+		name=GER_ehrenfriedoskar_boege
 		portraits={
 			army={
 				large="gfx/leaders/GER/Portrait_Germany_Hans-Karl_Freiherr_von_Esebeck.dds"
@@ -2374,7 +2374,7 @@ characters={
 		}
 	}
 	GER_friedrich_von_kirchensittenbach={
-		name="Friedrich von Kirchensittenbach"
+		name=GER_friedrich_von_kirchensittenbach
 		portraits={
 			army={
 				large="gfx/leaders/GER/portrait_ger_hans_von_luck.dds"
@@ -2390,7 +2390,7 @@ characters={
 		}
 	}
 	GER_helmuth_weidling={
-		name="Helmuth Weidling"
+		name=GER_helmuth_weidling
 		portraits={
 			army={
 				large="gfx/leaders/GER/mod_portrait_ger_helmuth_weidling.png"

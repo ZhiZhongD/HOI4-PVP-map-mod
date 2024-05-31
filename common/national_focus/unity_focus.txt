@@ -17,6 +17,12 @@ focus_tree = {
         }
 	}
     default = no
+    continuous_focus_position = {
+        x = 0
+        y = 2000
+    }
+
+
     shared_focus = GER_Faction_weapon_0
     shared_focus = GER_Faction_industory_0
     shared_focus = GER_Faction_war_defence_0
@@ -29,4 +35,19 @@ focus_tree = {
     shared_focus = GER_national_focus
     shared_focus = GR1_national_focus
     shared_focus = GR6_national_focus
+    shared_focus = GER_Dip_Focus
+
+    shared_focus = GER_Hitler_Youth_League
+    shared_focus = GER_Search_machine_tools
+    shared_focus = GER_setup_factories
+    shared_focus = GER_Emphasize_stability
+    shared_focus = GER_Surrender_resources
+    shared_focus = GER_Expand_airport
+    shared_focus = GER_Expand_antiair
+    shared_focus = GER_Requisition_trains
+    shared_focus = GER_Gestapo
+    shared_focus = GER_compound
+   
+
+
 }

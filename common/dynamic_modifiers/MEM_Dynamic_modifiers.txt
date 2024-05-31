@@ -1,5 +1,5 @@
 State_of_Wehrmacht = {
-    icon = "GFX_idea_unknown"
+    icon = "GFX_idea_german_advisors"
 	
     enable = { 
         OR = {
@@ -21,7 +21,7 @@ State_of_Wehrmacht = {
     army_morale_factor = State_of_Wehrmacht_var_0
 }
 GER_political_power_gain = {
-    icon = "GFX_idea_unknown"
+    icon = "GFX_idea_gre_schachtplan"
 	
     enable = { 
         OR = {

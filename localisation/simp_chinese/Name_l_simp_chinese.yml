@@ -100,7 +100,11 @@
  GER_national_focus_Battle_of_Berlin: "柏林保卫战"
  GER_national_focus_STG44: "STG44"
  GER_national_focus_VICTORY: "最终胜利"
-
+ GER_Dip_Focus: "德意志外交"
+ GER_turkey_puppet_0: "傀儡土耳其"
+ GER_turkey_friend_0: "与土耳其结盟"
+ GER_SWE_pupet: "迫使瑞典结盟"
+ 
  GR1_national_focus: "第三装甲集团军群"
  GR1_national_focus_empire_navy: "帝国海军"
  GR1_get_navy: "获得由§Y1§!战列 §Y2§!重巡 §Y3§!轻巡 §Y12§!驱逐§Y35§!潜艇组成的舰队"
@@ -112,8 +116,40 @@
  GR6_national_focus_Elite_Veterans: "精锐老兵"
  GR6_national_focus_state_cooperation: "地区合作"
 
+ GER_Hitler_Youth_League: "希特勒青年团"
+ GER_Search_machine_tools: "搜寻机床"
+ GER_setup_factories: "广开工厂"
+ GER_Emphasize_stability: "重视稳定"
+ GER_Surrender_resources: "资源上缴国有"
+ GER_Expand_airport: "扩建机场"
+ GER_Expand_antiair: "构筑防空阵地"
+ GER_Requisition_trains: "征用火车"
+ GER_Gestapo: "盖世太保"
+ GER_compound: "合成橡胶"
+
+
+
+
+
+
+
+
+#事件
+ MEM_event.1.t: "德意志要求我们臣服"
+ MEM_event.1.d: "德意志要求我们臣服"
+ MEM_event.1.a: "我们别无选择"
+ MEM_event.1.b: "跟德佬爆了"
+
+
+
+
+
+
+
+
 
 #民族精神
+ Hitler_Leader: "元首"
  Fight_to_win_or_die: "背水一战"
  Prevalence_of_defeatism_0: "失败主义盛行"
  Prevalence_of_defeatism_1: "失败主义盛行"
@@ -172,9 +208,9 @@
  Elite_Veterans: "精锐老兵"
  state_cooperation: "地区合作"
  By_Blood_Alone: "唯有浴血"
-
-
-
+ Hitler_Youth_League: "希特勒青年团"
+ Emphasize_stability: "重视稳定"
+ Gestapo: "盖世太保"
 
 
  State_of_Wehrmacht: "党卫军现状"
@@ -203,6 +239,7 @@
  mountain_artillery_brigade: "山地炮兵"
 
 #阵营
+ Berlin_pact: "轴心国"
  Einheitspakt: "团结协定"
 
 #国名
@@ -218,9 +255,9 @@
  GR2_DEF: "维斯瓦河集团军"
  GR2_ADJ: "维斯瓦河集团军"
 
- GR3: "中央集团军"
- GR3_DEF: "中央集团军"
- GR3_ADJ: "中央集团军"
+ GR3: "中央集团军群"
+ GR3_DEF: "中央集团军群"
+ GR3_ADJ: "中央集团军群"
 
  GR4: "东部边区集团军群"
  GR4_DEF: "东部边区集团军群"
@@ -241,6 +278,24 @@
  GR6_EST: "东方专员辖区"
  GR6_EST_DEF: "东方专员辖区"
  GR6_EST_ADJ: "东方专员辖区"
+
+#人名  不知道什么原因导致本地化不生效，只能把名字编码到人物那里了
+ GER_erich_brandenberger: "埃里希·布兰登贝尔格"
+ GER_traugott_herr: "特劳戈特·赫尔"
+ GER_dietrich_von_saucken: "迪特里希·冯·绍肯"
+ GER_erich_straube: "埃里希·施特劳贝"
+ GER_franz_böhme: "弗朗茨·博梅"
+ GER_heinrich_von_vietinghoff: "海因里希·冯·维廷霍夫"
+ GER_georg_otto_hermann_balck: "乔治·奥托·赫尔曼·巴尔克"
+ GER_joachim_lemelsen: "约阿希姆·莱梅尔森"
+ GER_josef_harpe: "约瑟夫·哈佩"
+ GER_gustavadolf_von_zangen: "古斯塔夫·阿道夫·冯·赞根"
+ GER_kurt_von_tippelskirch: "蒂普尔斯克瑞奇"
+ GER_walther_nehring: "瓦尔特·内林"
+ GER_walther_wenck: "瓦尔特·温克"
+ GER_lothar_rendulic: "洛塔尔·伦杜利克"
+ GER_carl_hilpert: "卡尔·奥古斯特·希尔珀特"
+
 #state名称
 STATE_2982:0 "柏林外围地区"
 STATE_2983:0 "柏林外围地区"

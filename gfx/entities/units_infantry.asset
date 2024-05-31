@@ -2596,3 +2596,63 @@ entity = {
 	clone = "ITA_infantry_3_entity"
 	name = "GR5_infantry_3_entity"
 }
+
+entity = {
+	clone = "GER_infantry_entity"
+	name = "GR1_infantry_entity"
+}
+
+entity = {
+	clone = "GER_infantry_2_entity"
+	name = "GR1_infantry_2_entity"
+}
+
+entity = {
+	clone = "GER_infantry_3_entity"
+	name = "GR1_infantry_3_entity"
+}
+
+entity = {
+	clone = "GER_infantry_entity"
+	name = "GR3_infantry_entity"
+}
+
+entity = {
+	clone = "GER_infantry_2_entity"
+	name = "GR3_infantry_2_entity"
+}
+
+entity = {
+	clone = "GER_infantry_3_entity"
+	name = "GR3_infantry_3_entity"
+}
+
+entity = {
+	clone = "GER_infantry_entity"
+	name = "GR4_infantry_entity"
+}
+
+entity = {
+	clone = "GER_infantry_2_entity"
+	name = "GR4_infantry_2_entity"
+}
+
+entity = {
+	clone = "GER_infantry_3_entity"
+	name = "GR4_infantry_3_entity"
+}
+
+entity = {
+	clone = "GER_infantry_entity"
+	name = "GR6_infantry_entity"
+}
+
+entity = {
+	clone = "GER_infantry_2_entity"
+	name = "GR6_infantry_2_entity"
+}
+
+entity = {
+	clone = "GER_infantry_3_entity"
+	name = "GR6_infantry_3_entity"
+}
