@@ -2,7 +2,7 @@ sub_units = {
 
 	Waffen_SS = {
 		abbreviation = "SS"
-		sprite = Waffen_SS
+		sprite = infantry
 		map_icon_category = infantry
 		priority = 120
 		ai_priority = 25

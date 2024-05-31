@@ -2537,11 +2537,16 @@ technologies = {
 	}
 	mountain_artillery  = {
 		category_artillery = {
-			soft_attack = 1
+			mountain = {
+				soft_attack = 1
+			}
+			hills = {
+				soft_attack = 0.5
+			}
 		}
-		category_mountaineers = {
-			soft_attack = 1
-		}
+		# category_mountaineers = {
+		# 	soft_attack = 1
+		# }
 		
         on_research_complete = {
             custom_effect_tooltip = mountain_artillery_TOOLTIP
