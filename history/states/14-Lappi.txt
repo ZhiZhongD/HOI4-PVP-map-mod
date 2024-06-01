@@ -11,7 +11,9 @@ state={
 		add_core_of = FIN
 		add_core_of = SAP
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 			9727 = { naval_base = 1 }
 		}
 		victory_points = { 59 2 }

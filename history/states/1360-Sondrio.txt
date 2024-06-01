@@ -9,7 +9,9 @@ state={
 		add_core_of = ITA
 		add_core_of = LOM
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			16159 = { bunker = 1 }
 			6257 = { bunker = 1 }
 			4920 = { bunker = 1 }

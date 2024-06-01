@@ -7,6 +7,7 @@ state={
 		add_core_of = ABR
 		buildings = {
 			infrastructure = 3
+
 			14836 = { naval_base = 2 }
 		}
 		victory_points = { 14836 10 }

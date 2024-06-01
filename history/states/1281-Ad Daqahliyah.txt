@@ -8,6 +8,7 @@ state={
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 3
+
 		}
 	    victory_points = {
 		    2779 10 #Al Mansurah

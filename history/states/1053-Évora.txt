@@ -10,8 +10,10 @@ state={
 		owner = POR
 		add_core_of = POR
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
         victory_points = {
             19727 5 #Évora

@@ -7,7 +7,9 @@ state={
 		add_core_of = TUS
 		add_core_of = SNA
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = { 14690 5 }
 	}

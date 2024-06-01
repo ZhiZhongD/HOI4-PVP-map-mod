@@ -8,6 +8,7 @@ state={
 		add_core_of = LAT
 		buildings = {
 			infrastructure = 3
+
 			19998 = { naval_base = 3 }
 			industrial_complex = 3
 		}

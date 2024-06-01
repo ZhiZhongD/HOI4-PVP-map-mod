@@ -7,8 +7,10 @@ state={
 		add_core_of = LEB
 		buildings = {
 			15680 = { naval_base = 3 }
-			infrastructure = 2
+						infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
 		victory_points = {
 			15680 40 #Beirut

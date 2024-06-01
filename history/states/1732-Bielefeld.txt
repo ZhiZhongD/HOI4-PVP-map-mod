@@ -9,7 +9,9 @@ state={
 		add_core_of = GER
 		controller = USA
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			arms_factory = 1
 		}
 		add_core_of = PRE

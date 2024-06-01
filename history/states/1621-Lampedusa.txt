@@ -7,6 +7,7 @@ state={
 		add_core_of = SIC
 		buildings = {
 			infrastructure = 3
+
 			15083 = { naval_base = 1 }
 		}
 	}

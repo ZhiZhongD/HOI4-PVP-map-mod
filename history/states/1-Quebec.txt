@@ -8,8 +8,9 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
+
+			industrial_complex = 5
+			industrial_complex = 3
 			dockyard = 1
 			19370 = {
 				naval_base = 6

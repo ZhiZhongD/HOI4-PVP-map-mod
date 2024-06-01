@@ -7,7 +7,9 @@ state={
 		add_core_of = KUR
 		add_core_of = ART
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = { 15405 5 }
 	}

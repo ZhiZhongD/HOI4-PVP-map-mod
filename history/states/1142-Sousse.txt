@@ -7,7 +7,9 @@ state={
 		owner = FRA
 		add_core_of = TUN
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 			21033 = { naval_base = 1 }
 		}
 	

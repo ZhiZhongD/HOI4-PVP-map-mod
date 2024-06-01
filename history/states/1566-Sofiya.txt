@@ -9,8 +9,9 @@ state={
 		add_core_of = BUL
 		buildings = {
 			infrastructure = 3
+
 			air_base = 3
-			industrial_complex = 2
+			industrial_complex = 4
 		}
         victory_points = {
             20366 80

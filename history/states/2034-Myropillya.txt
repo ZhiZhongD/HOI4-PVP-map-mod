@@ -13,6 +13,7 @@ state={
 		add_core_of = DKR
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	manpower=12000

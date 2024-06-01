@@ -331,7 +331,7 @@ declare_war_on = {
 }
 
 
-create_faction = "Berlin Pact"
+create_faction = "轴心国"
 add_to_faction = GR1
 add_to_faction = GR2
 add_to_faction = GR3

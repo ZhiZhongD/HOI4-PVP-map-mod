@@ -9,6 +9,7 @@ state={
 		add_core_of = LTG
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			3868 10 

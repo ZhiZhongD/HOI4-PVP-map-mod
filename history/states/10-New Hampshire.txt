@@ -6,8 +6,10 @@ state={
 		add_core_of = USA
 		add_core_of = NEL
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 			air_base = 1
 		}
 	}

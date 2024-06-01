@@ -9,12 +9,13 @@ state={
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
+
 			9985 = {
 				naval_base = 10
 
 			}
 			air_base = 10
-			industrial_complex = 1
+			industrial_complex = 3
 			arms_factory = 4
 			dockyard = 3
 

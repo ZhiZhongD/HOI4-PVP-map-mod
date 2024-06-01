@@ -12,6 +12,7 @@ state={
 		add_core_of = BSR
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 1
 			924 = {
 				naval_base = 3

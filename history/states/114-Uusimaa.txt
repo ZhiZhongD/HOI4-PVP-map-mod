@@ -8,6 +8,7 @@ state={
 		add_core_of = FIN
 		buildings = {
 			infrastructure = 3
+
 			9966 = {
 				naval_base = 6
 

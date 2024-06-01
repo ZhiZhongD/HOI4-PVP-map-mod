@@ -8,11 +8,13 @@ state={
 		add_core_of = WUK
 		buildings = {
 			infrastructure = 3
+
 			arms_factory = 1
 		}
 		add_core_of = MOL
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = BUC
 		victory_points = {

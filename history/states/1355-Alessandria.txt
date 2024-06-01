@@ -12,7 +12,9 @@ state={
 		add_core_of = ITA
 		add_core_of = PIE
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			arms_factory = 1
 		}
 		victory_points = {

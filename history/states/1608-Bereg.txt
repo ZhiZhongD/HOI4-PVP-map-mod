@@ -7,11 +7,14 @@ state={
 		add_core_of = SLO
 		add_core_of = CRP
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = UKR
 		buildings = {
 			infrastructure = 3
+
 		}
         	victory_points = { 8775 2 }
 		add_core_of = WUK

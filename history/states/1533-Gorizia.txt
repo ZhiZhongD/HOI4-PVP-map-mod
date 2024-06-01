@@ -10,6 +10,7 @@ state={
 		add_core_of = GOR
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 1
 			9109 = { naval_base = 2 }
 		}

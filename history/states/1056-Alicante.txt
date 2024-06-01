@@ -10,7 +10,9 @@ state={
 		add_core_of = VAL
 		add_core_of = SPR
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 			19780 = { naval_base = 2 }
 		}
         victory_points = {

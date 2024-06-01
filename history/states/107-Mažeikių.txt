@@ -11,6 +11,7 @@ state={
 		add_core_of = SMG
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = { 19996 2 }
   	}

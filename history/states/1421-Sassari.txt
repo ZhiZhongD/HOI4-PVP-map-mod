@@ -11,6 +11,7 @@ state={
 		add_core_of = SRD
 		buildings = {
 			infrastructure = 3
+
 			7275 = {
 				naval_base = 5
 

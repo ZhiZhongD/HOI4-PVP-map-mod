@@ -10,6 +10,7 @@ state={
 		add_core_of = TIR
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			14010 10

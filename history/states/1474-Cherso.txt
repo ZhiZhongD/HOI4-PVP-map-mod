@@ -9,6 +9,7 @@ state={
 		add_core_of = IST
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = ITA
 	}

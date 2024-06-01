@@ -1410,14 +1410,56 @@ entity = {
 }
 
 entity = {
+	clone = "GER_heavy_armor_0_entity"
+	name = "GR6_heavy_armor_0_entity"
+}
+entity = {
+	clone = "GER_heavy_armor_2_entity"
+	name = "GR6_heavy_armor_2_entity"
+}
+entity = {
 	clone = "GER_medium_armor_entity"
 	name = "GR6_medium_armor_entity"
 }
-
+entity = {
+	clone = "GER_medium_armor_0_entity"
+	name = "GR6_medium_armor_0_entity"
+}
+entity = {
+	clone = "GER_medium_armor_2_entity"
+	name = "GR6_medium_armor_2_entity"
+}
 entity = {
 	clone = "GER_light_armor_entity"
 	name = "GR6_light_armor_entity"
 }
+entity = {
+	clone = "GER_light_armor_0_entity"
+	name = "GR6_light_armor_0_entity"
+}
+entity = {
+	clone = "GER_light_armor_2_entity"
+	name = "GR6_light_armor_2_entity"
+}
+entity = {
+	clone = "GER_modern_armor_entity"
+	name = "GR6_modern_armor_entity"
+}
+entity = {
+	clone = "GER_super_heavy_armor_entity"
+	name = "GR6_super_heavy_armor_entity"
+}
+
+
+
+
+
+
+
+
+
+
+
 
 entity = {
 	clone = "GER_heavy_armor_entity"
@@ -1425,14 +1467,50 @@ entity = {
 }
 
 entity = {
+	clone = "GER_heavy_armor_0_entity"
+	name = "GR4_heavy_armor_0_entity"
+}
+entity = {
+	clone = "GER_heavy_armor_2_entity"
+	name = "GR4_heavy_armor_2_entity"
+}
+entity = {
 	clone = "GER_medium_armor_entity"
 	name = "GR4_medium_armor_entity"
 }
-
+entity = {
+	clone = "GER_medium_armor_0_entity"
+	name = "GR4_medium_armor_0_entity"
+}
+entity = {
+	clone = "GER_medium_armor_2_entity"
+	name = "GR4_medium_armor_2_entity"
+}
 entity = {
 	clone = "GER_light_armor_entity"
 	name = "GR4_light_armor_entity"
 }
+entity = {
+	clone = "GER_light_armor_0_entity"
+	name = "GR4_light_armor_0_entity"
+}
+entity = {
+	clone = "GER_light_armor_2_entity"
+	name = "GR4_light_armor_2_entity"
+}
+entity = {
+	clone = "GER_modern_armor_entity"
+	name = "GR4_modern_armor_entity"
+}
+entity = {
+	clone = "GER_super_heavy_armor_entity"
+	name = "GR4_super_heavy_armor_entity"
+}
+
+
+
+
+
 
 entity = {
 	clone = "GER_heavy_armor_entity"
@@ -1440,14 +1518,53 @@ entity = {
 }
 
 entity = {
+	clone = "GER_heavy_armor_0_entity"
+	name = "GR3_heavy_armor_0_entity"
+}
+entity = {
+	clone = "GER_heavy_armor_2_entity"
+	name = "GR3_heavy_armor_2_entity"
+}
+entity = {
 	clone = "GER_medium_armor_entity"
 	name = "GR3_medium_armor_entity"
 }
-
+entity = {
+	clone = "GER_medium_armor_0_entity"
+	name = "GR3_medium_armor_0_entity"
+}
+entity = {
+	clone = "GER_medium_armor_2_entity"
+	name = "GR3_medium_armor_2_entity"
+}
 entity = {
 	clone = "GER_light_armor_entity"
 	name = "GR3_light_armor_entity"
 }
+entity = {
+	clone = "GER_light_armor_0_entity"
+	name = "GR3_light_armor_0_entity"
+}
+entity = {
+	clone = "GER_light_armor_2_entity"
+	name = "GR3_light_armor_2_entity"
+}
+entity = {
+	clone = "GER_modern_armor_entity"
+	name = "GR3_modern_armor_entity"
+}
+entity = {
+	clone = "GER_super_heavy_armor_entity"
+	name = "GR3_super_heavy_armor_entity"
+}
+
+
+
+
+
+
+
+
 
 entity = {
 	clone = "GER_heavy_armor_entity"
@@ -1455,13 +1572,81 @@ entity = {
 }
 
 entity = {
+	clone = "GER_heavy_armor_0_entity"
+	name = "GR1_heavy_armor_0_entity"
+}
+entity = {
+	clone = "GER_heavy_armor_2_entity"
+	name = "GR1_heavy_armor_2_entity"
+}
+entity = {
 	clone = "GER_medium_armor_entity"
 	name = "GR1_medium_armor_entity"
 }
-
+entity = {
+	clone = "GER_medium_armor_0_entity"
+	name = "GR1_medium_armor_0_entity"
+}
+entity = {
+	clone = "GER_medium_armor_2_entity"
+	name = "GR1_medium_armor_2_entity"
+}
 entity = {
 	clone = "GER_light_armor_entity"
 	name = "GR1_light_armor_entity"
+}
+entity = {
+	clone = "GER_light_armor_0_entity"
+	name = "GR1_light_armor_0_entity"
+}
+entity = {
+	clone = "GER_light_armor_2_entity"
+	name = "GR1_light_armor_2_entity"
+}
+entity = {
+	clone = "GER_modern_armor_entity"
+	name = "GR1_modern_armor_entity"
+}
+entity = {
+	clone = "GER_super_heavy_armor_entity"
+	name = "GR1_super_heavy_armor_entity"
+}
+
+
+
+entity = {
+	clone = "ITA_heavy_armor_entity"
+	name = "GR5_heavy_armor_entity"
+}
+
+entity = {
+	clone = "ITA_heavy_armor_2_entity"
+	name = "GR5_heavy_armor_2_entity"
+}
+entity = {
+	clone = "ITA_medium_armor_entity"
+	name = "GR5_medium_armor_entity"
+}
+
+entity = {
+	clone = "ITA_light_armor_entity"
+	name = "GR5_light_armor_entity"
+}
+entity = {
+	clone = "GER_light_armor_0_entity"
+	name = "GR5_light_armor_0_entity"
+}
+entity = {
+	clone = "GER_light_armor_2_entity"
+	name = "GR5_light_armor_2_entity"
+}
+entity = {
+	clone = "GER_modern_armor_entity"
+	name = "GR5_modern_armor_entity"
+}
+entity = {
+	clone = "GER_super_heavy_armor_entity"
+	name = "GR5_super_heavy_armor_entity"
 }
 
 entity = {

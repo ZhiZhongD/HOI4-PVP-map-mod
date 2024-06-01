@@ -11,6 +11,7 @@ state={
 		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
+
 			19767 = { naval_base = 4 }
 			19770 = { naval_base = 2 }
 		}

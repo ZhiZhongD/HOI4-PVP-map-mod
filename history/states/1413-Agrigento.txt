@@ -11,6 +11,7 @@ state={
 		add_core_of = SIC
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = { 2068 5 }
 	}

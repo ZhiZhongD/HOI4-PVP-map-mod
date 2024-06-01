@@ -1306,3 +1306,84 @@ entity = {
 	state = { name = "default" animation = "default" }
 	#scale = 0.5
 }
+
+entity = {
+	name = "GR1_light_plane_entity"
+	clone = "GER_light_plane_entity"
+}
+entity = {
+	name = "GR1_medium_plane_entity"
+	clone = "GER_medium_plane_entity"
+}
+entity = {
+	name = "GR1_large_plane_entity"
+	clone = "GER_heavy_plane_entity"
+}
+entity = {
+	name = "GR1_jet_plane_entity"
+	clone = "GER_jet_plane_entity"
+}
+
+entity = {
+	name = "GR3_light_plane_entity"
+	clone = "GER_light_plane_entity"
+}
+entity = {
+	name = "GR3_medium_plane_entity"
+	clone = "GER_medium_plane_entity"
+}
+entity = {
+	name = "GR3_large_plane_entity"
+	clone = "GER_heavy_plane_entity"
+}
+entity = {
+	name = "GR3_jet_plane_entity"
+	clone = "GER_jet_plane_entity"
+}
+
+entity = {
+	name = "GR4_light_plane_entity"
+	clone = "GER_light_plane_entity"
+}
+entity = {
+	name = "GR4_medium_plane_entity"
+	clone = "GER_medium_plane_entity"
+}
+entity = {
+	name = "GR4_large_plane_entity"
+	clone = "GER_heavy_plane_entity"
+}
+entity = {
+	name = "GR4_jet_plane_entity"
+	clone = "GER_jet_plane_entity"
+}
+
+entity = {
+	name = "GR6_light_plane_entity"
+	clone = "GER_light_plane_entity"
+}
+entity = {
+	name = "GR6_medium_plane_entity"
+	clone = "GER_medium_plane_entity"
+}
+entity = {
+	name = "GR6_large_plane_entity"
+	clone = "GER_heavy_plane_entity"
+}
+entity = {
+	name = "GR6_jet_plane_entity"
+	clone = "GER_jet_plane_entity"
+}
+
+entity = {
+	name = "GR5_light_plane_entity"
+	clone = "ITA_light_plane_entity"
+}
+entity = {
+	name = "GR5_medium_plane_entity"
+	clone = "ITA_medium_plane_entity"
+}
+entity = {
+	name = "GR5_large_plane_entity"
+	clone = "ITA_heavy_plane_entity"
+}

@@ -13,6 +13,7 @@ state={
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+
 			air_base = 3
 			6762 = { naval_base = 1 }
 		}

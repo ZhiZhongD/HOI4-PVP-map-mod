@@ -7,14 +7,16 @@ state={
 		owner = SWE
 		add_core_of = SWE
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			19542 = {
 				naval_base = 6
 
 			}
 			air_base = 6
-			industrial_complex = 2
-			arms_factory = 2
+			industrial_complex = 4
+			industrial_complex = 5
 			dockyard = 1
 		}
 		victory_points = {

@@ -11,6 +11,7 @@ state={
 		add_core_of = MLP
 		buildings = {
 			infrastructure = 3
+
 		}
         victory_points = {
             5186 5

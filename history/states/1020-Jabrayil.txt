@@ -8,7 +8,9 @@ state={
 		add_core_of = TCC
 		add_core_of = AZR
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
         victory_points = { 19219 2 }
    	}

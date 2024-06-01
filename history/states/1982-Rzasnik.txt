@@ -12,7 +12,9 @@ state={
 			11466 5 #Ostrołęka
 		}
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
   	}
 	manpower=6140

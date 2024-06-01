@@ -12,6 +12,7 @@ state={
 		add_core_of = UKR
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	manpower=74957

@@ -6,6 +6,7 @@ state={
 		add_core_of = SMR
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			20534 1

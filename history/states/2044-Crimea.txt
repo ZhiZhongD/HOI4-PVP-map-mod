@@ -14,6 +14,7 @@ state={
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
+
 			3523 = { naval_base = 10 }
 			dockyard = 1
 		}

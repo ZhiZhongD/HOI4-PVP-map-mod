@@ -10,6 +10,7 @@ state={
 		add_core_of = ZAP
 		buildings = {
 			infrastructure = 3
+
 		}
 
 	}

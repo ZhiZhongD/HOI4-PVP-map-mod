@@ -12,6 +12,7 @@ state={
 		add_core_of = VLH
 		buildings = {
 			infrastructure = 3
+
 		}
   	}
 	manpower=85500

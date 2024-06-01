@@ -8,6 +8,7 @@ state={
 		add_core_of = AUS
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
             13613 2 #Wiener Neustadt

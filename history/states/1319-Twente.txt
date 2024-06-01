@@ -7,6 +7,7 @@ state={
 		add_core_of = HOL
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			11770 10 

@@ -8,7 +8,9 @@ state={
 		add_core_of = DOB
 		add_core_of = WLC
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
 			 14525 2

@@ -8,9 +8,10 @@ state={
 		add_core_of = SWE
 		buildings = {
 			infrastructure = 3
+
 			19531 = { naval_base = 5 }
 			dockyard = 1
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 		victory_points = {
 			19531 40 

@@ -12,6 +12,7 @@ state={
 		# add_core_of = GER
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 2
 		}
 		add_core_of = PRE

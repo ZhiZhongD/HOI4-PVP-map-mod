@@ -13,7 +13,9 @@ state={
 		add_core_of = TUS
 		add_core_of = PIS
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			dockyard = 1
 			synthetic_refinery = 1
 			14681 = { naval_base = 5 }
