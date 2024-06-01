@@ -9,7 +9,9 @@ state={
 		add_core_of = ITA
 		add_core_of = TUS
 		add_core_of = PIS
-		buildings = { infrastructure = 3 }
+		buildings = { 			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1 }
 	}
 	state_category = small_island
 	manpower=30184

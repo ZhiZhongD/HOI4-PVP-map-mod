@@ -11,7 +11,9 @@ state={
 		add_core_of = JUL
 		add_core_of = IST
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 

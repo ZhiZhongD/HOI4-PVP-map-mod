@@ -8,6 +8,7 @@ state={
 		add_core_of = MOL
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = { 20443 10 }
 	}

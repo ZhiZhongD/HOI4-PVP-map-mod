@@ -10,6 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 
+
 		}
 		add_core_of = KAR
 		victory_points = {

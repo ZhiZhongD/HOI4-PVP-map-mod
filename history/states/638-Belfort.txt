@@ -11,7 +11,9 @@ state={
 		add_core_of = ALS
 		add_core_of = BGN
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 		}
         victory_points = {
             6613 5 #Belfort

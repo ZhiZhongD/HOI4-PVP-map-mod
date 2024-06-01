@@ -10,7 +10,9 @@ state={
 		add_core_of = HRZ
 		add_core_of = BOS
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 

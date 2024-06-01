@@ -8,6 +8,7 @@ state={
 		add_core_of = BEL
 		buildings = {
 			infrastructure = 3
+
 			19890 = { bunker = 3 }
 			12516 = { bunker = 1 }
 			4555 = { bunker = 1 }

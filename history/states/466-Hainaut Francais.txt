@@ -9,7 +9,9 @@ state={
 		add_core_of = WLN
 		add_core_of = HNT
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
 			8296 2 #Valenciennes

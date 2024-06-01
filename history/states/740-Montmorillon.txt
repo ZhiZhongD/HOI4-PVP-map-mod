@@ -8,6 +8,7 @@ state={
 		add_core_of = POI
 		buildings = {
 			infrastructure = 3
+
 		}
     }
 	provinces={

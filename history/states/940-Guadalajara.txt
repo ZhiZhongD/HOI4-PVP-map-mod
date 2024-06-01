@@ -7,8 +7,10 @@ state={
 		add_core_of = SPR
 		add_core_of = CSM
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
         victory_points = {
             5767 5 #Guadalajara

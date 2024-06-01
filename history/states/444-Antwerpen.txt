@@ -9,7 +9,9 @@ state={
 		owner = FRA
 		add_core_of = BEL
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			12165 = { naval_base = 8 }
 			12205 = { bunker = 7 }
 			3980 = { bunker = 2 }

@@ -8,6 +8,10 @@ state={
 		add_core_of = FIN
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 1
+			arms_factory = 1
 			19666 = {
 				naval_base = 1
 

@@ -15,6 +15,7 @@ state={
 		add_core_of = ODS
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	manpower=99148

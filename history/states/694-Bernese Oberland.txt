@@ -6,8 +6,10 @@ state={
 		owner = SWI
 		add_core_of = SWI
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
 		victory_points = {
             13957 2 #Thun

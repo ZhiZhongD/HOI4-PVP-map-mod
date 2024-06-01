@@ -6,6 +6,7 @@ state={
 		add_core_of = POR
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	provinces={

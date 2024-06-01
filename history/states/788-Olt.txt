@@ -8,6 +8,7 @@ state={
 		add_core_of = MUN
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			4146 5

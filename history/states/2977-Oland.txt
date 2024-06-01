@@ -11,6 +11,7 @@ state={
 		add_core_of = SMA
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	manpower=15759

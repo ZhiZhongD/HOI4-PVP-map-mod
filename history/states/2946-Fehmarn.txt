@@ -11,7 +11,9 @@ state={
 		add_core_of = PRE
 		add_core_of = SHL
 		add_core_of = HLS
-		buildings = { infrastructure = 2 }
+		buildings = { 			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1 }
 	}
 	state_category = pastoral
 	manpower=7825

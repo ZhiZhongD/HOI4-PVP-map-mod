@@ -10,7 +10,8 @@ state={
 		add_core_of = THR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
+			industrial_complex = 3
 			20372 = { naval_base = 1 }
 
 		}

@@ -9,6 +9,7 @@ state={
 		buildings = {
 			infrastructure = 3
 
+
 		}
 
 	}

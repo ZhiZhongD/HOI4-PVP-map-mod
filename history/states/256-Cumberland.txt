@@ -12,6 +12,7 @@ state={
 		add_core_of = CMB
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 1
 		}
 	

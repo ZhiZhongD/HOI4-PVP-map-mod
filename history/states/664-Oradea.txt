@@ -9,6 +9,7 @@ state={
 		add_core_of = CRS
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			20396 20 

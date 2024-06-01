@@ -12,6 +12,7 @@ state={
 		add_core_of = LUC
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			15093 5

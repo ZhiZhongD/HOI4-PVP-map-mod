@@ -12,9 +12,11 @@ state={
 		owner = SWI
 		add_core_of = SWI
 		buildings = {
-			infrastructure = 4
-			arms_factory = 2
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 5
+			industrial_complex = 3
 		}
         victory_points = {
             20097 10 #Bern

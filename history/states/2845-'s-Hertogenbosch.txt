@@ -9,7 +9,9 @@ state={
 		add_core_of = HOL
 		add_core_of = BRB
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
 			3044 10 #'s-Hertogenbosch

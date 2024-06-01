@@ -7,8 +7,10 @@ state={
 		owner = ENG
 		add_core_of = HOL
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 			19900 = { naval_base = 1 }
 		}
 		victory_points = {

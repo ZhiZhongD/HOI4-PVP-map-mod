@@ -9,6 +9,7 @@ state={
 		add_core_of = WPR
 		buildings = {
 			infrastructure = 3
+
 		}
 
         victory_points = {

@@ -12,6 +12,7 @@ state={
 		add_core_of = LUS
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = PRE
 		add_core_of = SIL

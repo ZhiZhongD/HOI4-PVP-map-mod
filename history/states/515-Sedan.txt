@@ -10,7 +10,9 @@ state={
             19864 2 #Sedan
         }
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			19864 = { bunker = 1 }
 			12754 = { bunker = 1 }
 		}

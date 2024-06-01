@@ -12,6 +12,7 @@ state={
 		add_core_of = OCC
 		buildings = {
 			infrastructure = 3
+
 		}
         victory_points = {
             19816 10 #Limoges

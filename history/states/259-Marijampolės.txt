@@ -9,7 +9,8 @@ state={
 		add_core_of = SVK
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
+			industrial_complex = 3
 		}
 		victory_points = {
 			7192 2 

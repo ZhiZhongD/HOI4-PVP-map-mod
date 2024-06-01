@@ -9,7 +9,8 @@ state={
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
+			industrial_complex = 3
 			19155 = { naval_base = 1 }
 		}
 		victory_points = {

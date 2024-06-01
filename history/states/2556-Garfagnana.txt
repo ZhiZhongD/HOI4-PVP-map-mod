@@ -10,6 +10,7 @@ state={
 		add_core_of = MDN
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = MCR
 		add_core_of = LCC

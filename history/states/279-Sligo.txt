@@ -9,6 +9,7 @@ state={
 		add_core_of = IRE
 		buildings = {
 			infrastructure = 3
+
 			10907 = { naval_base = 1 }
 		}
 	

@@ -9,7 +9,9 @@ state={
 		add_core_of = PIE
 		add_core_of = ARP
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
 			20006 1

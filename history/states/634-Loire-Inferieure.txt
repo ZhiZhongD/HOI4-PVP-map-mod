@@ -9,10 +9,12 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			6799 = { naval_base = 1 }
 			dockyard = 2
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 		add_core_of = BRI
         victory_points = {

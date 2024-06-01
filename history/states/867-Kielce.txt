@@ -12,6 +12,7 @@ state={
 		add_core_of = MLP
 		buildings = {
 			infrastructure = 3
+
 		}
         victory_points = {
             19912 20 #Kielce

@@ -12,6 +12,7 @@ state={
 		add_core_of = IST
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 1
 			5331 = {
 				naval_base = 3

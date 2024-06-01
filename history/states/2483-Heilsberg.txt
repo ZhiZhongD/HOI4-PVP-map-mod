@@ -9,6 +9,7 @@ state={
 		add_core_of = WRM
 		buildings = {
 			infrastructure = 3
+
 		}
     }
 	provinces={

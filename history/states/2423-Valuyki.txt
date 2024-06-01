@@ -11,6 +11,7 @@ state={
 		add_core_of = CRZ
 		buildings = {
 			infrastructure = 3
+
 		}
 
 		victory_points = {

@@ -10,6 +10,7 @@ state={
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+
 			4806 = {
 				bunker = 1
 			}

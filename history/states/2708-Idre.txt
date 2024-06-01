@@ -8,7 +8,9 @@ state={
 		owner = SWE
 		add_core_of = SWE
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 	manpower=37335

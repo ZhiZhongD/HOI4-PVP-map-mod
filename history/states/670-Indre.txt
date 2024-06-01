@@ -10,6 +10,7 @@ state={
 		add_core_of = ORL
 		buildings = {
 			infrastructure = 3
+
 		}
         victory_points = {
             13921 5 #Châteauroux

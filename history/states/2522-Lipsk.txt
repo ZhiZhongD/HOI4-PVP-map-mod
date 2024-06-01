@@ -9,7 +9,9 @@ state={
 		add_core_of = POL
 		add_core_of = SVK
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_claim_by = LIT
   	}

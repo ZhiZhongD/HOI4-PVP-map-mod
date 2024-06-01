@@ -7,6 +7,7 @@ state={
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = THU
 		add_core_of = SXA

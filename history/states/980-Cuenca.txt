@@ -11,6 +11,7 @@ state={
 		add_core_of = CSM
 		buildings = {
 			infrastructure = 3
+
 		}
         victory_points = {
             8410 5 #Cuenca

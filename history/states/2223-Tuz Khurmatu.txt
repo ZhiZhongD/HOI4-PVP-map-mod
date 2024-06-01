@@ -7,7 +7,9 @@ state={
 				owner = IRQ
 		add_core_of = IRQ
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
 		    18553 2 #Tuz Khurmatu

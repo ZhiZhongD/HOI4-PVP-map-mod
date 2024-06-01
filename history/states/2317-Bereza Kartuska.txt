@@ -12,11 +12,14 @@ state={
 			11526 2 #Iwacewicze
 		}
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 3
+
 		}
   	}
 	manpower=42000

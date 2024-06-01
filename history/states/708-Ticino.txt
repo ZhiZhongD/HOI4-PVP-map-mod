@@ -10,7 +10,9 @@ state={
 		add_core_of = TIC
 		add_core_of = LOM
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 		victory_points = {
             4029 5 #Bellinzona

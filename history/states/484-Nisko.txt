@@ -9,6 +9,7 @@ state={
 		add_core_of = MLP
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = GAL
 		victory_points = {

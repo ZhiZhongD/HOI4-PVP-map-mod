@@ -9,7 +9,9 @@ state={
             8397 2 #Pamiers
         }
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
     }
 	provinces={

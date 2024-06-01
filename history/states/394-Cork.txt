@@ -8,8 +8,10 @@ state={
 		owner = IRE
 		add_core_of = IRE
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 			11917 = { naval_base = 2 }
 		}
 	

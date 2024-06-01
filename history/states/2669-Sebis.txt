@@ -8,7 +8,9 @@ state={
 		add_core_of = TRA
 		add_core_of = CRS
 		buildings = {
-			infrastructure = 2
+						infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
 		}
 	}
 	provinces={

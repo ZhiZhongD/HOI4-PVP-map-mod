@@ -9,6 +9,7 @@ state={
 		add_core_of = OLT
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			20395 10

@@ -1,0 +1,3434 @@
+GR1 = {
+	light_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+				GFX_GER_improved_light_tank_medium #Panzer II
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+
+		}
+	}
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_gwtank_medium
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_ACC_camo
+ 				GFX_GER_light_ACC
+ 				GFX_GER_light_ACB_camo
+ 				GFX_GER_light_ACB
+ 				GFX_GER_light_ACA_camo
+ 				GFX_GER_light_ACA
+ 				GFX_GER_light_ABC_camo
+ 				GFX_GER_light_ABC
+ 				GFX_GER_light_ABB_camo
+ 				GFX_GER_light_ABB
+ 				GFX_GER_light_ABA_camo
+ 				GFX_GER_light_ABA
+ 				GFX_GER_light_AAC_camo
+ 				GFX_GER_light_AAC
+ 				GFX_GER_light_AAB_camo
+ 				GFX_GER_light_AAB
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_light_tank_medium #Panzer II
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_BCC_camo
+ 				GFX_GER_light_BCC
+ 				GFX_GER_light_BCB_camo
+ 				GFX_GER_light_BCB
+ 				GFX_GER_light_BCA_camo
+ 				GFX_GER_light_BCA
+ 				GFX_GER_light_BBC_camo
+ 				GFX_GER_light_BBC
+ 				GFX_GER_light_BBA_camo
+ 				GFX_GER_light_BBA
+ 				GFX_GER_light_BAC_camo
+ 				GFX_GER_light_BAC
+ 				GFX_GER_light_BAB_camo
+				GFX_GER_light_BAB
+ 				GFX_GER_light_BAA_camo
+ 				GFX_GER_light_BAA
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_CCB_camo
+ 				GFX_GER_light_CCB
+ 				GFX_GER_light_CCA_camo
+ 				GFX_GER_light_CCA
+ 				GFX_GER_light_CBC_camo
+ 				GFX_GER_light_CBC
+ 				GFX_GER_light_CBB_camo
+ 				GFX_GER_light_CBB
+ 				GFX_GER_light_CBA_camo
+ 				GFX_GER_light_CBA
+ 				GFX_GER_light_CAC_camo
+ 				GFX_GER_light_CAC
+ 				GFX_GER_light_CAB_camo
+				GFX_GER_light_CAB
+ 				GFX_GER_light_CAA_camo
+ 				GFX_GER_light_CAA
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer -> Pick oldest tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II -> Take oldest tank
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+			}
+		}
+	}
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+	}
+
+	light_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+	light_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+
+	light_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_light_AA_A #Basic Light AA Tank
+				GFX_GER_light_AA_B #Improved Light AA Tank
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank -> Take oldest tank
+			}
+		}
+	}
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_B #Improved Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	
+	light_tank_amphibious_chassis = { #This is the chassis from NSB modules, not the one in the tech tree
+		pool = {
+			icons = { 
+				GFX_GER_light_amphibious_AAA
+				GFX_GER_light_amphibious_AAB
+				GFX_GER_light_amphibious_AAC
+				GFX_GER_light_amphibious_ABA
+				GFX_GER_light_amphibious_ABB
+				GFX_GER_light_amphibious_ABC
+				GFX_GER_light_amphibious_ACA
+				GFX_GER_light_amphibious_ACB
+				GFX_GER_light_amphibious_ACC
+			}
+		}
+	}
+	
+	medium_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank) -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_ACC_camo
+ 				GFX_GER_medium_ACC
+ 				GFX_GER_medium_ACB_camo
+ 				GFX_GER_medium_ACB
+ 				GFX_GER_medium_ACA_camo
+ 				GFX_GER_medium_ACA
+ 				GFX_GER_medium_ABC_camo
+ 				GFX_GER_medium_ABC
+ 				GFX_GER_medium_ABB_camo
+ 				GFX_GER_medium_ABB
+ 				GFX_GER_medium_ABA_camo
+ 				GFX_GER_medium_ABA
+ 				GFX_GER_medium_AAC_camo
+ 				GFX_GER_medium_AAC
+ 				GFX_GER_medium_AAB_camo
+ 				GFX_GER_medium_AAB
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_BCC_camo
+ 				GFX_GER_medium_BCC
+ 				GFX_GER_medium_BCB_camo
+ 				GFX_GER_medium_BCB
+ 				GFX_GER_medium_BCA_camo
+ 				GFX_GER_medium_BCA
+ 				GFX_GER_medium_BBC_camo
+ 				GFX_GER_medium_BBC
+ 				GFX_GER_medium_BBA_camo
+ 				GFX_GER_medium_BBA
+ 				GFX_GER_medium_BAC_camo
+ 				GFX_GER_medium_BAC
+ 				GFX_GER_medium_BAB_camo
+ 				GFX_GER_medium_BAB
+ 				GFX_GER_medium_BAA_camo
+ 				GFX_GER_medium_BAA
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_CCB_camo
+ 				GFX_GER_medium_CCB
+ 				GFX_GER_medium_CCA_camo
+ 				GFX_GER_medium_CCA
+ 				GFX_GER_medium_CBC_camo
+ 				GFX_GER_medium_CBC
+ 				GFX_GER_medium_CBB_camo
+ 				GFX_GER_medium_CBB
+ 				GFX_GER_medium_CBA_camo
+ 				GFX_GER_medium_CBA
+ 				GFX_GER_medium_CAC_camo
+ 				GFX_GER_medium_CAC
+ 				GFX_GER_medium_CAB_camo
+ 				GFX_GER_medium_CAB
+ 				GFX_GER_medium_CAA_camo
+ 				GFX_GER_medium_CAA
+			}
+		}
+	}
+	
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+	}
+	medium_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+				GFX_GER_improved_medium_td_medium
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_0 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_1 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_CCB_camo
+ 				GFX_GER_heavy_CCB
+ 				GFX_GER_heavy_CCA_camo
+ 				GFX_GER_heavy_CCA
+ 				GFX_GER_heavy_CBC_camo
+ 				GFX_GER_heavy_CBC
+ 				GFX_GER_heavy_CBB_camo
+ 				GFX_GER_heavy_CBB
+ 				GFX_GER_heavy_CBA_camo
+ 				GFX_GER_heavy_CBA
+ 				GFX_GER_heavy_CAC_camo
+ 				GFX_GER_heavy_CAC
+ 				GFX_GER_heavy_CAB_camo
+ 				GFX_GER_heavy_CAB
+ 				GFX_GER_heavy_CAA_camo
+ 				GFX_GER_heavy_CAA
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_BCC_camo
+				GFX_GER_heavy_BCC
+ 				GFX_GER_heavy_BCB_camo
+ 				GFX_GER_heavy_BCB
+ 				GFX_GER_heavy_BCA_camo
+ 				GFX_GER_heavy_BCA
+ 				GFX_GER_heavy_BBC_camo
+ 				GFX_GER_heavy_BBC
+ 				GFX_GER_heavy_BBA_camo
+ 				GFX_GER_heavy_BBA
+ 				GFX_GER_heavy_BAC_camo
+ 				GFX_GER_heavy_BAC
+ 				GFX_GER_heavy_BAB_camo
+ 				GFX_GER_heavy_BAB
+ 				GFX_GER_heavy_BAA_camo
+ 				GFX_GER_heavy_BAA
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_ACC_camo
+				GFX_GER_heavy_ACC
+ 				GFX_GER_heavy_ACB_camo
+				GFX_GER_heavy_ACB
+ 				GFX_GER_heavy_ACA_camo
+ 				GFX_GER_heavy_ACA
+ 				GFX_GER_heavy_ABC_camo
+ 				GFX_GER_heavy_ABC
+ 				GFX_GER_heavy_ABB_camo
+ 				GFX_GER_heavy_ABB
+ 				GFX_GER_heavy_ABA_camo
+ 				GFX_GER_heavy_ABA
+ 				GFX_GER_heavy_AAC_camo
+ 				GFX_GER_heavy_AAC
+ 				GFX_GER_heavy_AAB_camo
+ 				GFX_GER_heavy_AAB
+			}
+		}
+	}
+	
+	heavy_tank_aa_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				# Basic
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+
+ 				#Improved
+ 				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+
+ 				#Advanced -> No idea really they don't look advanced but wouldn't make sense in terms of naming otherwise (naming doesn't make sense anyways tbh)
+ 				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Improved Heavy Tank)
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFB #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFC #Pick oldest tank (Basic Heavy Tank Destroyer)
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_super_heavy_tank_medium #Panzer VIII Maus
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_main_battle_tank_medium #E-50 Standardpanzer
+			}
+		}
+	}
+
+	amphibious_tank_chassis = { # No need to check for MTG, these chassis  won't show up without the DLC, (But it throws errors, so please still do or the error log will be sad!)
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			icons = {
+				GFX_GER_amphibious_tank_2_medium #Tauchpanzer III (Amphibious Tank II) #Sorted like this so that by default 2D icon and 3D model match (Amphibious Tank I)
+				GFX_GER_amphibious_tank_medium #Schwimmpanzer II (Amphibious Tank I)
+			}
+			models = {
+				GER_amphibious_armor_entity #Schwimmpanzer II (Amphibious Tank I)
+			}
+		}
+	}
+}
+GR3 = {
+	light_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+				GFX_GER_improved_light_tank_medium #Panzer II
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+
+		}
+	}
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_gwtank_medium
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_ACC_camo
+ 				GFX_GER_light_ACC
+ 				GFX_GER_light_ACB_camo
+ 				GFX_GER_light_ACB
+ 				GFX_GER_light_ACA_camo
+ 				GFX_GER_light_ACA
+ 				GFX_GER_light_ABC_camo
+ 				GFX_GER_light_ABC
+ 				GFX_GER_light_ABB_camo
+ 				GFX_GER_light_ABB
+ 				GFX_GER_light_ABA_camo
+ 				GFX_GER_light_ABA
+ 				GFX_GER_light_AAC_camo
+ 				GFX_GER_light_AAC
+ 				GFX_GER_light_AAB_camo
+ 				GFX_GER_light_AAB
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_light_tank_medium #Panzer II
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_BCC_camo
+ 				GFX_GER_light_BCC
+ 				GFX_GER_light_BCB_camo
+ 				GFX_GER_light_BCB
+ 				GFX_GER_light_BCA_camo
+ 				GFX_GER_light_BCA
+ 				GFX_GER_light_BBC_camo
+ 				GFX_GER_light_BBC
+ 				GFX_GER_light_BBA_camo
+ 				GFX_GER_light_BBA
+ 				GFX_GER_light_BAC_camo
+ 				GFX_GER_light_BAC
+ 				GFX_GER_light_BAB_camo
+				GFX_GER_light_BAB
+ 				GFX_GER_light_BAA_camo
+ 				GFX_GER_light_BAA
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_CCB_camo
+ 				GFX_GER_light_CCB
+ 				GFX_GER_light_CCA_camo
+ 				GFX_GER_light_CCA
+ 				GFX_GER_light_CBC_camo
+ 				GFX_GER_light_CBC
+ 				GFX_GER_light_CBB_camo
+ 				GFX_GER_light_CBB
+ 				GFX_GER_light_CBA_camo
+ 				GFX_GER_light_CBA
+ 				GFX_GER_light_CAC_camo
+ 				GFX_GER_light_CAC
+ 				GFX_GER_light_CAB_camo
+				GFX_GER_light_CAB
+ 				GFX_GER_light_CAA_camo
+ 				GFX_GER_light_CAA
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer -> Pick oldest tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II -> Take oldest tank
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+			}
+		}
+	}
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+	}
+
+	light_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+	light_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+
+	light_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_light_AA_A #Basic Light AA Tank
+				GFX_GER_light_AA_B #Improved Light AA Tank
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank -> Take oldest tank
+			}
+		}
+	}
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_B #Improved Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	
+	light_tank_amphibious_chassis = { #This is the chassis from NSB modules, not the one in the tech tree
+		pool = {
+			icons = { 
+				GFX_GER_light_amphibious_AAA
+				GFX_GER_light_amphibious_AAB
+				GFX_GER_light_amphibious_AAC
+				GFX_GER_light_amphibious_ABA
+				GFX_GER_light_amphibious_ABB
+				GFX_GER_light_amphibious_ABC
+				GFX_GER_light_amphibious_ACA
+				GFX_GER_light_amphibious_ACB
+				GFX_GER_light_amphibious_ACC
+			}
+		}
+	}
+	
+	medium_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank) -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_ACC_camo
+ 				GFX_GER_medium_ACC
+ 				GFX_GER_medium_ACB_camo
+ 				GFX_GER_medium_ACB
+ 				GFX_GER_medium_ACA_camo
+ 				GFX_GER_medium_ACA
+ 				GFX_GER_medium_ABC_camo
+ 				GFX_GER_medium_ABC
+ 				GFX_GER_medium_ABB_camo
+ 				GFX_GER_medium_ABB
+ 				GFX_GER_medium_ABA_camo
+ 				GFX_GER_medium_ABA
+ 				GFX_GER_medium_AAC_camo
+ 				GFX_GER_medium_AAC
+ 				GFX_GER_medium_AAB_camo
+ 				GFX_GER_medium_AAB
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_BCC_camo
+ 				GFX_GER_medium_BCC
+ 				GFX_GER_medium_BCB_camo
+ 				GFX_GER_medium_BCB
+ 				GFX_GER_medium_BCA_camo
+ 				GFX_GER_medium_BCA
+ 				GFX_GER_medium_BBC_camo
+ 				GFX_GER_medium_BBC
+ 				GFX_GER_medium_BBA_camo
+ 				GFX_GER_medium_BBA
+ 				GFX_GER_medium_BAC_camo
+ 				GFX_GER_medium_BAC
+ 				GFX_GER_medium_BAB_camo
+ 				GFX_GER_medium_BAB
+ 				GFX_GER_medium_BAA_camo
+ 				GFX_GER_medium_BAA
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_CCB_camo
+ 				GFX_GER_medium_CCB
+ 				GFX_GER_medium_CCA_camo
+ 				GFX_GER_medium_CCA
+ 				GFX_GER_medium_CBC_camo
+ 				GFX_GER_medium_CBC
+ 				GFX_GER_medium_CBB_camo
+ 				GFX_GER_medium_CBB
+ 				GFX_GER_medium_CBA_camo
+ 				GFX_GER_medium_CBA
+ 				GFX_GER_medium_CAC_camo
+ 				GFX_GER_medium_CAC
+ 				GFX_GER_medium_CAB_camo
+ 				GFX_GER_medium_CAB
+ 				GFX_GER_medium_CAA_camo
+ 				GFX_GER_medium_CAA
+			}
+		}
+	}
+	
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+	}
+	medium_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+				GFX_GER_improved_medium_td_medium
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_0 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_1 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_CCB_camo
+ 				GFX_GER_heavy_CCB
+ 				GFX_GER_heavy_CCA_camo
+ 				GFX_GER_heavy_CCA
+ 				GFX_GER_heavy_CBC_camo
+ 				GFX_GER_heavy_CBC
+ 				GFX_GER_heavy_CBB_camo
+ 				GFX_GER_heavy_CBB
+ 				GFX_GER_heavy_CBA_camo
+ 				GFX_GER_heavy_CBA
+ 				GFX_GER_heavy_CAC_camo
+ 				GFX_GER_heavy_CAC
+ 				GFX_GER_heavy_CAB_camo
+ 				GFX_GER_heavy_CAB
+ 				GFX_GER_heavy_CAA_camo
+ 				GFX_GER_heavy_CAA
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_BCC_camo
+				GFX_GER_heavy_BCC
+ 				GFX_GER_heavy_BCB_camo
+ 				GFX_GER_heavy_BCB
+ 				GFX_GER_heavy_BCA_camo
+ 				GFX_GER_heavy_BCA
+ 				GFX_GER_heavy_BBC_camo
+ 				GFX_GER_heavy_BBC
+ 				GFX_GER_heavy_BBA_camo
+ 				GFX_GER_heavy_BBA
+ 				GFX_GER_heavy_BAC_camo
+ 				GFX_GER_heavy_BAC
+ 				GFX_GER_heavy_BAB_camo
+ 				GFX_GER_heavy_BAB
+ 				GFX_GER_heavy_BAA_camo
+ 				GFX_GER_heavy_BAA
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_ACC_camo
+				GFX_GER_heavy_ACC
+ 				GFX_GER_heavy_ACB_camo
+				GFX_GER_heavy_ACB
+ 				GFX_GER_heavy_ACA_camo
+ 				GFX_GER_heavy_ACA
+ 				GFX_GER_heavy_ABC_camo
+ 				GFX_GER_heavy_ABC
+ 				GFX_GER_heavy_ABB_camo
+ 				GFX_GER_heavy_ABB
+ 				GFX_GER_heavy_ABA_camo
+ 				GFX_GER_heavy_ABA
+ 				GFX_GER_heavy_AAC_camo
+ 				GFX_GER_heavy_AAC
+ 				GFX_GER_heavy_AAB_camo
+ 				GFX_GER_heavy_AAB
+			}
+		}
+	}
+	
+	heavy_tank_aa_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				# Basic
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+
+ 				#Improved
+ 				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+
+ 				#Advanced -> No idea really they don't look advanced but wouldn't make sense in terms of naming otherwise (naming doesn't make sense anyways tbh)
+ 				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Improved Heavy Tank)
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFB #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFC #Pick oldest tank (Basic Heavy Tank Destroyer)
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_super_heavy_tank_medium #Panzer VIII Maus
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_main_battle_tank_medium #E-50 Standardpanzer
+			}
+		}
+	}
+
+	amphibious_tank_chassis = { # No need to check for MTG, these chassis  won't show up without the DLC, (But it throws errors, so please still do or the error log will be sad!)
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			icons = {
+				GFX_GER_amphibious_tank_2_medium #Tauchpanzer III (Amphibious Tank II) #Sorted like this so that by default 2D icon and 3D model match (Amphibious Tank I)
+				GFX_GER_amphibious_tank_medium #Schwimmpanzer II (Amphibious Tank I)
+			}
+			models = {
+				GER_amphibious_armor_entity #Schwimmpanzer II (Amphibious Tank I)
+			}
+		}
+	}
+}
+GR4 = {
+	light_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+				GFX_GER_improved_light_tank_medium #Panzer II
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+
+		}
+	}
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_gwtank_medium
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_ACC_camo
+ 				GFX_GER_light_ACC
+ 				GFX_GER_light_ACB_camo
+ 				GFX_GER_light_ACB
+ 				GFX_GER_light_ACA_camo
+ 				GFX_GER_light_ACA
+ 				GFX_GER_light_ABC_camo
+ 				GFX_GER_light_ABC
+ 				GFX_GER_light_ABB_camo
+ 				GFX_GER_light_ABB
+ 				GFX_GER_light_ABA_camo
+ 				GFX_GER_light_ABA
+ 				GFX_GER_light_AAC_camo
+ 				GFX_GER_light_AAC
+ 				GFX_GER_light_AAB_camo
+ 				GFX_GER_light_AAB
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_light_tank_medium #Panzer II
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_BCC_camo
+ 				GFX_GER_light_BCC
+ 				GFX_GER_light_BCB_camo
+ 				GFX_GER_light_BCB
+ 				GFX_GER_light_BCA_camo
+ 				GFX_GER_light_BCA
+ 				GFX_GER_light_BBC_camo
+ 				GFX_GER_light_BBC
+ 				GFX_GER_light_BBA_camo
+ 				GFX_GER_light_BBA
+ 				GFX_GER_light_BAC_camo
+ 				GFX_GER_light_BAC
+ 				GFX_GER_light_BAB_camo
+				GFX_GER_light_BAB
+ 				GFX_GER_light_BAA_camo
+ 				GFX_GER_light_BAA
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_CCB_camo
+ 				GFX_GER_light_CCB
+ 				GFX_GER_light_CCA_camo
+ 				GFX_GER_light_CCA
+ 				GFX_GER_light_CBC_camo
+ 				GFX_GER_light_CBC
+ 				GFX_GER_light_CBB_camo
+ 				GFX_GER_light_CBB
+ 				GFX_GER_light_CBA_camo
+ 				GFX_GER_light_CBA
+ 				GFX_GER_light_CAC_camo
+ 				GFX_GER_light_CAC
+ 				GFX_GER_light_CAB_camo
+				GFX_GER_light_CAB
+ 				GFX_GER_light_CAA_camo
+ 				GFX_GER_light_CAA
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer -> Pick oldest tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II -> Take oldest tank
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+			}
+		}
+	}
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+	}
+
+	light_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+	light_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+
+	light_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_light_AA_A #Basic Light AA Tank
+				GFX_GER_light_AA_B #Improved Light AA Tank
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank -> Take oldest tank
+			}
+		}
+	}
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_B #Improved Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	
+	light_tank_amphibious_chassis = { #This is the chassis from NSB modules, not the one in the tech tree
+		pool = {
+			icons = { 
+				GFX_GER_light_amphibious_AAA
+				GFX_GER_light_amphibious_AAB
+				GFX_GER_light_amphibious_AAC
+				GFX_GER_light_amphibious_ABA
+				GFX_GER_light_amphibious_ABB
+				GFX_GER_light_amphibious_ABC
+				GFX_GER_light_amphibious_ACA
+				GFX_GER_light_amphibious_ACB
+				GFX_GER_light_amphibious_ACC
+			}
+		}
+	}
+	
+	medium_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank) -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_ACC_camo
+ 				GFX_GER_medium_ACC
+ 				GFX_GER_medium_ACB_camo
+ 				GFX_GER_medium_ACB
+ 				GFX_GER_medium_ACA_camo
+ 				GFX_GER_medium_ACA
+ 				GFX_GER_medium_ABC_camo
+ 				GFX_GER_medium_ABC
+ 				GFX_GER_medium_ABB_camo
+ 				GFX_GER_medium_ABB
+ 				GFX_GER_medium_ABA_camo
+ 				GFX_GER_medium_ABA
+ 				GFX_GER_medium_AAC_camo
+ 				GFX_GER_medium_AAC
+ 				GFX_GER_medium_AAB_camo
+ 				GFX_GER_medium_AAB
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_BCC_camo
+ 				GFX_GER_medium_BCC
+ 				GFX_GER_medium_BCB_camo
+ 				GFX_GER_medium_BCB
+ 				GFX_GER_medium_BCA_camo
+ 				GFX_GER_medium_BCA
+ 				GFX_GER_medium_BBC_camo
+ 				GFX_GER_medium_BBC
+ 				GFX_GER_medium_BBA_camo
+ 				GFX_GER_medium_BBA
+ 				GFX_GER_medium_BAC_camo
+ 				GFX_GER_medium_BAC
+ 				GFX_GER_medium_BAB_camo
+ 				GFX_GER_medium_BAB
+ 				GFX_GER_medium_BAA_camo
+ 				GFX_GER_medium_BAA
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_CCB_camo
+ 				GFX_GER_medium_CCB
+ 				GFX_GER_medium_CCA_camo
+ 				GFX_GER_medium_CCA
+ 				GFX_GER_medium_CBC_camo
+ 				GFX_GER_medium_CBC
+ 				GFX_GER_medium_CBB_camo
+ 				GFX_GER_medium_CBB
+ 				GFX_GER_medium_CBA_camo
+ 				GFX_GER_medium_CBA
+ 				GFX_GER_medium_CAC_camo
+ 				GFX_GER_medium_CAC
+ 				GFX_GER_medium_CAB_camo
+ 				GFX_GER_medium_CAB
+ 				GFX_GER_medium_CAA_camo
+ 				GFX_GER_medium_CAA
+			}
+		}
+	}
+	
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+	}
+	medium_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+				GFX_GER_improved_medium_td_medium
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_0 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_1 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_CCB_camo
+ 				GFX_GER_heavy_CCB
+ 				GFX_GER_heavy_CCA_camo
+ 				GFX_GER_heavy_CCA
+ 				GFX_GER_heavy_CBC_camo
+ 				GFX_GER_heavy_CBC
+ 				GFX_GER_heavy_CBB_camo
+ 				GFX_GER_heavy_CBB
+ 				GFX_GER_heavy_CBA_camo
+ 				GFX_GER_heavy_CBA
+ 				GFX_GER_heavy_CAC_camo
+ 				GFX_GER_heavy_CAC
+ 				GFX_GER_heavy_CAB_camo
+ 				GFX_GER_heavy_CAB
+ 				GFX_GER_heavy_CAA_camo
+ 				GFX_GER_heavy_CAA
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_BCC_camo
+				GFX_GER_heavy_BCC
+ 				GFX_GER_heavy_BCB_camo
+ 				GFX_GER_heavy_BCB
+ 				GFX_GER_heavy_BCA_camo
+ 				GFX_GER_heavy_BCA
+ 				GFX_GER_heavy_BBC_camo
+ 				GFX_GER_heavy_BBC
+ 				GFX_GER_heavy_BBA_camo
+ 				GFX_GER_heavy_BBA
+ 				GFX_GER_heavy_BAC_camo
+ 				GFX_GER_heavy_BAC
+ 				GFX_GER_heavy_BAB_camo
+ 				GFX_GER_heavy_BAB
+ 				GFX_GER_heavy_BAA_camo
+ 				GFX_GER_heavy_BAA
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_ACC_camo
+				GFX_GER_heavy_ACC
+ 				GFX_GER_heavy_ACB_camo
+				GFX_GER_heavy_ACB
+ 				GFX_GER_heavy_ACA_camo
+ 				GFX_GER_heavy_ACA
+ 				GFX_GER_heavy_ABC_camo
+ 				GFX_GER_heavy_ABC
+ 				GFX_GER_heavy_ABB_camo
+ 				GFX_GER_heavy_ABB
+ 				GFX_GER_heavy_ABA_camo
+ 				GFX_GER_heavy_ABA
+ 				GFX_GER_heavy_AAC_camo
+ 				GFX_GER_heavy_AAC
+ 				GFX_GER_heavy_AAB_camo
+ 				GFX_GER_heavy_AAB
+			}
+		}
+	}
+	
+	heavy_tank_aa_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				# Basic
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+
+ 				#Improved
+ 				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+
+ 				#Advanced -> No idea really they don't look advanced but wouldn't make sense in terms of naming otherwise (naming doesn't make sense anyways tbh)
+ 				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Improved Heavy Tank)
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFB #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFC #Pick oldest tank (Basic Heavy Tank Destroyer)
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_super_heavy_tank_medium #Panzer VIII Maus
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_main_battle_tank_medium #E-50 Standardpanzer
+			}
+		}
+	}
+
+	amphibious_tank_chassis = { # No need to check for MTG, these chassis  won't show up without the DLC, (But it throws errors, so please still do or the error log will be sad!)
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			icons = {
+				GFX_GER_amphibious_tank_2_medium #Tauchpanzer III (Amphibious Tank II) #Sorted like this so that by default 2D icon and 3D model match (Amphibious Tank I)
+				GFX_GER_amphibious_tank_medium #Schwimmpanzer II (Amphibious Tank I)
+			}
+			models = {
+				GER_amphibious_armor_entity #Schwimmpanzer II (Amphibious Tank I)
+			}
+		}
+	}
+}
+GR6 = {
+	light_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+				GFX_GER_improved_light_tank_medium #Panzer II
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+
+		}
+	}
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_gwtank_medium
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_light_tank_medium #Panzer I
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_ACC_camo
+ 				GFX_GER_light_ACC
+ 				GFX_GER_light_ACB_camo
+ 				GFX_GER_light_ACB
+ 				GFX_GER_light_ACA_camo
+ 				GFX_GER_light_ACA
+ 				GFX_GER_light_ABC_camo
+ 				GFX_GER_light_ABC
+ 				GFX_GER_light_ABB_camo
+ 				GFX_GER_light_ABB
+ 				GFX_GER_light_ABA_camo
+ 				GFX_GER_light_ABA
+ 				GFX_GER_light_AAC_camo
+ 				GFX_GER_light_AAC
+ 				GFX_GER_light_AAB_camo
+ 				GFX_GER_light_AAB
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_light_tank_medium #Panzer II
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_BCC_camo
+ 				GFX_GER_light_BCC
+ 				GFX_GER_light_BCB_camo
+ 				GFX_GER_light_BCB
+ 				GFX_GER_light_BCA_camo
+ 				GFX_GER_light_BCA
+ 				GFX_GER_light_BBC_camo
+ 				GFX_GER_light_BBC
+ 				GFX_GER_light_BBA_camo
+ 				GFX_GER_light_BBA
+ 				GFX_GER_light_BAC_camo
+ 				GFX_GER_light_BAC
+ 				GFX_GER_light_BAB_camo
+				GFX_GER_light_BAB
+ 				GFX_GER_light_BAA_camo
+ 				GFX_GER_light_BAA
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_light_tank_medium #VK 16.02 Leopard
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_light_CCB_camo
+ 				GFX_GER_light_CCB
+ 				GFX_GER_light_CCA_camo
+ 				GFX_GER_light_CCA
+ 				GFX_GER_light_CBC_camo
+ 				GFX_GER_light_CBC
+ 				GFX_GER_light_CBB_camo
+ 				GFX_GER_light_CBB
+ 				GFX_GER_light_CBA_camo
+ 				GFX_GER_light_CBA
+ 				GFX_GER_light_CAC_camo
+ 				GFX_GER_light_CAC
+ 				GFX_GER_light_CAB_camo
+				GFX_GER_light_CAB
+ 				GFX_GER_light_CAA_camo
+ 				GFX_GER_light_CAA
+			}
+		}
+	}
+
+	light_tank_destroyer_chassis = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer -> Pick oldest tank
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer -> Pick oldest tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II -> Take oldest tank
+			}
+		}
+	}
+	light_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_AFA #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFB #Basic Tank Destroyer
+				GFX_GER_light_fixed_AFC #Basic Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_light_td #7.5cm PaK 40 auf Fahrgestell Marder II
+			}
+		}
+	}
+	light_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_BFA #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFB #Improved Tank Destroyer
+				GFX_GER_light_fixed_BFC #Improved Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_td #Marder III
+			}
+		}
+	}
+	light_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_fixed_CFA #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFB #Advanced Tank Destroyer
+				GFX_GER_light_fixed_CFC #Advanced Tank Destroyer
+			}
+		}
+	}
+
+	light_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+	light_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_light_art #Sd. Kfz. 123 Wespe
+			}
+		}
+	}
+
+	light_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_light_AA_A #Basic Light AA Tank
+				GFX_GER_light_AA_B #Improved Light AA Tank
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank -> Take oldest tank
+			}
+		}
+	}
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_A #Basic Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_B #Improved Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	
+	light_tank_amphibious_chassis = { #This is the chassis from NSB modules, not the one in the tech tree
+		pool = {
+			icons = { 
+				GFX_GER_light_amphibious_AAA
+				GFX_GER_light_amphibious_AAB
+				GFX_GER_light_amphibious_AAC
+				GFX_GER_light_amphibious_ABA
+				GFX_GER_light_amphibious_ABB
+				GFX_GER_light_amphibious_ABC
+				GFX_GER_light_amphibious_ACA
+				GFX_GER_light_amphibious_ACB
+				GFX_GER_light_amphibious_ACC
+			}
+		}
+	}
+	
+	medium_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank) -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_ACC_camo
+ 				GFX_GER_medium_ACC
+ 				GFX_GER_medium_ACB_camo
+ 				GFX_GER_medium_ACB
+ 				GFX_GER_medium_ACA_camo
+ 				GFX_GER_medium_ACA
+ 				GFX_GER_medium_ABC_camo
+ 				GFX_GER_medium_ABC
+ 				GFX_GER_medium_ABB_camo
+ 				GFX_GER_medium_ABB
+ 				GFX_GER_medium_ABA_camo
+ 				GFX_GER_medium_ABA
+ 				GFX_GER_medium_AAC_camo
+ 				GFX_GER_medium_AAC
+ 				GFX_GER_medium_AAB_camo
+ 				GFX_GER_medium_AAB
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_medium_tank_medium #Panzer IV (Improved Medium Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_BCC_camo
+ 				GFX_GER_medium_BCC
+ 				GFX_GER_medium_BCB_camo
+ 				GFX_GER_medium_BCB
+ 				GFX_GER_medium_BCA_camo
+ 				GFX_GER_medium_BCA
+ 				GFX_GER_medium_BBC_camo
+ 				GFX_GER_medium_BBC
+ 				GFX_GER_medium_BBA_camo
+ 				GFX_GER_medium_BBA
+ 				GFX_GER_medium_BAC_camo
+ 				GFX_GER_medium_BAC
+ 				GFX_GER_medium_BAB_camo
+ 				GFX_GER_medium_BAB
+ 				GFX_GER_medium_BAA_camo
+ 				GFX_GER_medium_BAA
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_medium_tank_medium #Panzer V (Advanced Medium Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_GER_medium_CCB_camo
+ 				GFX_GER_medium_CCB
+ 				GFX_GER_medium_CCA_camo
+ 				GFX_GER_medium_CCA
+ 				GFX_GER_medium_CBC_camo
+ 				GFX_GER_medium_CBC
+ 				GFX_GER_medium_CBB_camo
+ 				GFX_GER_medium_CBB
+ 				GFX_GER_medium_CBA_camo
+ 				GFX_GER_medium_CBA
+ 				GFX_GER_medium_CAC_camo
+ 				GFX_GER_medium_CAC
+ 				GFX_GER_medium_CAB_camo
+ 				GFX_GER_medium_CAB
+ 				GFX_GER_medium_CAA_camo
+ 				GFX_GER_medium_CAA
+			}
+		}
+	}
+	
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+	}
+	medium_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_A #Basic Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_spaa_medium
+			}
+		}
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_B #Improved Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+
+	medium_tank_destroyer_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+				GFX_GER_improved_medium_td_medium
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_0 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_1 = {
+		
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_basic_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_improved_medium_td
+			}
+		}
+	}
+	medium_tank_destroyer_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = {
+				GFX_GER_advanced_medium_td
+			}
+		}
+	}
+
+	medium_tank_artillery_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_0 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art # Pick oldest tank
+			}
+		}
+	}
+	medium_tank_artillery_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_basic_medium_art
+			}
+		}
+	}
+	medium_tank_artillery_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_medium_art
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank) -> Pick oldest tank
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_CCB_camo
+ 				GFX_GER_heavy_CCB
+ 				GFX_GER_heavy_CCA_camo
+ 				GFX_GER_heavy_CCA
+ 				GFX_GER_heavy_CBC_camo
+ 				GFX_GER_heavy_CBC
+ 				GFX_GER_heavy_CBB_camo
+ 				GFX_GER_heavy_CBB
+ 				GFX_GER_heavy_CBA_camo
+ 				GFX_GER_heavy_CBA
+ 				GFX_GER_heavy_CAC_camo
+ 				GFX_GER_heavy_CAC
+ 				GFX_GER_heavy_CAB_camo
+ 				GFX_GER_heavy_CAB
+ 				GFX_GER_heavy_CAA_camo
+ 				GFX_GER_heavy_CAA
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_GER_improved_heavy_tank_medium #Panzer VI (Improved Heavy Tank)
+			}
+
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_BCC_camo
+				GFX_GER_heavy_BCC
+ 				GFX_GER_heavy_BCB_camo
+ 				GFX_GER_heavy_BCB
+ 				GFX_GER_heavy_BCA_camo
+ 				GFX_GER_heavy_BCA
+ 				GFX_GER_heavy_BBC_camo
+ 				GFX_GER_heavy_BBC
+ 				GFX_GER_heavy_BBA_camo
+ 				GFX_GER_heavy_BBA
+ 				GFX_GER_heavy_BAC_camo
+ 				GFX_GER_heavy_BAC
+ 				GFX_GER_heavy_BAB_camo
+ 				GFX_GER_heavy_BAB
+ 				GFX_GER_heavy_BAA_camo
+ 				GFX_GER_heavy_BAA
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_GER_advanced_heavy_tank_medium # Panzer Tiger Ausf. B (Advanced Heavy Tank)
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+ 				GFX_GER_heavy_ACC_camo
+				GFX_GER_heavy_ACC
+ 				GFX_GER_heavy_ACB_camo
+				GFX_GER_heavy_ACB
+ 				GFX_GER_heavy_ACA_camo
+ 				GFX_GER_heavy_ACA
+ 				GFX_GER_heavy_ABC_camo
+ 				GFX_GER_heavy_ABC
+ 				GFX_GER_heavy_ABB_camo
+ 				GFX_GER_heavy_ABB
+ 				GFX_GER_heavy_ABA_camo
+ 				GFX_GER_heavy_ABA
+ 				GFX_GER_heavy_AAC_camo
+ 				GFX_GER_heavy_AAC
+ 				GFX_GER_heavy_AAB_camo
+ 				GFX_GER_heavy_AAB
+			}
+		}
+	}
+	
+	heavy_tank_aa_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+
+	heavy_tank_destroyer_chassis = {
+		pool = {
+			icons = { #German Generic heavy tanks naming is messed up (of course! how could it not? :D ) So a heavy_AXX is Improved (instead of basic), heavy_BXX is Advanced (instead of improved) and a heavy_CXX is Basic (instead of advanced)
+				# Basic
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer -> Grosstraktor chassis
+
+ 				#Improved
+ 				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer -> Panzerjäger Tiger chassis (Improved Heavy SPAT)
+
+ 				#Advanced -> No idea really they don't look advanced but wouldn't make sense in terms of naming otherwise (naming doesn't make sense anyways tbh)
+ 				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Imrpoved Heavy Tank)
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer -> Looks like Panzer VI chassis (Improved Heavy Tank)
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFB #Pick oldest tank (Basic Heavy Tank Destroyer)
+ 				GFX_GER_heavy_fixed_CFC #Pick oldest tank (Basic Heavy Tank Destroyer)
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_CFA #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFB #Basic Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_CFC #Basic Heavy Tank Destroyer
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_AFA #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFB #Improved Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_AFC #Improved Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_improved_heavy_td
+			}
+		}
+	}
+	heavy_tank_destroyer_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_fixed_BFA #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFB #Advanced Heavy Tank Destroyer
+ 				GFX_GER_heavy_fixed_BFC #Advanced Heavy Tank Destroyer
+			}
+		}
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			weight = 2
+			icons = { 
+				GFX_GER_advanced_heavy_td
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_super_heavy_tank_medium #Panzer VIII Maus
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_GER_main_battle_tank_medium #E-50 Standardpanzer
+			}
+		}
+	}
+
+	amphibious_tank_chassis = { # No need to check for MTG, these chassis  won't show up without the DLC, (But it throws errors, so please still do or the error log will be sad!)
+		pool = {
+			limit = { has_dlc = "Man the Guns"}
+			icons = {
+				GFX_GER_amphibious_tank_2_medium #Tauchpanzer III (Amphibious Tank II) #Sorted like this so that by default 2D icon and 3D model match (Amphibious Tank I)
+				GFX_GER_amphibious_tank_medium #Schwimmpanzer II (Amphibious Tank I)
+			}
+			models = {
+				GER_amphibious_armor_entity #Schwimmpanzer II (Amphibious Tank I)
+			}
+		}
+	}
+}
+GR5 = {
+	light_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_light_tank_medium
+				GFX_ITA_improved_light_tank_medium
+				GFX_ITA_advanced_light_tank_medium
+			}
+		}
+	}
+	light_tank_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_gwtank_medium
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_light_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_light_ACC_camo
+ 				GFX_ITA_light_ACC
+ 				GFX_ITA_light_ACB_camo
+ 				GFX_ITA_light_ACB
+ 				GFX_ITA_light_ACA_camo
+ 				GFX_ITA_light_ACA
+ 				GFX_ITA_light_ABC_camo
+ 				GFX_ITA_light_ABC
+ 				GFX_ITA_light_ABB_camo
+ 				GFX_ITA_light_ABB
+ 				GFX_ITA_light_ABA_camo
+ 				GFX_ITA_light_ABA
+ 				GFX_ITA_light_AAC_camo
+ 				GFX_ITA_light_AAC
+ 				GFX_ITA_light_AAB_camo
+ 				GFX_ITA_light_AAB
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_ITA_improved_light_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_light_BCC_camo
+ 				GFX_ITA_light_BCC
+ 				GFX_ITA_light_BCB_camo
+ 				GFX_ITA_light_BCB
+ 				GFX_ITA_light_BCA_camo
+ 				GFX_ITA_light_BCA
+ 				GFX_ITA_light_BBC_camo
+ 				GFX_ITA_light_BBC
+ 				GFX_ITA_light_BBA_camo
+ 				GFX_ITA_light_BBA
+ 				GFX_ITA_light_BAC_camo
+ 				GFX_ITA_light_BAC
+ 				GFX_ITA_light_BAB_camo
+				GFX_ITA_light_BAB
+ 				GFX_ITA_light_BAA_camo
+ 				GFX_ITA_light_BAA
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_ITA_advanced_light_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_light_CCB_camo
+ 				GFX_ITA_light_CCB
+ 				GFX_ITA_light_CAA_camo
+ 				GFX_ITA_light_CAA
+ 				GFX_ITA_light_CBC_camo
+ 				GFX_ITA_light_CBC
+ 				GFX_ITA_light_CBB_camo
+ 				GFX_ITA_light_CBB
+ 				GFX_ITA_light_CBA_camo
+ 				GFX_ITA_light_CBA
+ 				GFX_ITA_light_CAC_camo
+ 				GFX_ITA_light_CAC
+ 				GFX_ITA_light_CAB_camo
+				GFX_ITA_light_CAB
+ 				GFX_ITA_light_CCA_camo
+ 				GFX_ITA_light_CCA
+			}
+		}
+	}
+
+	light_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_light_AA_A #Basic Light AA Tank
+				GFX_ITA_light_AA_B #Improved Light AA Tank
+				GFX_ITA_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_AA_A #Basic Light AA Tank -> Take oldest tank
+			}
+		}
+	}
+	light_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_AA_A #Basic Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_AA_B #Improved Light AA Tank
+			}
+		}
+	}
+	light_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ITA_light_AA_C #Advanced Light AA Tank
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_medium_tank_medium
+				GFX_ITA_improved_medium_tank_medium
+				GFX_ITA_advanced_medium_tank_medium
+			}
+		}
+	}
+
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_medium_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_medium_ACC_camo
+ 				GFX_ITA_medium_ACC
+ 				GFX_ITA_medium_ACB_camo
+ 				GFX_ITA_medium_ACB
+ 				GFX_ITA_medium_ACA_camo
+ 				GFX_ITA_medium_ACA
+ 				GFX_ITA_medium_ABC_camo
+ 				GFX_ITA_medium_ABC
+ 				GFX_ITA_medium_ABB_camo
+ 				GFX_ITA_medium_ABB
+ 				GFX_ITA_medium_ABA_camo
+ 				GFX_ITA_medium_ABA
+ 				GFX_ITA_medium_AAC_camo
+ 				GFX_ITA_medium_AAC
+ 				GFX_ITA_medium_AAB_camo
+ 				GFX_ITA_medium_AAB
+			}
+		}
+	}
+
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_ITA_improved_medium_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_medium_BCC_camo
+ 				GFX_ITA_medium_BCC
+ 				GFX_ITA_medium_BCB_camo
+ 				GFX_ITA_medium_BCB
+ 				GFX_ITA_medium_BCA_camo
+ 				GFX_ITA_medium_BCA
+ 				GFX_ITA_medium_BBC_camo
+ 				GFX_ITA_medium_BBC
+ 				GFX_ITA_medium_BBA_camo
+ 				GFX_ITA_medium_BBA
+ 				GFX_ITA_medium_BAC_camo
+ 				GFX_ITA_medium_BAC
+ 				GFX_ITA_medium_BAB_camo
+ 				GFX_ITA_medium_BAB
+ 				GFX_ITA_medium_BAA_camo
+ 				GFX_ITA_medium_BAA
+			}
+		}
+	}
+
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_ITA_advanced_medium_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = { 
+ 				GFX_ITA_medium_CCB_camo
+ 				GFX_ITA_medium_CCB
+ 				GFX_ITA_medium_CCA_camo
+ 				GFX_ITA_medium_CCA
+ 				GFX_ITA_medium_CBC_camo
+ 				GFX_ITA_medium_CBC
+ 				GFX_ITA_medium_CBB_camo
+ 				GFX_ITA_medium_CBB
+ 				GFX_ITA_medium_CBA_camo
+ 				GFX_ITA_medium_CBA
+ 				GFX_ITA_medium_CAC_camo
+ 				GFX_ITA_medium_CAC
+ 				GFX_ITA_medium_CAB_camo
+ 				GFX_ITA_medium_CAB
+ 				GFX_ITA_medium_CAA_camo
+ 				GFX_ITA_medium_CAA
+			}
+		}
+	}
+
+	medium_tank_aa_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_medium_AA_A #Basic Medium AA Tank
+				GFX_ITA_medium_AA_B #Improved Medium AA Tank
+				GFX_ITA_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_ITA_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_ITA_medium_AA_A #Basic Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_ITA_medium_AA_B #Improved Medium AA Tank
+			}
+		}
+	}
+	medium_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_ITA_medium_AA_C #Advanced Medium AA Tank
+			}
+		}
+	}
+
+	heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_heavy_tank_medium
+				GFX_ITA_improved_heavy_tank_medium
+				GFX_ITA_advanced_heavy_tank_medium
+			}
+		}
+	}
+
+	heavy_tank_chassis_0 = {
+
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = { 
+				GFX_ITA_basic_heavy_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = {
+ 				GFX_ITA_heavy_ACC_camo
+ 				GFX_ITA_heavy_ACC
+ 				GFX_ITA_heavy_ACB_camo
+ 				GFX_ITA_heavy_ACB
+ 				GFX_ITA_heavy_ACA_camo
+ 				GFX_ITA_heavy_ACA
+ 				GFX_ITA_heavy_ABC_camo
+ 				GFX_ITA_heavy_ABC
+ 				GFX_ITA_heavy_ABB_camo
+ 				GFX_ITA_heavy_ABB
+ 				GFX_ITA_heavy_ABA_camo
+ 				GFX_ITA_heavy_ABA
+ 				GFX_ITA_heavy_AAC_camo
+ 				GFX_ITA_heavy_AAC
+ 				GFX_ITA_heavy_AAB_camo
+ 				GFX_ITA_heavy_AAB
+			}
+		}
+	}
+
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = { 
+				GFX_ITA_improved_heavy_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = {
+ 				GFX_ITA_heavy_BCC_camo
+				GFX_ITA_heavy_BCC
+ 				GFX_ITA_heavy_BCB_camo
+ 				GFX_ITA_heavy_BCB
+ 				GFX_ITA_heavy_BCA_camo
+ 				GFX_ITA_heavy_BCA
+ 				GFX_ITA_heavy_BBC_camo
+ 				GFX_ITA_heavy_BBC
+ 				GFX_ITA_heavy_BBA_camo
+ 				GFX_ITA_heavy_BBA
+ 				GFX_ITA_heavy_BAC_camo
+ 				GFX_ITA_heavy_BAC
+ 				GFX_ITA_heavy_BAB_camo
+ 				GFX_ITA_heavy_BAB
+ 				GFX_ITA_heavy_BAA_camo
+ 				GFX_ITA_heavy_BAA
+			}
+		}
+	}
+
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = { 
+				GFX_ITA_advanced_heavy_tank_medium
+			}
+		}
+		pool = {
+			weight = 0.5
+			icons = {
+ 				GFX_ITA_heavy_CCB_camo
+				GFX_ITA_heavy_CCB
+ 				GFX_ITA_heavy_CCA_camo
+ 				GFX_ITA_heavy_CCA
+ 				GFX_ITA_heavy_CBC_camo
+ 				GFX_ITA_heavy_CBC
+ 				GFX_ITA_heavy_CBB_camo
+ 				GFX_ITA_heavy_CBB
+ 				GFX_ITA_heavy_CBA_camo
+ 				GFX_ITA_heavy_CBA
+ 				GFX_ITA_heavy_CAC_camo
+ 				GFX_ITA_heavy_CAC
+ 				GFX_ITA_heavy_CAB_camo
+ 				GFX_ITA_heavy_CAB
+ 				GFX_ITA_heavy_CAA_camo
+ 				GFX_ITA_heavy_CAA
+			}
+		}
+	}
+
+	heavy_tank_aa_chassis = {
+		pool = {
+			icons = { #For these ones the naming convention is inverted because... because of some reason... Just don't ask.
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_0 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank -> Pick the oldest tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_1 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_2 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_B #Improved Heavy AA Tank
+			}
+		}
+	}
+	heavy_tank_aa_chassis_3 = {
+		pool = {
+			icons = {
+				GFX_GER_heavy_AA_A #Advanced Heavy AA Tank
+			}
+		}
+	}
+
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_super_heavy_tank_medium
+			}
+		}
+	}
+
+	modern_tank_chassis = {
+		pool = {
+			icons = { 
+				GFX_ITA_main_battle_tank_medium
+			}
+		}
+	}
+}

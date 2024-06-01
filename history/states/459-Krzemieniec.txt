@@ -12,6 +12,7 @@ state={
 		add_core_of = VLH
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			12713 2 #Krzemieniec

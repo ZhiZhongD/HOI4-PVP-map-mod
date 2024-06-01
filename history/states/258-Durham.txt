@@ -9,9 +9,11 @@ state={
 		add_core_of = ENG
 		add_core_of = NRT
 		buildings = {
-			infrastructure = 4
-			dockyard = 1
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			industrial_complex = 3
 			4742 = { naval_base = 3 }
 
 		}

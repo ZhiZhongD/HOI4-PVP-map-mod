@@ -11,6 +11,7 @@ state={
 		add_core_of = SVK
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_claim_by = LIT
   	}

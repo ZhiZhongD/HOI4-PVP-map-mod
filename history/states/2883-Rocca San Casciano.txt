@@ -9,7 +9,9 @@ state={
 		add_core_of = RMG
 		add_claim_by = TUS
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 

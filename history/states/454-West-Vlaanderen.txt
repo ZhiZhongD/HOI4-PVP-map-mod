@@ -7,13 +7,15 @@ state={
 		owner = FRA
 		add_core_of = BEL
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
 			8746 = { naval_base = 3 coastal_bunker = 1 }
 			19898 = { coastal_bunker = 1 }
 			12255 = { coastal_bunker = 1 }
 			12297 = { coastal_bunker = 1 }
 			6128 = { coastal_bunker = 1 }
-			industrial_complex = 2
+			industrial_complex = 4
 			arms_factory = 1
 		}
 		add_core_of = FLA

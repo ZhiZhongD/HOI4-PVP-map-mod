@@ -11,6 +11,7 @@ state={
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 3
+
 		}
 	}
 	manpower=11216

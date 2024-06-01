@@ -11,6 +11,7 @@ state={
 		add_core_of = NRT
 		buildings = {
 			infrastructure = 3
+
 			dockyard = 2
 			6749 = { naval_base = 7 }
 		}

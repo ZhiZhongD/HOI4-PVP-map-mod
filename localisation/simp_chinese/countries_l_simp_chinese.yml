@@ -570,9 +570,9 @@
  GEO_DEF:0 "格鲁吉亚国"
  GEO_ADJ:0 "格鲁吉亚"
 
- GER: "维斯瓦河集团军"
- GER_DEF: "维斯瓦河集团军"
- GER_ADJ: "维斯瓦河集团军"
+ GER: "维斯瓦河集团军群"
+ GER_DEF: "维斯瓦河集团军群"
+ GER_ADJ: "维斯瓦河集团军群"
 
  DDR_communism:0 "德意志民主共和国"
  DDR_communism_DEF:0 "德意志民主共和国"

@@ -9,8 +9,10 @@ state={
 		add_core_of = ENG
 		add_core_of = EAG
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 			11627 = { naval_base = 1 }
 			air_base = 10
 			radar_station = 1

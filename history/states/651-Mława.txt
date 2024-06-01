@@ -11,6 +11,7 @@ state={
 		ADD_core_of = MZV
 		buildings = {
 			infrastructure = 3
+
 		}
   	}
 	manpower=272900

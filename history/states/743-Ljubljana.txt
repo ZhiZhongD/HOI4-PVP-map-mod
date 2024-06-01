@@ -12,6 +12,7 @@ state={
 		add_core_of = SLV
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = { 14138 20 }
 	}

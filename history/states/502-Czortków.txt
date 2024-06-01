@@ -10,6 +10,7 @@ state={
 		add_core_of = POL
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = GAL
 		add_core_of = WUK
@@ -17,6 +18,7 @@ state={
 		add_core_of = PLD
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			13138 2 #Czortków

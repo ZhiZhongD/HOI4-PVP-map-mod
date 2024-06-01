@@ -9,8 +9,10 @@ state={
 		add_core_of = FRA
 		add_core_of = LYO
 		buildings = {
-			infrastructure = 4
+						infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 		}
         victory_points = {
             8147 20 #Lyon

@@ -11,6 +11,7 @@ state={
 		add_core_of = PUG
 		buildings = {
 			infrastructure = 3
+
 			air_base = 4
 			synthetic_refinery = 1
 			15006 = {

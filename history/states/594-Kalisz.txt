@@ -10,8 +10,9 @@ state={
 		add_core_of = POL
 		add_core_of = WKP
 		buildings = {
-			industrial_complex = 1
+			industrial_complex = 3
 			infrastructure = 3
+
 		}
         victory_points = {
             11945 10

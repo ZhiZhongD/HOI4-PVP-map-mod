@@ -17,8 +17,9 @@ state={
 		add_core_of = DKR
 		buildings = {
 			infrastructure = 3
+
 			air_base = 4
-			industrial_complex = 1
+			industrial_complex = 3
 		}
 	}
 	manpower=1159302
