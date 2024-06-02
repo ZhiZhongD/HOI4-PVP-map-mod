@@ -56,7 +56,8 @@ if = {
 }
 
 set_research_slots = 3
-set_stability = 0.5
+set_stability = 0.8
+
 add_command_power = 20
 
 
@@ -502,8 +503,8 @@ remove_ideas = FRA_matignon_agreements
 remove_ideas = MTG_naval_treaty_adherent
 
 
-set_stability = 0.80
-set_war_support = 0.100
+set_stability = 1
+set_war_support = 0.8
 
 	add_ideas = {
 		tot_economic_mobilisation

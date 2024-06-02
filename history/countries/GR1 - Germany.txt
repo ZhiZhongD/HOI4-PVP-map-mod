@@ -9,8 +9,12 @@ starting_truck_buffer = 0.8
 
 set_research_slots = 4
 set_convoys = 200
-set_stability = 0.4
-set_war_support = 0.5
+set_stability = 0.85
+set_war_support = 1
+add_political_power = 300
+army_experience = 100
+navy_experience = 100
+air_experience = 100
 
 set_politics = {
 	ruling_party = fascism
@@ -93,7 +97,8 @@ add_dynamic_modifier = {
 	modifier = State_of_Wehrmacht
 }
 add_ideas = {
-	tot_econmic_mobilisation
+	war_economy
+	closed_economy
 	scraping_the_barrel
 	Fight_to_win_or_die
 	Prevalence_of_defeatism_0
@@ -350,4 +355,67 @@ if = {
 	set_technology = {
 		armored_car1 = 1
 	}
+}
+set_technology = {
+	delay = 1
+	elastic_defence = 1
+	armored_spearhead = 1
+	schwerpunk = 1
+	blitzkrieg = 1
+	kampfgruppe = 1 #MOBILE WARFARE
+	volkssturm = 1
+	nd_conscription = 1
+#		firebrigades = 1
+	convoy_interdiction_ti = 1
+	unrestricted_submarine_warfare = 1
+	raider_patrols = 1
+	wolfpacks = 1
+	capital_ship_raiders = 1
+	#air
+	formation_flying = 1		
+	dive_bombing = 1
+	direct_ground_support = 1
+	formation_fighting = 1
+	hunt_and_destroy = 1
+	combat_unit_destruction = 1
+}
+
+set_technology = {
+	excavation1 = 1
+	excavation2 = 1
+	excavation3 = 1
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	assembly_line_production = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	rubber_processing = 1
+	improved_rubber_processing = 1
+	advanced_rubber_processing = 1
+	fuel_refining3 = 1
+	improved_oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	improved_equipment_conversion = 1
+
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+	improved_computing_machine = 1
+	improved_decimetric_radar = 1
+	improved_encryption = 1
+	improved_decryption = 1
 }
