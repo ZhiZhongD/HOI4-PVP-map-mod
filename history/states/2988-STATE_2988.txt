@@ -5,6 +5,12 @@ state={
 		11711 21679 
 	}
 	history={
+		victory_points = {
+			11711 80 
+		}
+		victory_points = {
+			21679 80
+		}
 		owner = GER
 		add_core_of = GER
 		buildings = {

@@ -27,6 +27,9 @@ starting_train_buffer = 2
 # 	}
 # }
 
+oob = "FRA_1945"
+set_air_oob = "FRA_1945_air_bba"
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		# set_air_oob = "FRA_1936_air_bba"

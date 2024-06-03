@@ -1,0 +1,118 @@
+
+
+air_wings = {
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }							
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+	}
+	11 = {
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+
+	}
+	### Pacific Theater ###
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 					
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 	
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 					
+		medium_plane_airframe_2 = { owner = "USA" version_name = "B-24 Liberator" amount = 100  } 	
+	}
+	11 = {
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }	
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }				
+		small_plane_airframe_2 = { owner = "USA"  version_name = "P-51 'Mustang'" amount = 100 }
+	}
+}

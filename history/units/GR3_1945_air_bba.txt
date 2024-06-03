@@ -1,0 +1,82 @@
+air_wings = {
+	#### Luftflotte Reich: Central GR3many ####
+	529 = {
+		medium_plane_airframe_2 = { owner = "GR3" amount = 9 version_name = "Ju 88" } 		
+		small_plane_airframe_2 = { owner = "GR3"  version_name = "Fw 190 A-8" amount = 40 }		
+		small_plane_airframe_2 = { owner = "GR3"  version_name = "Fw 190 A-8" amount = 40 }		
+		small_plane_airframe_2 = { owner = "GR3"  version_name = "Fw 190 A-8" amount = 40 }		
+		small_plane_airframe_4 = { owner = "GR3" amount = 19 version_name = "Me 262 'Schwalbe'" } 		
+		small_plane_airframe_1  = { owner = "GR3"  amount = 24 version_name = "Bf 110 C" }
+		small_plane_airframe_1  = { owner = "GR3"  amount = 20 version_name = "Bf 110 C" }
+		medium_plane_airframe_2 = { owner = "GR3" amount = 65 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GR3" amount = 14 version_name = "Ju 88" } 		
+		small_plane_airframe_1  = { owner = "GR3"  amount = 48 version_name = "Bf 110 C" }
+		medium_plane_airframe_2 = { owner = "GR3" amount = 76 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GR3" amount = 10 version_name = "Ju 88" } 			
+	}
+	529 = {
+		small_plane_airframe_1  = { owner = "GR3"  amount = 20 version_name = "Bf 110 C" }
+		small_plane_airframe_1  = { owner = "GR3"  amount = 21 version_name = "Bf 110 C" }
+		small_plane_airframe_1  = { owner = "GR3"  amount = 25 version_name = "Bf 110 C" }
+		medium_plane_airframe_2 = { owner = "GR3" amount = 26 version_name = "Ju 88" } 		
+		small_plane_airframe_1  = { owner = "GR3"  amount = 45 version_name = "Bf 110 C" }
+		medium_plane_airframe_2 = { owner = "GR3" amount = 17 version_name = "Ju 88" } 		
+		small_plane_airframe_1 = { owner = "GR3"  version_name = "Bf 109 G-6" amount = 74 }		
+		small_plane_airframe_4 = { owner = "GR3" amount = 10 version_name = "Me 262 'Schwalbe'" } 		
+		medium_plane_airframe_2 = { owner = "GR3" amount = 25 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GR3" amount = 44 version_name = "Ju 88" } 	
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_2
+			creator = "GR3" 
+			version_name = "Fw 190 A-8"
+		}
+		requested_factories = 4
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_4
+			creator = "GR3" 
+			version_name = "Me 262 'Schwalbe'"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "GR3" 
+			version_name = "Bf 110 C"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_2
+			creator = "GR3" 
+			version_name = "Ju 87 G 'Kanonenvogel'"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_2
+			creator = "GR3" 
+			version_name = "Ju 88"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 100
+	}
+}

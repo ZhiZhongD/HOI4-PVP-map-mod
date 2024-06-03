@@ -1,0 +1,82 @@
+
+
+air_wings = {
+	#### Luftflotte 4: Hungary and Yugoslavia ####
+	1790 = {
+		small_plane_airframe_1 = { owner = "GR4"  version_name = "Bf 109 G-6" amount = 36 }		
+		small_plane_airframe_1 = { owner = "GR4"  version_name = "Bf 109 G-6" amount = 24 }		
+		medium_plane_airframe_2 = { owner = "GR4" amount = 25 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GR4" amount = 13 version_name = "Ju 88" } 
+		small_plane_cas_airframe_2 =  { owner = "GR4" amount = 100 version_name = "Ju 87 G 'Kanonenvogel'" }			
+
+	}
+	1790 = {
+		medium_plane_airframe_2 = { owner = "GR4" amount = 8 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GR4" amount = 7 version_name = "Ju 88" } 		
+		small_plane_airframe_1 = { owner = "GR4"  version_name = "Bf 109 G-6" amount = 26 }		
+		small_plane_airframe_1 = { owner = "GR4"  version_name = "Bf 109 G-6" amount = 24 }		
+		small_plane_airframe_1 = { owner = "GR4"  version_name = "Bf 109 G-6" amount = 19 }		
+		small_plane_cas_airframe_2 =  { owner = "GR4" amount = 54 version_name = "Ju 87 G 'Kanonenvogel'" }				
+	}
+	
+	1790 = {
+		small_plane_airframe_2 = { owner = "GR4"  version_name = "Fw 190 A-8" amount = 46 }		
+		small_plane_airframe_2 = { owner = "GR4"  version_name = "Fw 190 A-8" amount = 38 }		
+		medium_plane_airframe_1 = { owner = "GR4" amount = 100 version_name = "He 111" } 					
+		transport_plane_equipment_1 = { owner = "GR4" amount = 39 }	
+		transport_plane_equipment_1 = { owner = "GR4" amount = 31 }		
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_2
+			creator = "GR4" 
+			version_name = "Fw 190 A-8"
+		}
+		requested_factories = 4
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_4
+			creator = "GR4" 
+			version_name = "Me 262 'Schwalbe'"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "GR4" 
+			version_name = "Bf 110 C"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_2
+			creator = "GR4" 
+			version_name = "Ju 87 G 'Kanonenvogel'"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_2
+			creator = "GR4" 
+			version_name = "Ju 88"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 100
+	}
+}

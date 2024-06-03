@@ -4,6 +4,9 @@ state={
 	name="STATE_1651"
 
 	history={
+		victory_points = {
+			21675 100
+		}
 		owner = GER
 		add_core_of = GER
 		buildings = {

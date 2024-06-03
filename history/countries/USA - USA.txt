@@ -39,6 +39,10 @@ if = {
 	}
 }
 
+oob = "USA_1945"
+set_air_oob = "USA_1945_air_bba"
+set_naval_oob = "USA_1939_naval_mtg"
+
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
@@ -1019,7 +1023,7 @@ if = {
 				engine_type_slot = engine_3_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = drop_tanks
-				special_type_slot_3 = empty
+				special_type_slot_3 = fuel_tanks_small
 			}
 			icon = "GFX_USA_fighter3_medium"
 		}

@@ -1,0 +1,99 @@
+
+
+air_wings = {
+	#### Luftflotte 3: Western Germany and Holland ####	
+	1706 = {
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 41 }		
+		small_plane_airframe_4 = { owner = "GER" amount = 7 version_name = "Me 262 'Schwalbe'" } 	
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 45 }	
+		medium_plane_airframe_2 = { owner = "GER" amount = 80 version_name = "Ju 88" } 	
+		transport_plane_equipment_1 = { owner = "GER" amount = 45 }		
+	}
+	1706 = {
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 40 }		
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 31 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 51 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 25 }	
+		small_plane_cas_airframe_2 =  { owner = "GER" amount = 40 version_name = "Ju 87 G 'Kanonenvogel'" }	
+		medium_plane_airframe_2 = { owner = "GER" amount = 70 version_name = "Ju 88" } 		
+
+	}
+	1706 = {
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 54 }		
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 63 }	
+		medium_plane_airframe_2 = { owner = "GER" amount = 44 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GER" amount = 64 version_name = "Ju 88" } 		
+	}
+	1706 = {
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 67 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 50 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 48 }	
+		small_plane_cas_airframe_2 =  { owner = "GER" amount = 39 version_name = "Ju 87 G 'Kanonenvogel'" }	
+		medium_plane_airframe_2 = { owner = "GER" amount = 29 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GER" amount = 12 version_name = "Ju 88" } 		
+
+	}
+	1706 = {
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 50 }	
+		medium_plane_airframe_1 = { owner = "GER" amount = 100 version_name = "He 111" } 					
+		small_plane_airframe_4 = { owner = "GER" amount = 52 version_name = "Me 262 'Schwalbe'" } 	
+		transport_plane_equipment_1 = { owner = "GER" amount = 51 }		
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_2
+			creator = "GER" 
+			version_name = "Fw 190 A-8"
+		}
+		requested_factories = 4
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_4
+			creator = "GER" 
+			version_name = "Me 262 'Schwalbe'"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "GER" 
+			version_name = "Bf 110 C"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_2
+			creator = "GER" 
+			version_name = "Ju 87 G 'Kanonenvogel'"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_2
+			creator = "GER" 
+			version_name = "Ju 88"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 100
+	}
+}
+	
+
+	

@@ -27,6 +27,10 @@
 # 	}
 # }
 
+oob = "ENG_1945"
+set_air_oob = "ENG_1945_air_bba"
+set_naval_oob = "ENG_1939_naval_mtg"
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		# set_air_oob = "ENG_1936_air_bba"
@@ -1989,7 +1993,7 @@ if = {
 				engine_type_slot = engine_4_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = drop_tanks
-				special_type_slot_3 = empty
+				special_type_slot_3 = fuel_tanks_small
 			}
 			icon = "GFX_ENG_fighter2_medium"
 		}

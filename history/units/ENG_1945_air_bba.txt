@@ -1,0 +1,65 @@
+
+
+air_wings = {
+	435 = {
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+	}
+	435 = {
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 	
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }				
+	}
+	435 = {
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 	
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }		
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }				
+	}
+	435 = {
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+		medium_plane_airframe_2 = { owner = "ENG" version_name = "Avro Lancaster" amount = 100  } 		
+	}
+	435 = {
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+	}
+	435 = {
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+	}
+	435 = {
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+		small_plane_airframe_2 = { owner = "ENG"  version_name = "Spitfire" amount = 100 }			
+	}
+}

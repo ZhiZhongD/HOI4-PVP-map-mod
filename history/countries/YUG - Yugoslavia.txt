@@ -36,6 +36,8 @@ if = {
 	}
 }
 
+oob = "YUG_1945"
+
 set_research_slots = 3
 
 recruit_character = YUG_prince_paul

@@ -1,0 +1,255 @@
+##### Division Templates #####
+division_template = {
+	name = "Strelkovaya Diviziya"			# Rifle Division
+	division_names_group = SOV_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Gornostrelkovaya Diviziya"		# Mountain Rifle Division
+	division_names_group = SOV_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+   		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	    artillery_brigade = { x = 2 y = 0 }
+        anti_tank_brigade = { x = 2 y = 1 }
+	    anti_air_brigade = { x = 2 y = 2 }
+
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 } 
+		artillery = { x = 0 y = 2 } 		# Heavy Arty Regiment had 2x 122mm bn
+	}
+}
+
+division_template = {
+	name = "Vozdushno-Desantnyj Korpus"				# Represents a pair of independent airborne brigades
+	division_names_group = SOV_PAR_01
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 1 y = 0 }
+	}
+	support = 	{
+		light_tank_recon = { x = 0 y = 0 }		# BT-7 (T-40) tanks
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Motostrelkovaya Diviziya"		# Motor Rifle Division
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 3 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	    mot_anti_tank_brigade = { x = 4 y = 0 }
+	    mot_anti_air_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Mekhanizirovannyi Korpus"		
+	division_names_group = SOV_MOT_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		medium_armor = { x = 2 y = 3 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	    mot_anti_tank_brigade = { x = 4 y = 0 }
+	    mot_anti_air_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "NKVD Pogranichnaya Diviziya"		# NKVD Border Guard Division
+	division_names_group = SOV_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }				# Lower-quality equipment and training
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = 	{
+		recon = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Legko-Tankovaya Diviziya"		# Note: Represents regular tank corps (formerly mechanized corps; 4 existed in 1938-40) 
+	division_names_group = SOV_ARM_02
+	regiments = {
+		light_armor = { x = 0 y = 0 }		# T-26/BT-7 tanks
+		light_armor = { x = 0 y = 1 }		# T-26/BT-7 tanks
+		light_armor = { x = 0 y = 2 }		# T-26/BT-7 tanks
+		motorized = { x = 1 y = 0 }		
+		motorized = { x = 1 y = 1 }				
+		mot_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		armored_car_recon = { x = 0 y = 0 }		# BA-10/BA-20 armored cars
+		engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tankovaya Diviziya"				# Note: Represents regular tank corps (formerly mechanized corps; 1941)			
+	division_names_group = SOV_ARM_04
+	regiments = {
+		medium_armor = { x = 0 y = 0 }		# T-35/KV-1 heavy tanks
+		medium_armor = { x = 0 y = 1 }		# T-34 tanks
+		medium_armor = { x = 0 y = 2 }		# T-34 tanks
+		motorized = { x = 1 y = 0 }	
+		motorized = { x = 1 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 1 }
+	    mot_anti_tank_brigade = { x = 2 y = 2 }
+	    mot_anti_air_brigade = { x = 2 y = 3 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }		# BT-7 tanks
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_3
+			creator = "SOV"
+		}
+		requested_factories = 100
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_3
+			creator = "SOV" 
+		}
+		requested_factories = 45
+		progress = 0.8
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 35
+		progress = 0.8
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 40
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 15
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = mechanized_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 20
+		progress = 0.6
+		efficiency = 100
+	}
+
+	add_equipment_to_stockpile = {
+    type = infantry_equipment_3
+    amount = 150000
+    producer = SOV
+    } 
+
+    add_equipment_to_stockpile = {
+    type = support_equipment_1
+    amount = 8000
+    producer = SOV
+    }
+
+    add_equipment_to_stockpile = {
+    type = artillery_equipment_3
+    amount = 8000
+    producer = SOV
+    }
+
+    add_equipment_to_stockpile = {
+    type = motorized_equipment_1
+    amount = 15000
+    producer = SOV
+    }
+
+    add_equipment_to_stockpile = {
+    type = mechanized_equipment_1
+    amount = 7000
+    producer = SOV
+    }
+    add_equipment_to_stockpile = {
+    type = anti_tank_equipment_2
+    amount = 5130
+    producer = SOV
+    }
+    add_equipment_to_stockpile = {
+    type = anti_air_equipment_2
+    amount = 4500
+    producer = SOV
+    }
+}
+

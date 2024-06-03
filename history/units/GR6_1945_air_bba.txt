@@ -1,0 +1,83 @@
+
+
+###### Luftwaffe (CO: Göring) ######
+air_wings = {
+	#### Luftflotte 1: Kurland####
+	174 = {
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 20 }		
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 30 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 45 }		
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 39 }		
+		transport_plane_equipment_1 = { owner = "GER" amount = 35 }		
+	}
+
+
+
+	#### Luftflotte 5: Norway ####
+	174 = {
+		medium_plane_airframe_2 = { owner = "GER" amount = 19 version_name = "Ju 88" } 		
+		medium_plane_airframe_2 = { owner = "GER" amount = 19 version_name = "Ju 88" } 		
+		small_plane_airframe_1 = { owner = "GER"  version_name = "Bf 109 G-6" amount = 50 }
+		small_plane_cas_airframe_2 =  { owner = "GER" amount = 33 version_name = "Ju 87 G 'Kanonenvogel'" }		
+		medium_plane_airframe_2 = { owner = "GER" amount = 100 version_name = "Ju 88" } 		
+		transport_plane_equipment_1 = { owner = "GER" amount = 57 }				
+	}
+	174 = {
+		small_plane_airframe_2 = { owner = "GER"  version_name = "Fw 190 A-8" amount = 9 }		
+		small_plane_airframe_1  = { owner = "GER"  amount = 10 version_name = "Bf 110 C" }
+		small_plane_airframe_1  = { owner = "GER"  amount = 10 version_name = "Bf 110 C" }
+	}
+}			
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_2
+			creator = "GER" 
+			version_name = "Fw 190 A-8"
+		}
+		requested_factories = 4
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_4
+			creator = "GER" 
+			version_name = "Me 262 'Schwalbe'"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "GER" 
+			version_name = "Bf 110 C"
+		}
+		requested_factories = 2
+		progress = 0.15
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_2
+			creator = "GER" 
+			version_name = "Ju 87 G 'Kanonenvogel'"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_2
+			creator = "GER" 
+			version_name = "Ju 88"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 100
+	}
+}
