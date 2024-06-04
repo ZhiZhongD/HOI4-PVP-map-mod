@@ -138,6 +138,7 @@ add_dynamic_modifier = {
 	modifier = State_of_Wehrmacht
 }
 add_ideas = {
+	war_time
 	scraping_the_barrel
 	Fight_to_win_or_die
 	Prevalence_of_defeatism_0

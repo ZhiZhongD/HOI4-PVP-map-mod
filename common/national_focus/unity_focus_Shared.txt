@@ -3445,7 +3445,7 @@ shared_focus = {
         }
         capital_scope = {
             create_unit = { 
-                division = "name = \"GER Militia\" division_template = \"INF-Division\" start_experience_factor = 0.5"
+                division = "name = \"GER Militia\" division_template = \"INT-Division\" start_experience_factor = 0.5"
                 owner = ROOT 
                 count = 12
             }

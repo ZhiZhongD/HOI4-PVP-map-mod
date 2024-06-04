@@ -453,6 +453,7 @@ set_popularities = {
 	fascism = 100
 }
 add_ideas = {
+
 	war_economy
 	scraping_the_barrel
 	Hitler_Leader

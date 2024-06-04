@@ -29,7 +29,18 @@ ideas = {
                 army_core_defence_factor = 0.15
             }
         }
-
+        War_time = {
+            picture = FRA_scw_intervention_republicans_focus
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                conscription_factor = -0.5
+            }
+        }
         Prevalence_of_defeatism_0 = {
             picture = chi_incompetent_officers
             allowed = {
@@ -601,7 +612,7 @@ ideas = {
             }
         }
         AUS_ibelungen = {
-            picture = DEN_flyvertroppernes_organization.
+            picture = DEN_flyvertroppernes_organization
             allowed = {
                 always = yes
             }
