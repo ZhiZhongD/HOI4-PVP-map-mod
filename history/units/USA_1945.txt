@@ -190,4 +190,9 @@ instant_effect = {
     amount = 3130
     producer = USA
     }
+    add_equipment_to_stockpile = {
+    type = train_equipment
+    amount = 1000
+    producer = USA
+    }
 }

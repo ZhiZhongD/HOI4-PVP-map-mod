@@ -170,4 +170,9 @@ instant_effect = {
     amount = 3130
     producer = FRA
     }
+    add_equipment_to_stockpile = {
+    type = train_equipment
+    amount = 1000
+    producer =FRA
+    }
 }

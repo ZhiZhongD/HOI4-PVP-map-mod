@@ -568,12 +568,67 @@ on_actions = {
 			}
 			YUG = {
 				set_oob = "YUG_1945"
+				division_template = {
+					name = "Pesadijska Divizija"		# Infantry Division
+					# Note: infantry divisions were all at low reserve levels even just prior to Axis 
+					#	invasion of 1941
+
+					division_names_group = YUG_INF_01
+
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+					}
+					support = {
+						engineer = { x = 0 y = 0 }  
+						artillery =  { x = 0 y = 1 }  
+					}
+				}
+				division_template = {
+					name = "Gorska Pesadija"				# Mountain Brigade	
+
+					division_names_group = YUG_MTN_01
+
+					regiments = {
+						mountaineers = { x = 0 y = 0 }
+						mountaineers = { x = 0 y = 1 }
+					}
+				}
+				division_template = {
+					name = "Konjička Divizija" 			# Cavalry Division
+					# Note: regiments within the brigade were battalion-sized units
+
+					division_names_group = YUG_CAV_01
+
+					regiments = {
+						cavalry = { x = 0 y = 0 }
+						cavalry = { x = 0 y = 1 }
+						cavalry = { x = 0 y = 2 }
+					}
+				}
+				division_template = {
+					name = "Tenkovski Bataljon" 
+					# Note: 1st Armor Battalion had FT-17s in 1936, 
+					#	2nd battalion formed when R-35s added in 1940
+
+					division_names_group = YUG_ARM_01
+
+					regiments = {
+						light_armor = { x = 0 y = 0 }
+						infantry = { x = 1 y = 0 } # added infantry to not make it a death trap
+						infantry = { x = 1 y = 1 }
+					}
+				}
 				capital_scope = {
 					create_unit = {
 						division = "name = \"Pesadijska Divizija\" division_template = \"Pesadijska Divizija\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = YUG
 						count = 64
 					}
+				}
 			}
 		}
 	}		

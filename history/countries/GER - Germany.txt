@@ -51,6 +51,40 @@ if = {
 	create_intelligence_agency = yes
 	set_faction_spymaster = yes
 }
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Otto Skorzeny"
+		GFX = GFX_portrait_otto_skorenzy
+		traits = { operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Nikolaus Ritter"
+		GFX = GFX_portrait_nikolaus_ritter
+		traits = { operative_safe_cracker }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		gender = male
+	}
+	create_operative_leader = {
+		name = "Eleysa Bazna"
+		GFX = GFX_portrait_eleysa_bazna
+		traits = { operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER TUR }
+		gender = male
+	}
+}
+
 
 # every_owned_state = {
 # 	set_state_flag = GER_INITIAL_STATE
@@ -453,15 +487,12 @@ set_popularities = {
 	fascism = 100
 }
 add_ideas = {
-
-	war_economy
+	tot_economic_mobilisation
 	scraping_the_barrel
 	Hitler_Leader
 	sour_loser
 	general_staff
 	closed_economy
-	limited_conscription
-	partial_economic_mobilisation
 }
 
 
@@ -516,7 +547,7 @@ recruit_character = GER_erich_von_manstein
 recruit_character = GER_ernst_udet
 recruit_character = GER_ernsteberhard_hell
 # recruit_character = GER_erwin_rommel
-recruit_character = GER_erwin_von_witzleben
+#recruit_character = GER_erwin_von_witzleben
 #recruit_character = GER_ewald_von_kleist
 #recruit_character = GER_fedor_von_bock
 #recruit_character = GER_felix_steiner
@@ -599,7 +630,7 @@ recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled 
 #recruit_character = GER_gustavadolf_von_zangen
 #recruit_character = GER_kurt_von_tippelskirch
 #recruit_character = GER_walther_nehring
-#recruit_character = GER_walther_wenck
+recruit_character = GER_walther_wenck
 
 
 

@@ -144,9 +144,9 @@ division_template = {
 		medium_armor = { x = 0 y = 2 }		# T-34 tanks
 		motorized = { x = 1 y = 0 }	
 		motorized = { x = 1 y = 1 }
-		mot_artillery_brigade = { x = 2 y = 1 }
-	    mot_anti_tank_brigade = { x = 2 y = 2 }
-	    mot_anti_air_brigade = { x = 2 y = 3 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+	    mot_anti_tank_brigade = { x = 2 y = 1 }
+	    mot_anti_air_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }		# BT-7 tanks
@@ -249,6 +249,11 @@ instant_effect = {
     add_equipment_to_stockpile = {
     type = anti_air_equipment_2
     amount = 4500
+    producer = SOV
+    }
+    add_equipment_to_stockpile = {
+    type = train_equipment
+    amount = 1500
     producer = SOV
     }
 }
