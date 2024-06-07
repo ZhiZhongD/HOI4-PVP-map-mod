@@ -1,0 +1,961 @@
+division_template = {
+	name = "Infanterie-Division"					# Represents Infanterie Welles 1-4
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        artillery_brigade = { x = 2 y = 0 }
+        anti_tank_brigade = { x = 3 y = 0 }
+
+	}
+	support = {
+			recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			field_hospital = { x = 0 y = 2 }
+			signal_company = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Volksgrenadier-Division"					# Represents Infanterie Welles 1-4
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        artillery_brigade = { x = 1 y = 0 }
+        anti_tank_brigade = { x = 1 y = 1 }
+	}
+	support = {
+			recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			field_hospital = { x = 0 y = 2 }
+			signal_company = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Gebirgs-Division"						# Gebirgs-Divisions
+	division_names_group = GER_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+   		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+      	anti_tank_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		    recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			artillery = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Luftwaffen-Feld Division"					#SEVEN DIVISIONS - SECURITY DIVISIONS	
+	division_names_group = GER_LUF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }				
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Sicherungs-Division"				#THIRTEEN DIVISIONS - SECURITY DIVISIONS
+	division_names_group = GER_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }				
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = { 						
+	name = "Fallschirmjäger-Division"				# Represents Fallschirm-jaeger Rgts 1 and 2
+	division_names_group = GER_PAR_01
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Infanterie-Division (mot.)" 			# Infanterie-Divisionen (mot)
+	division_names_group = GER_MOT_02
+
+	regiments = {
+        motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+   		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        mot_anti_tank_brigade = { x = 2 y = 0 }
+        mot_anti_tank_brigade = { x = 2 y = 1 }
+	}
+	support = {
+       		recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			artillery = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Panzergrenadier-Division"				
+	division_names_group = GER_MEC_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }		
+		mechanized = { x = 1 y = 0 }		
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	    mot_anti_tank_brigade = { x = 3 y = 1 }
+	    mot_anti_air_brigade = { x = 3 y = 2 }
+	}
+	support = {
+	   	mot_recon = { x = 0 y = 0 }
+		 	engineer = { x = 0 y = 1 }
+			anti_tank = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+		}
+		priority = 2
+}
+division_template = {
+	name = "Panzer-Division"				# Represents Panzer Divisions 1-5
+	division_names_group = GER_Arm_01
+
+	regiments = {	
+		medium_armor = { x = 0 y = 0 }		# REVISIT -- L Arm = Pz IIC (variant?) for all
+		medium_armor = { x = 0 y = 1 }		
+		mechanized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		medium_tank_destroyer_brigade = { x = 2 y = 0 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			anti_air = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Schwere Panzer Abteilung"			
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }		
+		heavy_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+		mot_anti_tank_brigade = { x = 2 y = 1 }
+		mot_anti_air_brigade = { x = 2 y = 2 }
+	}
+	support = {
+			mot_recon = { x = 0 y = 0 }
+			engineer = { x = 0 y = 1 }
+			artillery = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "SS-Panzerdivision"				
+	division_names_group = GER_SS_01
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }		
+		medium_armor = { x = 0 y = 1 }
+		heavy_armor = { x = 1 y = 0 }
+		Waffen_SS_mechanized = { x = 2 y = 0 }
+		Waffen_SS_mechanized = { x = 2 y = 1 }
+		medium_tank_destroyer_brigade = { x = 3 y = 0 }
+		mot_artillery_brigade = { x = 4 y = 0 }
+	}
+	support = {
+	   	mot_recon = { x = 0 y = 0 }
+		 	engineer = { x = 0 y = 1 }
+			anti_air = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+		}
+		priority = 2
+}
+division_template = {
+	name = "SS-Infanterie-Division"					
+	division_names_group = GER_SS_01
+
+	regiments = {
+		Waffen_SS  = { x = 0 y = 0 }
+		Waffen_SS  = { x = 0 y = 1 }
+		Waffen_SS  = { x = 0 y = 2 }
+   		Waffen_SS  = { x = 1 y = 0 }
+		Waffen_SS  = { x = 1 y = 1 }
+		Waffen_SS  = { x = 1 y = 2 }
+        artillery_brigade = { x = 2 y = 0 }
+        anti_tank_brigade = { x = 2 y = 1 }
+
+	}
+	support = {
+	   		recon = { x = 0 y = 0 }
+		 	engineer = { x = 0 y = 1 }
+			anti_tank = { x = 0 y = 2 }
+			field_hospital = { x = 0 y = 3 }
+			signal_company = { x = 0 y = 4 }
+		}
+		priority = 2
+}
+division_template = {
+	name = "Volkssturm-Division"					# Represents Infanterie Welles 1-4
+	division_names_group = GER_ALTINF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+			engineer = { x = 0 y = 0 }
+			field_hospital = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+division_template = { 						
+	name = "Fallschirmjäger-Division"				# Represents Fallschirm-jaeger Rgts 1 and 2
+	division_names_group = GER_PAR_01
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_3
+			creator = "GER"
+		}
+		requested_factories = 20
+		progress = 0.9
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_3
+			creator = "GER" 
+		}
+		requested_factories = 9
+		progress = 0.8
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 7
+		progress = 0.8
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_3
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.8
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 8
+		progress = 0.3
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = mechanized_equipment_2
+			creator = "GER" 
+		}
+		requested_factories = 4
+		progress = 0.6
+		efficiency = 100
+	}
+    add_equipment_to_stockpile = {
+    type = train_equipment
+    amount = 100
+    producer = GER
+    }
+}
+
+units = {
+	#德国部队清单
+	#Infanterie-Division
+	#Panzergrenadier-Division 
+	#SS-Infanterie-Division
+	#Volkssturm-Division
+	#Panzer-Division
+	#Fallschirmjäger-Division
+	#SS-Panzerdivision
+	#Schwere Panzer Abteilung
+	#Volksgrenadier-Division
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1934
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1934
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1934
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1934
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1934
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11810
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 11810
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11810
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11810
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 11810
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1934
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 1934
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	########################################
+	########################################
+	division = {  
+		location = 21715
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 20595
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21674
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 805
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21708
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21711
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21710
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 20582
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21713
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 20575
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21714
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21721
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21725
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21722
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21724
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 11579
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 9579
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21723
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	######################
+	division = {  
+		location = 21720
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 20575
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 20589
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 11711
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21679
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 6184
+		division_template = "SS-Infanterie-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	#################
+	division = {  
+		location = 6184
+		division_template = "Fallschirmjäger-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 6184
+		division_template = "Fallschirmjäger-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	#################
+	division = {  
+		location = 20589
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21716
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	#################
+	division = {  
+		location = 21717
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21722
+		division_template = "SS-Panzerdivision"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	#################
+	division = {  
+		location = 21673
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21673
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}	
+	division = {  
+		location = 11654
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 11654
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}	
+	division = {  
+		location = 21675
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21675
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}	
+	division = {  
+		location = 21684
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21684
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}	
+	division = {  
+		location = 21718
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {  
+		location = 21718
+		division_template = "Panzergrenadier-Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}	
+	########################################
+	########################################
+	division = {  
+		location = 5185
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20638
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11663
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 1691
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20576
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20577
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11763
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20586
+		division_template = "Volkssturm-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	##########
+	division = {  
+		location = 11868
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11895
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20636
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11985
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 3680
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 3680
+		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	#############
+	division = {  
+		location = 11868
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11895
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20636
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 11985
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 3680
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 3680
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	#######
+	division = {  
+		location = 5185
+		division_template = "Schwere Panzer Abteilung"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 5185
+		division_template = "Schwere Panzer Abteilung"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	########
+	division = {  
+		location = 5185
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+	division = {  
+		location = 20638
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}	
+}
+
