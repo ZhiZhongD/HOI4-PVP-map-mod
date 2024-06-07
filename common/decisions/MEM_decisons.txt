@@ -1,4 +1,252 @@
 MEM_decision_defence_categories = {
+    Debug_decision_SOV = {
+        visible = {
+            is_debug = yes
+
+        }
+        complete_effect = {
+            SOV = {
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = SOV
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+                    create_unit = {
+						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = SOV
+						count = 9
+					}
+					create_unit = {
+						division = "name = \"NKVD Pogranichnaya Diviziya\" division_template = \"NKVD Pogranichnaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = SOV
+						count = 3
+					}
+                    create_unit = {
+						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = SOV
+						count = 1
+					}
+                }
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = SOV
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                            }
+                        }
+                    }
+                    create_unit = {
+						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = SOV
+						count = 2
+					}
+                }
+            }
+            YUG = {
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = YUG
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+					create_unit = {
+						division = "name = \"Pesadijska Divizija\" division_template = \"Pesadijska Divizija\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = YUG
+						count = 6
+					}
+                }
+            }
+        }
+    }
+    Debug_decision_FRA = {
+        visible = {
+            is_debug = yes
+
+        }
+        complete_effect = {
+            FRA = {
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = FRA
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                                is_controlled_by = USA
+                            }
+                            
+                        }
+                    }
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = FRA
+						count = 5
+					}
+                }
+                capital_scope = {
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = FRA
+						count = 12
+					}
+					create_unit = {
+						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = FRA
+						count = 8
+					}
+                }
+            }
+        }
+    }
+    Debug_decision_ENG = {
+        visible = {
+            is_debug = yes
+
+        }
+        complete_effect = {
+            ENG = {
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = ENG
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 6
+					}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 2
+					}
+					create_unit = {
+						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 2
+					}
+                }
+                capital_scope = {
+                    create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 20
+					}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 6
+					}
+					create_unit = {
+						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 6
+					}
+                }
+            }
+        }
+    }
+    Debug_decision_USA = {
+        visible = {
+            is_debug = yes
+
+        }
+        complete_effect = {
+            USA = {
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = USA
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+                    create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 6
+					}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 1
+					}
+					create_unit = {
+						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 1
+					}
+                }
+                every_owned_state = {
+                    create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 2
+					}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 1
+					}
+                }
+            }
+        }
+    }
     # Prevalence_of_defeatism_up_decision_1771 = { #占领斯图加特
     #     cost = 0
     #     days_remove = 0

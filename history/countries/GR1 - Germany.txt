@@ -1,6 +1,6 @@
 capital = 1706
 
-oob = "GER_1945"
+oob = "GR1_units_1945"
 set_air_oob = "GR1_1945_air_bba"
 
 starting_train_buffer = 2

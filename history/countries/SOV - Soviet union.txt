@@ -1389,6 +1389,7 @@ if = {
     add_ideas = {
     	tot_economic_mobilisation
 		all_adults_serve
+		War_time
     }
 
     	if = {

@@ -2442,9 +2442,23 @@ joint_focus = {
     
     completion_reward_joint_originator = {
         unlock_decision_category_tooltip =         MEM_Peace_decision_categories
+        if = {
+            limit = {
+                has_idea = War_time
+            }
+            remove_ideas = War_time
+        }
+        
     }
     completion_reward_joint_member = {
         unlock_decision_category_tooltip =         MEM_Peace_decision_categories
+        if = {
+            limit = {
+                has_idea = War_time
+            }
+            remove_ideas = War_time
+        }
+        
     }
 }
 

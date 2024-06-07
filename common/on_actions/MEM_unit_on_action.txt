@@ -1,570 +1,201 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			
-			GER = {
-				#set_oob = "GER_1945"
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.4 start_equipment_factor = 0.7"
-						owner = GER
-						count = 10
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.4 start_equipment_factor = 0.7"
-						owner = GER
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.2 start_equipment_factor = 0.3"
-						owner = GER
-						count = 18
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.4 start_equipment_factor = 0.7"
-						owner = GER
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.4 start_equipment_factor = 0.7"
-						owner = GER
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"SS-Panzerdivision\" division_template = \"SS-Panzerdivision\" start_experience_factor = 0.4 start_equipment_factor = 0.7"
-						owner = GER
-						count = 2
-					}
-				}
-				1692 = {
-					create_unit = {
-						division = "name = \"Volksgrenadier-Division\" division_template = \"Volksgrenadier-Division\" start_experience_factor = 0.8 start_equipment_factor = 1"
-						owner = GER
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.8 start_equipment_factor = 1"
-						owner = GER
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.8 start_equipment_factor = 1"
-						owner = GER
-						count = 8
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.8 start_equipment_factor = 1"
-						owner = GER
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Schwere Panzer Abteilung\" division_template = \"Schwere Panzer Abteilung\" start_experience_factor = 0.8 start_equipment_factor = 1"
-						owner = GER
-						count = 2
-					}
-				}
-				2592 = {
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GER
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.7"
-						owner = GER
-						count = 10
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GER
-						count = 4
-					}
-				}
-			}
-			GR1 = {
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Volksgrenadier-Division\" division_template = \"Volksgrenadier-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 17
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.2 start_equipment_factor = 0.2"
-						owner = GR1
-						count = 9
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.2 start_equipment_factor = 0.2"
-						owner = GR1
-						count = 1
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 1
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.4 start_equipment_factor = 1"
-						owner = GR1
-						count = 2
-					}
-				}
-			}
-			GR3 = {
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Volksgrenadier-Division\" division_template = \"Volksgrenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 14
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 35
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.2"
-						owner = GR3
-						count = 47
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.6 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.6 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 10
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.6 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 7
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.2"
-						owner = GR3
-						count = 13
-					}
-					create_unit = {
-						division = "name = \"Schwere Panzer Abteilung\" division_template = \"Schwere Panzer Abteilung\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 1
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division (mot.)\" division_template = \"Infanterie-Division (mot.)\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = GR3
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Gebirgs-Division\" division_template = \"Gebirgs-Division\" start_experience_factor = 0.6 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"SS-Panzerdivision\" division_template = \"SS-Panzerdivision\" start_experience_factor = 0.7 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR3
-						count = 2
-					}
-				}
-			}
-			GR4 = {
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Volksgrenadier-Division\" division_template = \"Volksgrenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 20
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 20
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.7"
-						owner = GR4
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Gebirgs-Division\" division_template = \"Gebirgs-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"SS-Panzerdivision\" division_template = \"SS-Panzerdivision\" start_experience_factor = 0.5 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 4
-					}
-				}
-				1810 = {
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.4"
-						owner = GR4
-						count = 34
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = GR4
-						count = 8
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.2"
-						owner = GR4
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = GR4
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Gebirgs-Division\" division_template = \"Gebirgs-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = GR4
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"SS-Panzerdivision\" division_template = \"SS-Panzerdivision\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = GR4
-						count = 6
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5"
-						owner = GR4
-						count = 4
-					}
-				}
-			}
-			GR5 = {
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 30
-					}
-					create_unit = {
-						division = "name = \"Panzergrenadier-Division\" division_template = \"Panzergrenadier-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
-						owner = GR5
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
-						owner = GR5
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Gebirgs-Division\" division_template = \"Gebirgs-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
-						owner = GR5
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 6
-					}
-				}
-				1378 = {
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
-						owner = GR5
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Gebirgs-Division\" division_template = \"Gebirgs-Division\" start_experience_factor = 0.3 start_equipment_factor = 1"
-						owner = GR5
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Fallschirmjäger-Division\" division_template = \"Fallschirmjäger-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Volkssturm-Division\" division_template = \"Volkssturm-Division\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 10
-					}
-					create_unit = {
-						division = "name = \"SS-Infanterie-Division\" division_template = \"SS-Infanterie-Division\" start_experience_factor = 0.9 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division (mot.)\" division_template = \"Infanterie-Division (mot.)\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
-						owner = GR5
-						count = 2
-					}
-				}
-			}
-			GR6 = {
-				capital_scope = {
-					create_unit = {
-						division = "name = \"Volksgrenadier-Division\" division_template = \"Volksgrenadier-Division\" start_experience_factor = 0.8 start_equipment_factor = 0.5"
-						owner = GR6
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division\" division_template = \"Infanterie-Division\" start_experience_factor = 0.8 start_equipment_factor = 0.5"
-						owner = GR6
-						count = 32
-					}
-					create_unit = {
-						division = "name = \"Infanterie-Division (mot.)\" division_template = \"Infanterie-Division (mot.)\" start_experience_factor = 0.8 start_equipment_factor = 0.5"
-						owner = GR6
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Panzer-Division\" division_template = \"Panzer-Division\" start_experience_factor = 0.8 start_equipment_factor = 0.5"
-						owner = GR6
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Sicherungs-Division\" division_template = \"Sicherungs-Division\" start_experience_factor = 0.8 start_equipment_factor = 0.5"
-						owner = GR6
-						count = 4
-					}
-				}
-			}
 			SOV = {
 				set_air_oob = "SOV_1945_air_bba"
 				set_naval_oob = "SOV_1939_naval_mtg"
-				capital_scope = {
-					create_unit = {
+				every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = SOV
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+                    create_unit = {
 						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = SOV
-						count = 44
+						count = 9
 					}
 					create_unit = {
 						division = "name = \"NKVD Pogranichnaya Diviziya\" division_template = \"NKVD Pogranichnaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = SOV
-						count = 74
+						count = 3
 					}
-				}
-				1643 = {
-					create_unit = {
-						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 01"
-						owner = SOV
-						count = 102
-					}
-					create_unit = {
+                    create_unit = {
 						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = SOV
-						count = 22
+						count = 1
 					}
-				}
-				1654 = {
-					create_unit = {
-						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 184
-					}
-					create_unit = {
+                }
+                every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = SOV
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                            }
+                        }
+                    }
+                    create_unit = {
 						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = SOV
-						count = 12
+						count = 2
 					}
-				}
-				1437 = {
-					create_unit = {
-						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 172
-					}
-					create_unit = {
-						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 12
-					}
-				}
-				1437 = {
-					create_unit = {
-						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 192
-					}
-					create_unit = {
-						division = "name = \"Tankovaya Diviziya\" division_template = \"Tankovaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 10
-					}
-					create_unit = {
-						division = "name = \"NKVD Pogranichnaya Diviziya\" division_template = \"NKVD Pogranichnaya Diviziya\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = SOV
-						count = 10
-					}
-				}
+                }
 			}
 			FRA = {
 				set_oob = "FRA_1945_air_bba"
-				capital_scope = {
+				every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = FRA
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                                is_controlled_by = USA
+                            }
+                            
+                        }
+                    }
 					create_unit = {
 						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = FRA
-						count = 64
+						count = 5
 					}
-				}
-				566 = {
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+                }
+                capital_scope = {
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = FRA
-						count = 16
+						count = 12
 					}
 					create_unit = {
 						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = FRA
-						count = 4
+						count = 8
 					}
-					create_unit = {
-						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = FRA
-						count = 2
-					}
-				}
-				810 = {
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = FRA
-						count = 32
-					}
-				}
+                }
 			}
 			ENG = {
 				set_oob = "ENG_1945"
-				capital_scope = {
+				every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = ENG
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
 					create_unit = {
 						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = ENG
-						count = 84
+						count = 6
 					}
-				}
-				805 = {
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = ENG
-						count = 74
+						count = 2
 					}
 					create_unit = {
 						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = ENG
-						count = 4
+						count = 2
 					}
-				}
-				331 = {
-					create_unit = {
+                }
+                capital_scope = {
+                    create_unit = {
 						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = ENG
-						count = 22
+						count = 20
+					}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = ENG
+						count = 6
 					}
 					create_unit = {
 						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = ENG
-						count = 12
+						count = 6
 					}
-				}
+                }
 			}
 			USA = {
 				set_oob = "USA_1945"
-				capital_scope = {
-					create_unit = {
+				every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = USA
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
+                    create_unit = {
 						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 122
-					}
-					create_unit = {
-						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 4
-					}
-					create_unit = {
-						division = "name = \"Marines\" division_template = \"Marines\" start_experience_factor = 0.5 start_equipment_factor = 0.7" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 14
-					}
-					create_unit = {
-						division = "name = \"Airborne Division\" division_template = \"Airborne Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 2
-					}
-					create_unit = {
-						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 2
-					}
-				}
-				1685 = {
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 82
-					}
-					create_unit = {
-						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 32
-					}
-					create_unit = {
-						division = "name = \"Marines\" division_template = \"Marines\" start_experience_factor = 0.5 start_equipment_factor = 0.7" start_experience_factor = 0.5 start_equipment_factor = 1"
-						owner = USA
-						count = 14
-					}
-					create_unit = {
-						division = "name = \"Airborne Division\" division_template = \"Airborne Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = USA
 						count = 6
 					}
-				}
-				805 = {
-					create_unit = {
-						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = USA
-						count = 14
+						count = 1
 					}
 					create_unit = {
 						division = "name = \"Armored Division\" division_template = \"Armored Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = USA
+						count = 1
+					}
+                }
+                every_owned_state = {
+                    create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
 						count = 2
 					}
-				}
+                    create_unit = {
+						division = "name = \"Motorised Division\" division_template = \"Motorised Division\" start_experience_factor = 0.5 start_equipment_factor = 1"
+						owner = USA
+						count = 1
+					}
+                }
 			}
 			YUG = {
 				set_oob = "YUG_1945"
@@ -622,14 +253,30 @@ on_actions = {
 						infantry = { x = 1 y = 1 }
 					}
 				}
-				capital_scope = {
+				every_controlled_state = {
+                    limit = {
+                        any_neighbor_state = {
+                            NOT = {
+                                is_controlled_by = YUG
+                            }
+                            OR = {
+                                is_controlled_by = GER
+                                is_controlled_by = GR1
+                                is_controlled_by = GR3
+                                is_controlled_by = GR4
+                                is_controlled_by = GR5
+                                is_controlled_by = GR6
+                            }
+                            
+                        }
+                    }
 					create_unit = {
 						division = "name = \"Pesadijska Divizija\" division_template = \"Pesadijska Divizija\" start_experience_factor = 0.5 start_equipment_factor = 1"
 						owner = YUG
-						count = 64
+						count = 6
 					}
-				}
+                }
 			}
 		}
 	}		
-]
+}

@@ -8,8 +8,10 @@ MEM_decision_defence_categories ={
             tag = GR4
             tag = GR5
             tag = GR6
+            is_debug = yes
         }
     }
+
     on_map_area = {
         state = 1650 
         state = 352 

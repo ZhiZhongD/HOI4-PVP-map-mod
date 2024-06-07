@@ -15,7 +15,8 @@
 # 	set_oob = "GER_1936_nsb"
 # }
 
-oob = "GER_1945"
+# oob = "GER_1945"
+oob = "GER_units_1945"
 set_air_oob = "GER_air_1945_bba"
 
 if = {
@@ -487,6 +488,7 @@ set_popularities = {
 	fascism = 100
 }
 add_ideas = {
+	War_time
 	tot_economic_mobilisation
 	scraping_the_barrel
 	Hitler_Leader

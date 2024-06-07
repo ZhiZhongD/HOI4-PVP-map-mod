@@ -1,6 +1,6 @@
 capital = 172
 
-oob = "GER_1945"
+oob = "GR6_units_1945"
 set_air_oob = "GR6_1945_air_bba"
 
 starting_train_buffer = 2
@@ -17,7 +17,7 @@ add_political_power = 300
 army_experience = 100
 navy_experience = 100
 air_experience = 100
-
+add_manpower = 200000
 set_politics = {
 	ruling_party = fascism
 	last_election = "1933.3.5"

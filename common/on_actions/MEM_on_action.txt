@@ -510,50 +510,37 @@ on_actions = {
 				add_manpower = 150000
 			}
 
-			#调整开局工厂
-	# 			every_state = {
-	# 				limit = {
-	# 					OR = {
-	# 						has_state_category = megalopolis
-	# 						has_state_category = metropolis
-	# 						has_state_category = large_city
-	# 						has_state_category = city
-	# 						has_state_category = large_town
-	# 						has_state_category = town
-	# 					}
-	# 				}
-	# 				add_extra_state_shared_building_slots = 2
-    #                 add_building_construction = {
-    #                     type = industrial_complex
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 				add_building_construction = {
-    #                     type = arms_factory
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-    #                 add_building_construction = {
-    #                     type = infrastructure
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 			}
-	# 		GR6 = {
-	# 			every_owned_state = {
-	# 				add_extra_state_shared_building_slots = 3
-    #                 add_building_construction = {
-    #                     type = industrial_complex
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 				add_building_construction = {
-    #                     type = arms_factory
-    #                     level = 2
-    #                     instant_build = yes
-    #                 }
-	# 			}
-	# 		}
+			#调整机场
+				every_state = {
+					limit = {
+						OR = {
+							has_state_category = megalopolis
+							has_state_category = metropolis
+							has_state_category = large_city
+							has_state_category = city
+							# has_state_category = large_town
+							# has_state_category = town
+						}
+					}
+                    add_building_construction = {
+                        type = air_base
+                        level = 3
+                        instant_build = yes
+                    }
+				}
+				every_state = {
+					limit = {
+						OR = {
+							has_state_category = megalopolis
+							has_state_category = metropolis
+						}
+					}
+                    add_building_construction = {
+                        type = air_base
+                        level = 3
+                        instant_build = yes
+                    }
+				}
 			USA = {
 				every_owned_state = {
 					add_extra_state_shared_building_slots = 8
@@ -573,56 +560,6 @@ on_actions = {
 					level = 400
 				}
 			}
-	# 		FRA = {
-	# 			every_owned_state = {
-	# 				limit = {
-	# 					OR = {
-	# 						has_state_category = megalopolis
-	# 						has_state_category = metropolis
-	# 						has_state_category = large_city
-	# 						has_state_category = city
-	# 						has_state_category = large_town
-	# 						has_state_category = town
-	# 					}
-	# 				}
-	# 				add_extra_state_shared_building_slots = 2
-    #                 add_building_construction = {
-    #                     type = industrial_complex
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 				add_building_construction = {
-    #                     type = arms_factory
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 			}
-	# 		}
-	# 		ENG = {
-	# 			every_owned_state = {
-	# 				limit = {
-	# 					OR = {
-	# 						has_state_category = megalopolis
-	# 						has_state_category = metropolis
-	# 						has_state_category = large_city
-	# 						has_state_category = city
-	# 						has_state_category = large_town
-	# 						has_state_category = town
-	# 					}
-	# 				}
-	# 				add_extra_state_shared_building_slots = 2
-    #                 add_building_construction = {
-    #                     type = industrial_complex
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 				add_building_construction = {
-    #                     type = arms_factory
-    #                     level = 1
-    #                     instant_build = yes
-    #                 }
-	# 			}
-	# 		}
-	# 	}
+		}
 	}
 }

@@ -1,9 +1,3 @@
-political_actions = {
-
-
-
-
-
 
 propaganda_efforts = {
 	war_propaganda = { 
@@ -325,6 +319,8 @@ propaganda_efforts = {
 	
 	
 }
+
+political_actions = {
 
 	yalta_conference_decision = { #Can't trust the trigger imo
 	
