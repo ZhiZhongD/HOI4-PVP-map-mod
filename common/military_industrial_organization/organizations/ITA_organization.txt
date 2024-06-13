@@ -17,29 +17,6 @@ ITA_fiat_organization = {
 		OR = {
 			tag = ITA 
 			tag = GR5
-			AND = {
-				tag = GRE 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = BUL 
-				has_dlc = "Battle for the Bosporus"
-			}
-			AND = {
-				tag = ETH 
-				has_dlc = "By Blood Alone"
-			}
-			AND = {
-				tag = BRA
-				has_dlc = "Trial of Allegiance"
-			}
-		}
-	}
-
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_army_designers }
 		}
 	}
 	
@@ -47,52 +24,30 @@ ITA_fiat_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
-		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 158 #PIEMONT (Torino)
-			}
-			ITA_is_northern_designer = yes
-		}
-
-		IF = {
-			limit = { FROM = { original_tag = GRE } }
-#			FROM = {
-#				has_completed_focus = GRE_rapprochement_with_the_italians
-#			}
-		}
-		IF = {
-			limit = { FROM = { original_tag = BUL } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_fiat_mio_flag
-				}
-			}
-			FROM = {
-				OR = {
-					is_subject = no
-					is_subject_of = ITA
-				}
-				#is_in_faction_with = ITA
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
 		IF = {
 			limit = {
-				FROM = {
-					original_tag = BRA
-				}
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = {
-				has_completed_focus = BRA_italian_trucks
-			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
-	
 	add_trait = { 
 		token = ITA_mio_trait_new_industrialization_program
 		name = ITA_new_industrialization_program
@@ -152,31 +107,28 @@ ITA_crda_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = { controls_state = 736 } #LITORALE (Trieste) 
-			ITA_is_northern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
 		}
 
-		IF = {
-			limit = { FROM = { original_tag = BUL } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_crda_mio_flag
-				}
-			}
-			FROM = {
-				OR = {
-					is_subject = no
-					is_subject_of = ITA
-				}
-				#is_in_faction_with = ITA
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -217,10 +169,32 @@ ITA_cantiere_oto_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 158 #PIEDMONT (Genova)
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_northern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -260,10 +234,32 @@ ITA_navalmeccanica_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 117 # CAMPAGNA (Napoli)	
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_southern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -303,10 +299,32 @@ ITA_cantiere_navale_di_ancona_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 157 # ABRUZZO (Ancona)		
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_southern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -346,11 +364,32 @@ ITA_cantieri_navali_tosi_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 849 # PUGLIA (Taranto)
-			
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_southern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -406,26 +445,33 @@ ITA_macchi_organization = {
 		}
 	}
 	
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_air_designers }
-		}
-	}
 	
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 159 #LOMBARDIA
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_northern_designer = yes
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -466,10 +512,32 @@ ITA_savoia_marchetti_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 159 #LOMBARDIA
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_northern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = {
@@ -570,26 +638,33 @@ ITA_caproni_organization = {
 		}
 	}
 
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_air_designers }
-		}
-	}
 	
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 159 #LOMBARDIA
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_northern_designer = yes
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -630,10 +705,32 @@ ITA_piaggio_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 158 #PIEMONTE
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_northern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -676,29 +773,34 @@ ITA_imam_organization = {
 		}
 	}
 
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_air_designers }
-		}
-	}
-	
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 117 #CAMPANIA (Napoli)
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_southern_designer = yes
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
-
 	add_trait = { 
 		token = ITA_mio_trait_new_industrialization_program
 		name = ITA_new_industrialization_program
@@ -736,10 +838,32 @@ ITA_crda_cant_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 736 #LITORALE (Trieste)
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_southern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -785,25 +909,32 @@ ITA_fiat_aviazione_organization = {
 	}
 	
 	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = {
-			FROM = {
-				controls_state = 158 #PIEDMONT (Torino)
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_northern_designer = yes
+			FROM = { is_in_faction_with = GER }
 		}
 
-		IF = {
-			limit = { FROM = { original_tag = BRA } }
-			FROM = { 
-				has_completed_focus = BRA_italian_aircraft
-			} 
-		}		
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 	
 	initial_trait = {
@@ -894,29 +1025,34 @@ ITA_beretta_organization = {
 		}
 	}
 
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_army_designers }
-		}
-	}
-
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 159 #LOMBARDIA	
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_northern_designer = yes
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
-
 	add_trait = { 
 		token = ITA_mio_trait_new_industrialization_program
 		name = ITA_new_industrialization_program
@@ -961,34 +1097,30 @@ ITA_lancia_organization = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = { controls_state = 159 } #LOMBARDIA
-			ITA_is_northern_designer = yes
-		}
-		
 		IF = {
-			limit = { FROM = { original_tag = BUL } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_lancia_mio_flag
-				}
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = {
-				OR = {
-					is_subject = no
-					is_subject_of = ITA
-				}
-				#is_in_faction_with = ITA
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
-
 	add_trait = { 
 		token = ITA_mio_trait_new_industrialization_program
 		name = ITA_new_industrialization_program
@@ -1028,26 +1160,32 @@ ITA_breda_organization = {
 		}
 	}
 
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_country_flag = ETH_ITA_sends_army_designers }
-		}
-	}
-	
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
 		IF = {
 			limit = {
-				FROM = { NOT = { original_tag = ITA } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { NOT = { has_war_with = ITA } }
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ELSE = { #original_tag = ITA
-			FROM = {
-				controls_state = 159 #LOMBARDIA
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			ITA_is_northern_designer = yes
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -1088,10 +1226,32 @@ ITA_brescia_arsenal_organization = {
 	}
 	
 	available = {
-		FROM = {
-			controls_state = 159 #LOMBARDIA
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
 		}
-		ITA_is_northern_designer = yes
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 
 	add_trait = { 
@@ -1131,11 +1291,33 @@ ITA_officine_meccaniche_organization = {
 		has_dlc = "By Blood Alone"
 	}
 	
-#	available = {
-#		FROM = {
-#			has_completed_focus = ITA_new_ricostruzione_industriale
-#		}
-#	}
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { NOT = { has_war_with = GER } }
+		}
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
+	}
 
 	equipment_type = {
 		motorized_equipment

@@ -36,18 +36,24 @@ GER_porsche_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
 			limit = {
-				FROM = { tag = MEX }
+				FROM = { NOT = { original_tag = GER } }
 			}
 			FROM = { is_in_faction_with = GER }
 		}
-		ELSE_IF = {
-			limit = {
-				FROM = { tag = NOR }
-			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
+
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2
 		}
 	}
 }
@@ -89,32 +95,24 @@ GER_henschel_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
-			limit = { 
-				OR = { 
-					FROM = { original_tag = BUL }
-					FROM = { original_tag = ETH } 
-				} 
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_henschel_mio_flag
-				}
-			}
-			
+			FROM = { is_in_faction_with = GER }
 		}
-		IF = {
-			limit = { FROM = { original_tag = BUL } } 
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -144,6 +142,25 @@ GER_man_organization = {
 				FROM = { NOT = { original_tag = GER } }
 			}
 			FROM = { NOT = { has_war_with = GER } }
+		}
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -176,13 +193,9 @@ GER_daimler_benz_organization = {
 		}
 		IF = {
 			limit = {
-				FROM = {
-					original_tag = BRA
-				}
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = {
-				has_completed_focus = BRA_german_tanks
-			}
+			FROM = { is_in_faction_with = GER }
 		}
 	}
 
@@ -203,6 +216,19 @@ GER_daimler_benz_organization = {
 	initial_trait = {
 		organization_modifier = {
 			military_industrial_organization_research_bonus = 0.05
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -274,6 +300,18 @@ GER_germaniawerft_organization = {
 			tag = GR6
 		}
 	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x= 9 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
+	}
 }
 
 GER_blohm_und_voss_organization = {
@@ -287,6 +325,19 @@ GER_blohm_und_voss_organization = {
 			tag = GR3
 			tag = GR4 
 			tag = GR6
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -324,12 +375,24 @@ GER_messerschmitt_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-		
-		if = {
+		IF = {
 			limit = {
-				FROM = { original_tag = NOR }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
+			FROM = { is_in_faction_with = GER }
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 
@@ -390,13 +453,6 @@ GER_junkers_organization = {
 			}
 		}
 	}
-	
-	visible = {
-		IF = {
-			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
-		}
-	}
 
 	available = {
 		# When in a Foreign MIO, countries need to be at peace with original country
@@ -406,17 +462,11 @@ GER_junkers_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
 			limit = {
-				FROM = { NOT  = { original_tag = GER } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_GER_junkers_organization_flag
-				}
-			}
+			FROM = { is_in_faction_with = GER }
 		}
 	}
 
@@ -434,6 +484,19 @@ GER_junkers_organization = {
 			fuel_consumption = -0.05
 		} 
 	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
+	}
 }
 
 GER_focke_wulf_organization = {
@@ -447,6 +510,18 @@ GER_focke_wulf_organization = {
 			tag = GR3
 			tag = GR4 
 			tag = GR6
+		}
+	}
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -478,31 +553,24 @@ GER_heinkel_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
 			limit = {
-				FROM = { original_tag = BUL }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_heinkel_mio_flag
-				}
-			}
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+			FROM = { is_in_faction_with = GER }
 		}
-		ELSE_IF = {
-			limit = {
-				FROM = { original_tag = NOR }
-			}
-			FROM = { has_completed_focus = NOR_invite_german_engineers }
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -518,6 +586,19 @@ GER_dornier_organization = {
 			tag = GR3
 			tag = GR4 
 			tag = GR6
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -559,6 +640,25 @@ GER_rheinmetall_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
+			}
+			FROM = { is_in_faction_with = GER }
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 }
 
@@ -595,17 +695,24 @@ GER_mauser_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
 			limit = {
-				FROM = { NOT  = { original_tag = GER } }
+				FROM = { NOT = { original_tag = GER } }
 			}
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_GER_mauser_organization_flag
-				}
-			}
+			FROM = { is_in_faction_with = GER }
+		}
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 0  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
 		}
 	}
 }
@@ -640,27 +747,24 @@ GER_opel_organization = {
 			}
 			FROM = { NOT = { has_war_with = GER } }
 		}
-
 		IF = {
-			limit = { FROM = { original_tag = BUL } }
-			custom_trigger_tooltip = {
-				tooltip = has_invited_mio_tt
-				FROM = {
-					has_country_flag = has_invited_opel_mio_flag
-				}
+			limit = {
+				FROM = { NOT = { original_tag = GER } }
 			}
-			FROM = { 
-				OR = {
-					is_subject = no
-					is_subject_of = GER
-				}
-				#is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
-			}
+			FROM = { is_in_faction_with = GER }
 		}
-		IF = {
-			limit = { FROM = { original_tag = ROM } }
-			FROM = { has_country_flag = GER_mot_chosen }
-		}	
+	}
+
+	add_trait = { 
+		token = trait_Efficient_Industry
+		name = trait_Efficient_Industry
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x= 0 y= 1  }
+
+		production_bonus = {
+			production_resource_need_factor = -0.2			
+		}
 	}
 }

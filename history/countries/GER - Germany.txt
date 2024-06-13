@@ -175,18 +175,25 @@ set_technology = {
 	tech_support = 1	
 	tech_recon = 1
 	tech_recon2 = 1
+	tech_recon3 = 1
 	tech_engineers = 1
 	tech_engineers2 = 1
+	tech_engineers3 = 1
 	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
 	tech_logistics_company = 1
 	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
 	tech_maintenance_company = 1
 	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1
 	tech_field_hospital = 1
 	tech_field_hospital2 = 1
+	tech_field_hospital3 = 1
 	tech_signal_company = 1
 	tech_signal_company2 = 1
-
+	tech_signal_company3 = 1
 
 	tech_mountaineers = 1
 
@@ -327,6 +334,10 @@ if = {
 		pre_dreadnoughts = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		advanced_ship_hull_submarine = 1
+		basic_submarine_snorkel = 1
+		improved_submarine_snorkel = 1
 		mtg_transport = 1
 		basic_torpedo = 1
 		improved_ship_torpedo_launcher = 1
@@ -425,10 +436,11 @@ set_research_slots = 5
 set_convoys = 200
 set_stability = 0.75
 set_war_support = 0.9
-add_political_power = 300
-army_experience = 100
-navy_experience = 100
-air_experience = 100
+add_political_power = 500
+add_command_power = 100
+army_experience = 500
+navy_experience = 500
+air_experience = 500
 
 declare_war_on = {
 	target = FRA
@@ -488,6 +500,7 @@ set_popularities = {
 	fascism = 100
 }
 add_ideas = {
+	Efficient_Industry
 	War_time
 	tot_economic_mobilisation
 	scraping_the_barrel

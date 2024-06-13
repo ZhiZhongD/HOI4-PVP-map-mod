@@ -383,6 +383,7 @@ ideas = {
             }
             modifier = {
                 industry_repair_factor = 1
+                production_speed_buildings_factor = 0.2
             }
         }
         Total_War = {
@@ -744,32 +745,32 @@ ideas = {
                 always = yes
             }
             modifier = {
-                local_resources_factor = -0.1
+                # local_resources_factor = -0.1
             }
             equipment_bonus = {
                 infantry_equipment = {
-                    build_cost_ic = -0.1
+                    build_cost_ic = -0.2
                     soft_attack = -0.05
                     hard_attack = -0.05
                     reliability = -0.1
                     instant = yes
                 }
                 artillery_equipment = {
-                    build_cost_ic = -0.1
+                    build_cost_ic = -0.2
                     soft_attack = -0.05
                     hard_attack = -0.05
                     reliability = -0.1
                     instant = yes
                 }
                 anti_air_equipment = {
-                    build_cost_ic = -0.1
+                    build_cost_ic = -0.2
                     soft_attack = -0.05
                     hard_attack = -0.05
                     reliability = -0.1
                     instant = yes
                 }
                 anti_tank_equipment = {
-                    build_cost_ic = -0.1
+                    build_cost_ic = -0.2
                     soft_attack = -0.05
                     hard_attack = -0.05
                     reliability = -0.1
@@ -828,6 +829,7 @@ ideas = {
             }
             modifier = {
                 weekly_manpower = 1000
+                conscription = 0.005
             } 
         }
         Emphasize_stability = {
@@ -853,8 +855,234 @@ ideas = {
             modifier = {
                 compliance_gain = 0.1
                 resistance_damage_to_garrison = -0.25
+                
             } 
         }
-        
+        Efficient_Industry = {
+            picture = ARG_rapid_militarization
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.1
+                production_factory_max_efficiency_factor = 0.1
+            } 
+        }
+        GER_Clear_air = {
+            picture = SWE_let_fly_all_guns
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                anti_air_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+        }
+        GER_underground_city = {
+            picture = ARG_construction_guilds
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                global_building_slots_factor = 0.3
+                local_resources_factor = 0.2
+            }
+        }
+        GER_Volkswagen_produce = {
+            picture = generic_reserve_divisions
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                motorized_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+        }
+        Female_Assistant_NDF = {
+            picture = ITA_battaglie_per_la_nascite
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                monthly_population = -0.1
+                conscription_factor = 0.1
+                stability_factor = 0.1
+                production_speed_buildings_factor = 0.16
+                industrial_capacity_factory = 0.08
+                industrial_capacity_dockyard = 0.08
+            }
+        }
+        Fuel_syn_tech = {
+            picture = generic_fuel_reserves
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                fuel_gain_factor_from_states = 0.5
+            }
+        }
+        Improve_Enigma_cipher_machine_main = {
+            picture = generic_electronics_concern_1
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                operative_slot = 2
+                encryption = 1
+                agency_upgrade_time = -0.2
+                army_intel_to_others = -10
+            }
+        }
+        Improve_Enigma_cipher_machine = {
+            picture = generic_electronics_concern_1
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                encryption = 1
+                agency_upgrade_time = -0.2
+                army_intel_to_others = -10
+            }
+        }
+        Werwolf_Guerrilla = {
+            picture = generic_fascist_workers
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                resistance_growth_on_our_occupied_states = 0.2
+                resistance_target_on_our_occupied_states = 0.2
+                compliance_growth_on_our_occupied_states = -0.2
+                resistance_damage_to_garrison_on_our_occupied_states = 0.5
+                
+            }
+            targeted_modifier = {
+                tag = SOV
+                resistance_garrison_penetration_chance = 0.5
+                resistance_activity = 0.5
+            }
+            targeted_modifier = {
+                tag = USA
+                resistance_garrison_penetration_chance = 0.5
+                resistance_activity = 0.5
+            }
+            targeted_modifier = {
+                tag = ENG
+                resistance_garrison_penetration_chance = 0.5
+                resistance_activity = 0.5
+            }
+            targeted_modifier = {
+                tag = FRA
+                resistance_garrison_penetration_chance = 0.5
+                resistance_activity = 0.5
+            }
+        }
+        Die_than_surrender = {
+            picture = SWE_neither_death_nor_dishonor
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                political_power_gain = 0.25
+                surrender_limit = 0.2
+                war_support_weekly = 0.005
+                army_core_attack_factor = 0.1
+                army_core_defence_factor = 0.1
+            }
+        }
+        One_battle_one_aspiration_one_life = {
+            picture = hol_caved_to_the_germans
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                mobilization_speed = 0.2
+                training_time_army_factor = -0.2
+                army_core_attack_factor = 0.1
+                army_core_defence_factor = 0.1
+                breakthrough_factor = 0.05
+            }
+        }
+        Tunnel_operations = {
+            picture = ast_all_in
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                max_dig_in_factor = 0.1
+                supply_combat_penalties_on_core_factor = -0.25
+                cas_damage_reduction = 0.15
+            }
+        }
+        Emergency_repair_modification = {
+            picture = ast_volunteer_defence_corps
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                equipment_capture_factor = 0.3
+                equipment_conversion_speed = 0.3
+                production_lack_of_resource_penalty_factor = -0.3
+            }
+        }
+        Bringing_old_with_new = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                experience_gain_army_factor = 0.1
+                army_org_factor = 0.1
+                dig_in_speed_factor = 0.1
+                out_of_supply_factor = -0.1
+                training_time_army_factor = -0.1
+            }
+        }
     }
 }

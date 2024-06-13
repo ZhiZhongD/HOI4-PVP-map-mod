@@ -13,10 +13,11 @@ set_research_slots = 4
 set_convoys = 200
 set_stability = 0.85
 set_war_support = 1
-add_political_power = 300
-army_experience = 100
-navy_experience = 100
-air_experience = 100
+add_political_power = 500
+add_command_power = 100
+army_experience = 500
+navy_experience = 500
+air_experience = 500
 
 set_politics = {
 	ruling_party = fascism
@@ -138,6 +139,7 @@ add_dynamic_modifier = {
 	modifier = State_of_Wehrmacht
 }
 add_ideas = {
+	Efficient_Industry
 	War_time
 	tot_economic_mobilisation
 	closed_economy
@@ -226,17 +228,25 @@ set_technology = {
 	tech_support = 1	
 	tech_recon = 1
 	tech_recon2 = 1
+	tech_recon3 = 1
 	tech_engineers = 1
 	tech_engineers2 = 1
+	tech_engineers3 = 1
 	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
 	tech_logistics_company = 1
 	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
 	tech_maintenance_company = 1
 	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1
 	tech_field_hospital = 1
 	tech_field_hospital2 = 1
+	tech_field_hospital3 = 1
 	tech_signal_company = 1
 	tech_signal_company2 = 1
+	tech_signal_company3 = 1
 
 
 	tech_mountaineers = 1
@@ -378,6 +388,10 @@ if = {
 		pre_dreadnoughts = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		advanced_ship_hull_submarine = 1
+		basic_submarine_snorkel = 1
+		improved_submarine_snorkel = 1
 		mtg_transport = 1
 		basic_torpedo = 1
 		improved_ship_torpedo_launcher = 1
@@ -572,6 +586,90 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 
+		create_equipment_variant = {
+			name = "GER SUB Class"
+			type = ship_hull_submarine_4
+			name_group = GER_SS_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_torpedo_slot = ship_torpedo_sub_4
+				fixed_ship_engine_slot = sub_ship_engine_4
+				rear_1_custom_slot = ship_torpedo_sub_4
+				mid_1_custom_slot = ship_sub_snorkel_2
+				front_1_custom_slot = ship_torpedo_sub_4
+			}
+		}
+		create_equipment_variant = {
+			name = "GER DD Class"
+			type = ship_hull_light_2
+			name_group = GER_DD_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_radar_1
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_torpedo_2
+			}
+		}
+		create_equipment_variant = {
+			name = "GER CL Class"
+			type = ship_hull_cruiser_2
+			name_group = GER_CL_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_light_medium_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				front_1_custom_slot = ship_light_medium_battery_2
+				mid_1_custom_slot = ship_light_medium_battery_2
+				mid_2_custom_slot = ship_light_medium_battery_2
+				rear_1_custom_slot = ship_light_medium_battery_2
+			}
+		}
+		create_equipment_variant = {
+			name = "GER CA Class"
+			type = ship_hull_cruiser_2
+			name_group = GER_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = empty
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				front_1_custom_slot = ship_anti_air_2
+				mid_1_custom_slot = ship_medium_battery_2
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "GER BB Class"
+			type = ship_hull_heavy_2
+			name_group = GER_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_anti_air_slot = ship_anti_air_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+				fixed_ship_radar_slot = ship_radar_2
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_armor_slot = ship_armor_bb_2
+				front_1_custom_slot = ship_anti_air_2
+				mid_1_custom_slot = ship_heavy_battery_2
+				mid_2_custom_slot = ship_heavy_battery_2
+				rear_1_custom_slot = empty
+			}
+		}
+		
 		create_equipment_variant = {
 			name = "Zerstörer 1936 Class"
 			type = ship_hull_light_2

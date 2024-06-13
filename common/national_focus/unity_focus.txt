@@ -47,7 +47,10 @@ focus_tree = {
     shared_focus = GER_Requisition_trains
     shared_focus = GER_Gestapo
     shared_focus = GER_compound
-   
 
-
+    shared_focus = GER_clear_air
+    shared_focus = GER_underground_city_plan
+    shared_focus = GER_Volkswagen
+    shared_focus = GER_Female_Assistant_in_NDF
+    shared_focus = GER_Fuel_synthesis_tech
 }

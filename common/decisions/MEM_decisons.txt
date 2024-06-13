@@ -1137,6 +1137,13 @@ MEM_Peace_decision_categories = {
                 score_factor = 10000
             }
             white_peace = USA
+            every_country = {
+                limit = {
+                    is_in_faction_with = GER
+                    has_idea = War_time
+                }
+                remove_ideas = War_time
+            }
         }
     }
     MEM_peace_with_SOV = {
@@ -1165,6 +1172,13 @@ MEM_Peace_decision_categories = {
             start_peace_conference = {
                 tag = SOV
                 score_factor = 10000
+            }
+            every_country = {
+                limit = {
+                    is_in_faction_with = GER
+                    has_idea = War_time
+                }
+                remove_ideas = War_time
             }
         }
     }

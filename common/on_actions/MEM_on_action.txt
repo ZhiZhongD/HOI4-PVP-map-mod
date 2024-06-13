@@ -541,6 +541,29 @@ on_actions = {
                         instant_build = yes
                     }
 				}
+				every_state = {
+					limit = {
+						OR = {
+							is_controlled_by = SOV
+							is_controlled_by = USA
+							is_controlled_by = ENG
+							is_controlled_by = FRA
+						}
+						OR = {
+							has_state_category = megalopolis
+							has_state_category = metropolis
+							has_state_category = large_city
+							has_state_category = city
+							has_state_category = large_town
+							has_state_category = town
+						}
+					}
+                    add_building_construction = {
+                        type = air_base
+                        level = 3
+                        instant_build = yes
+                    }
+				}
 			USA = {
 				every_owned_state = {
 					add_extra_state_shared_building_slots = 8
@@ -558,6 +581,59 @@ on_actions = {
 				add_offsite_building = {
 					type = arms_factory
 					level = 400
+				}
+			}
+			GR1 = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
+				}
+			}
+			GER = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
+				}
+				every_military_industrial_organization = {
+					complete_mio_trait = {
+						trait = trait_Efficient_Industry
+					}
+				}
+			}
+			GR3 = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
+				}
+			}
+			GR4 = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
+				}
+			}
+			GR5 = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
+				}
+			}
+			GR6 = {
+				capital_scope = {
+					add_resource = {
+						type = steel
+						amount = 20
+					}
 				}
 			}
 		}

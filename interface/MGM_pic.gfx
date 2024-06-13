@@ -2425,4 +2425,83 @@ spriteType = {
 		name = "GFX_GR5_super_heavy_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/GR5_super_heavy_tank_chassis.dds"
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+	spriteType = {
+		name = GFX_goal_generic_light_infantry
+		textureFile = "gfx/interface/goals/goal_generic_light_infantry.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_barbarossa_v3
+		textureFile = "gfx/interface/goals/goal_GER_barbarossa_v3.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_daf
+		textureFile = "gfx/interface/goals/goal_GER_daf.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_durchbruchwagen
+		textureFile = "gfx/interface/goals/goal_GER_durchbruchwagen.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_endsieg
+		textureFile = "gfx/interface/goals/goal_GER_endsieg.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_entwicklung_tanks
+		textureFile = "gfx/interface/goals/goal_GER_entwicklung_tanks.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_evolution_of_the_aufklarungs_battalions
+		textureFile = "gfx/interface/goals/goal_GER_evolution_of_the_aufklarungs_battalions.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_jagdpanzer
+		textureFile = "gfx/interface/goals/goal_GER_jagdpanzer.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_land_wunderwaffe
+		textureFile = "gfx/interface/goals/goal_GER_land_wunderwaffe.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_plan_the_third_generation
+		textureFile = "gfx/interface/goals/goal_GER_plan_the_third_generation.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_integration_of_enigma
+		textureFile = "gfx/interface/goals/goal_GER_integration_of_enigma.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_kdf_wagen_civ
+		textureFile = "gfx/interface/goals/goal_GER_kdf_wagen_civ.dds"
+	}
+	
+	spriteType = {
+		name = GFX_goal_generic_oil_contract
+		textureFile = "gfx/interface/goals/goal_generic_oil_contract.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_schwalbe_project
+		textureFile = "gfx/interface/goals/goal_GER_schwalbe_project.dds"
+	}
+	spriteType = {
+		name = GFX_goal_GER_horten_project
+		textureFile = "gfx/interface/goals/goal_GER_horten_project.dds"
+	}
+
+
+
+
+
+
 }

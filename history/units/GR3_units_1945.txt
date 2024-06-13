@@ -333,488 +333,488 @@ units = {
 	division = {
 		location = 20610
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12159
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12122
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12183
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12118
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 9212
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 7811
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6493
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 3304
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 20604
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12195
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 8095
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6140
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12364
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12449
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 5614
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12510
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12529
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12599
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12614
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12600
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12624
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2167
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12625
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2485
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 21640
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12779
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12825
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12904
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 8770
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12930
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 4952
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 20068
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12941
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6325
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6771
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12837
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 1498
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6408
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 9290
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 13136
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2195
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 7377
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12355
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12423
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12517
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2499
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12640
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12661
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12784
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2925
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12882
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 8387
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 13014
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12449
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 5614
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12510
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12529
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12599
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12614
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12600
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12624
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2167
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12625
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2485
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 21640
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12779
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12825
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12904
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 8770
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12930
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 4952
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 20068
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12941
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6325
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6771
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12837
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 1498
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 6408
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 9290
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 13136
 		division_template = "Infanterie-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 2195
@@ -824,139 +824,141 @@ units = {
 	division = {
 		location = 7377
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12355
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12423
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12517
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 2499
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12640
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12661
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12784
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 2925
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12882
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 8387
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 13014
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12449
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 5614
 		division_template = "Volksgrenadier-Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	##########
 	division = {
 		location = 20056
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12379
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12268
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12379
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 20066
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 13154
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 2925
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12964
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 12762
 		division_template = "Volksgrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
 	}
 	division = {
 		location = 4177
@@ -966,290 +968,290 @@ units = {
 	division = {
 		location = 6771
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 13031
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 2195
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 20066
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12689
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12268
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 20059
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 20609
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12379
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12220
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 7811
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12210
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 907
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 8199
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 2462
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12216
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12941
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 6408
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12964
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12929
 		division_template = "Panzer-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	##########
 	division = {
 		location = 2499
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12640
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12517
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12550
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12882
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 8387
 		division_template = "Gebirgs-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	##########
 	division = {
 		location = 12964
 		division_template = "Panzergrenadier-Division"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 1498
 		division_template = "Panzergrenadier-Division"	
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12837
 		division_template = "Panzergrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 20071
 		division_template = "Panzergrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12929
 		division_template = "Panzergrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 8770
 		division_template = "Panzergrenadier-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	##########
 	division = {
 		location = 12321
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 8233
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12210
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12364
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.35
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 12647
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.65
 	}
 	division = {
 		location = 4177
 		division_template = "Infanterie-Division (mot.)"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
 	}
 	#######
 	division = {
 		location = 9313
 		division_template = "SS-Panzerdivision"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 20609
 		division_template = "SS-Panzerdivision"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 6951
 		division_template = "SS-Panzerdivision"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 21755
 		division_template = "SS-Panzerdivision"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	###########
 	division = {
 		location = 20061
 		division_template = "Volkssturm-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	division = {
 		location = 21760
 		division_template = "Volkssturm-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
 	}
 	#############
 	division = {
 		location = 21752
 		division_template = "Fallschirmjäger-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	division = {
 		location = 12689
 		division_template = "Fallschirmjäger-Division"
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
 	}
 	#################
 	division = {
 		location = 20056
 		division_template = "Schwere Panzer Abteilung"	
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.5
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
 	}
 }
