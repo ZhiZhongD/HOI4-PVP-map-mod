@@ -47,14 +47,10 @@ equipments = {
 		parent = helicopter_equipment_0
 		defense = 9
 		breakthrough = 66
-		soft_attack = 23
+		soft_attack = 25
 		hard_attack = 28
 		ap_attack = 91
 
-		#Offensive Abilities
-		soft_attack = 25
-		hard_attack = 25
-		ap_attack = 30
 
 		build_cost_ic = 19
 		

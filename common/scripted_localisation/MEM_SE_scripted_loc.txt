@@ -1,0 +1,76 @@
+
+defined_text = { #确定超事件标题
+	name = GetSuperEventTitle
+    text = {
+        trigger = {
+            has_global_flag = SOV_VS_USA_flag
+        }
+        localization_key = SE_title_SOV_VS_USA
+    }
+    text = {
+        trigger = {
+            has_global_flag = The_New_Order
+        }
+        localization_key = SE_title_The_New_Order
+    }
+    text = {
+        localization_key = SE_title
+    }
+}
+
+defined_text = { #确定超事件文本
+	name = GetSuperEventDesc
+    text = {
+        trigger = {
+            has_global_flag = SOV_VS_USA_flag
+        }
+        localization_key = SE_desc_SOV_VS_USA
+    }
+    text = {
+        trigger = {
+            has_global_flag = The_New_Order
+        }
+        localization_key = SE_desc_The_New_Order
+    }
+    text = {
+        localization_key = SE_desc
+    }
+}
+
+defined_text = { #确定超事件选项
+	name = GetSuperEventOption
+    text = {
+        trigger = {
+            has_global_flag = SOV_VS_USA_flag
+        }
+        localization_key = SE_option_SOV_VS_USA
+    }
+    text = {
+        trigger = {
+            has_global_flag = The_New_Order
+        }
+        localization_key = SE_option_The_New_Order
+    }
+    text = {
+        localization_key = SE_option
+    }
+}
+
+defined_text = { #确定超事件图片
+	name = GetSuperEventImage
+    text = {
+        trigger = {
+            has_global_flag = SOV_VS_USA_flag
+        }
+        localization_key = GFX_SE_pic_SOV_VS_USA
+    }
+    text = {
+        trigger = {
+            has_global_flag = The_New_Order
+        }
+        localization_key = GFX_SE_pic_The_New_Order
+    }
+    text = {
+        localization_key = GFX_SE_pic_OVO
+    }
+}

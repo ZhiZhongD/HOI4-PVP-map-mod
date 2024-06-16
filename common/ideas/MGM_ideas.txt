@@ -158,7 +158,7 @@ ideas = {
             }
             modifier = {
                 weekly_manpower = -125
-                war_support_factor = -0.8
+                war_support_factor = -0.08
                 stability_factor = -0.4
 
             }
@@ -455,7 +455,7 @@ ideas = {
             }
             modifier = {
                 mobilization_speed = 0.2
-                org_loss_at_low_org_factor = 0.05
+                org_loss_at_low_org_factor = -0.05
                 war_support_factor = -0.05
             }
         }
@@ -624,8 +624,8 @@ ideas = {
                 equipment_conversion_speed = 0.25
             }
             equipment_bonus = {
-                medium_tank_chassis = {
-                    build_cost_ic = -0.15
+                modern_tank_chassis = {
+                    build_cost_ic = -0.25
                     instant = yes
                 }
                 heavy_tank_chassis = {
@@ -635,7 +635,7 @@ ideas = {
             }
         }
         Skoda_Industries = {
-            picture = cze_skoda_armor
+            picture = CZE_skoda_armor
             allowed = {
                 always = yes
             }
@@ -647,7 +647,7 @@ ideas = {
             }
             equipment_bonus = {
                 light_tank_chassis = {
-                    build_cost_ic = -0.2
+                    build_cost_ic = -0.4
                     reliability = 0.2
                     instant = yes
                 }
@@ -789,8 +789,8 @@ ideas = {
             modifier = {
                 supply_consumption_factor = -0.05
                 experience_loss_factor = -0.15
-                army_attack_factor = 0.05
-                army_defence_factor = 0.05
+                army_attack_factor = 0.1
+                army_defence_factor = 0.1
             }
         }
         state_cooperation = {
@@ -1082,6 +1082,106 @@ ideas = {
                 dig_in_speed_factor = 0.1
                 out_of_supply_factor = -0.1
                 training_time_army_factor = -0.1
+            }
+        }
+        GR4_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_bunker_factor = 1
+                production_speed_anti_air_building_factor = 1
+                production_speed_infrastructure_factor = 0.5
+                production_speed_rail_way_factor = 0.5
+                supply_node_range = 0.2
+            }
+        }
+        GR1_1_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                medium_tank_chassis = {
+                    build_cost_ic = -0.3
+                    instant = yes
+                }
+                mechanized_equipment = {
+                    build_cost_ic = -0.15
+                    instant = yes
+                }
+            }
+        }
+        GR1_2_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                ship_hull_submarine = {
+                    build_cost_ic = -0.2
+                    instant = yes
+                }
+            }
+            modifier = {
+                production_speed_dockyard_factor = 0.2
+                industrial_capacity_dockyard = 0.2
+            }
+        }
+        GR6_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                heat_attrition_factor = -0.1
+                winter_attrition_factor = -0.1
+                acclimatization_hot_climate_gain_factor = 0.3
+                acclimatization_cold_climate_gain_factor = 0.3
+            }
+        }
+        GR5_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            equipment_bonus = {
+                small_plane_airframe = {
+                    build_cost_ic = -0.2
+                    instant = yes
+                }
+            }
+            modifier = {
+                air_ace_generation_chance_factor = 0.5
+            }
+        }
+        GR2_idea = {
+            picture = generic_army_war_college
+            allowed = {
+                always = yes
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            modifier = {
+                production_speed_arms_factory_factor = 0.25
+                production_speed_industrial_complex_factor = 0.25
             }
         }
     }

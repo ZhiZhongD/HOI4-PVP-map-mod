@@ -12711,3 +12711,153 @@ news_event = {
 
 
 
+### 1947 SOV VS USA
+news_event = {
+	id = news.1947
+	title = news.1947.t
+	desc = news.1947.d
+	picture = GFX_news_event_journalists_speech
+	
+	major = yes
+	
+	trigger = {
+		date > 1947.1.1
+	}
+	fire_only_once = yes
+	option = {
+		name = news.1947.a
+		trigger = {
+
+		}
+		SOV = {
+			send_embargo = USA
+			send_embargo = ENG
+			send_embargo = FRA
+		}
+		USA = {
+			send_embargo = SOV
+		}
+		FRA = {
+			send_embargo = SOV
+		}
+		ENG = {
+			send_embargo = SOV
+		}
+	}
+
+}
+### 1947 SOV VS USA
+news_event = {
+	id = news.1948
+	title = news.1948.t
+	desc = news.1948.d
+	picture = GFX_news_event_hungarian_soldiers
+	
+	major = yes
+	
+	trigger = {
+		date > 1947.2.1
+	}
+	fire_only_once = yes
+	option = {
+		name = news.1948.a
+		trigger = {
+
+		}
+		set_global_flag = MEM_SOV_VS_USA_coming_flag
+		SOV = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = USA
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = USA
+				relation = docking_rights
+				active = no
+			}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = ENG
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = ENG
+				relation = docking_rights
+				active = no
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = FRA
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = FRA
+				relation = docking_rights
+				active = no
+			}
+		}
+		USA = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = docking_rights
+				active = no
+			}
+		}
+		FRA = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = docking_rights
+				active = no
+			}
+		}
+		ENG = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = hostile_status
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = military_access
+				active = no
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = docking_rights
+				active = no
+			}
+		}
+	}
+
+}
+

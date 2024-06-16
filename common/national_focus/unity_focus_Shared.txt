@@ -138,7 +138,7 @@ joint_focus = {
             type = medium_tank_chassis_3
             parent_version = 0
             modules = {
-                main_armament_slot = tank_medium_cannon_2 #先进重型加农炮
+                main_armament_slot = tank_medium_cannon_2 #先进中型加农炮
     
                 turret_type_slot = tank_medium_three_man_tank_turret #重型三人炮塔
     
@@ -1013,7 +1013,9 @@ joint_focus = {
     relative_position_id = GER_Faction_weapon_6
     x = 0
     y = 1
+    prerequisite = { focus = GER_Faction_weapon_3 }
     prerequisite = { focus = GER_Faction_weapon_6 }
+    prerequisite = { focus = GER_Faction_weapon_13 }
     cost = 4.3
 
     ai_will_do = {
@@ -1073,9 +1075,8 @@ joint_focus = {
     relative_position_id = GER_Faction_weapon_15
     x = 0
     y = 1
-    prerequisite = { focus = GER_Faction_weapon_3 }
-    prerequisite = { focus = GER_Faction_weapon_6 }
-    prerequisite = { focus = GER_Faction_weapon_13 }
+    prerequisite = { focus = GER_Faction_weapon_15 }
+
     cost = 10
 
     ai_will_do = {
@@ -2592,6 +2593,44 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
+        if = {
+            limit = {
+                NOT = {
+                    has_completed_focus = GER_Faction_weapon_7
+                }
+            }
+            division_template = {
+                name = "INF-Division"
+                division_names_group = GER_Inf_01
+                is_locked = no
+                regiments = {
+                    militia = { x = 0 y = 0 }
+                    militia = { x = 0 y = 1 }
+                    militia = { x = 0 y = 2 }
+                    militia = { x = 0 y = 3 }        
+                    militia = { x = 1 y = 0 }
+                    militia = { x = 1 y = 1 }
+                    militia = { x = 1 y = 2 }
+                    militia = { x = 1 y = 3 }
+                }
+                support = {
+    
+                }
+            }
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"ITA Militia\" division_template = \"INF-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 12
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = small_plane_airframe_4
+            amount = 500
+            variant_name = "Me 262 'Schwalbe'"
+        }
+        add_ideas = GR5_idea
     }
 }
 shared_focus = {
@@ -2736,6 +2775,14 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = ITA_Po_River
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 500
+        }
+        add_equipment_to_stockpile = {
+            type = motorized_equipment
+            amount = 1000
+        }
     }
 }
 
@@ -2767,6 +2814,11 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
+        add_ideas = GR4_idea
+        add_equipment_to_stockpile = {
+            type = anti_air_equipment
+            amount = 1000
+        }
     }
 }
 
@@ -2891,6 +2943,47 @@ shared_focus = {
 
     completion_reward = {
         add_ideas = AUS_ibelungen
+        if = {
+            limit = {
+                NOT = {
+                    has_completed_focus = GER_Faction_weapon_3
+                }
+            }
+            set_technology = {
+                main_battle_tank_chassis = 1
+            }
+            create_equipment_variant = {
+                name = "E-50"
+                type = modern_tank_chassis_1
+                parent_version = 0
+                modules = {
+                    main_armament_slot = tank_heavy_cannon_3 #先进重加农炮
+        
+                    turret_type_slot = tank_modern_tank_turret #现代
+        
+                    suspension_type_slot = tank_interleaved_suspension #交错负重轮
+        
+                    armor_type_slot = tank_welded_armor #焊接装甲
+        
+                    engine_type_slot = tank_diesel_engine #柴油引擎
+        
+                    special_type_slot_1 = tank_radio_3 #先进无线电
+                    special_type_slot_2 = additional_machine_guns #附加机枪
+                    special_type_slot_3 = easy_maintenance #易维护改装
+                    special_type_slot_4 = sloped_armor #倾斜装甲
+        
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 10
+                    tank_nsb_armor_upgrade = 12
+                }
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = modern_tank_chassis
+            variant_name = "E-50"
+            amount = 400
+        }
     }
 }
 
@@ -2920,7 +3013,26 @@ shared_focus = {
     }
 
     completion_reward = {
-        add_political_power = 100
+        add_political_power = 300
+        add_stability = 0.1
+        add_war_support = 0.1
+        add_to_variable = {
+            var = GER_political_power_var
+            value = 0.05
+        }
+        if = {
+            limit = {
+                NOT = {
+                    has_dynamic_modifier = {
+                        modifier = GER_political_power_gain
+                    }
+                }
+            }
+            add_dynamic_modifier = {
+                modifier = GER_political_power_gain
+            }
+        }
+        custom_effect_tooltip = GER_political_power_tt
     }
 }
 
@@ -3017,6 +3129,95 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
+        set_cosmetic_tag = GR2
+        random_owned_controlled_state = {
+            limit = {
+                NOT = {
+                    any_neighbor_state = {
+                        NOT = {
+                            is_controlled_by = GER
+                        }
+                    }
+                }
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 5
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = industrial_complex
+                level = 5
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                NOT = {
+                    any_neighbor_state = {
+                        NOT = {
+                            is_controlled_by = GER
+                        }
+                    }
+                }
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 5
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = industrial_complex
+                level = 5
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                NOT = {
+                    any_neighbor_state = {
+                        NOT = {
+                            is_controlled_by = GER
+                        }
+                    }
+                }
+                free_building_slots = {
+                    building = arms_factory
+                    size > 5
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = arms_factory
+                level = 5
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                NOT = {
+                    any_neighbor_state = {
+                        NOT = {
+                            is_controlled_by = GER
+                        }
+                    }
+                }
+                free_building_slots = {
+                    building = arms_factory
+                    size > 5
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = arms_factory
+                level = 5
+                instant_build = yes
+            }
+        }
     }
 }
 
@@ -3076,6 +3277,14 @@ shared_focus = {
 
     completion_reward = {
         add_ideas = STG44
+        add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 5000
+        }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 1000
+        }
     }
 }
 shared_focus = {
@@ -3215,6 +3424,11 @@ shared_focus = {
         }
         set_cosmetic_tag = GER_germania
         set_faction_name = Einheitspakt
+        hidden_effect = {
+            set_global_flag = SE_open
+            set_global_flag = The_New_Order
+            play_song = "SE_The_New_Order"
+        }
     }
 }
 
@@ -3296,6 +3510,74 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
+        add_ideas = GR1_1_idea
+        if = {
+            limit = {
+                NOT = {
+                    has_completed_focus = GER_Faction_weapon_1
+                }
+            }
+            create_equipment_variant = {
+                name = "Panther Ausf. G"
+                type = medium_tank_chassis_3
+                parent_version = 0
+                modules = {
+                    main_armament_slot = tank_medium_cannon_2 #先进中型加农炮
+        
+                    turret_type_slot = tank_medium_three_man_tank_turret #重型三人炮塔
+        
+                    suspension_type_slot = tank_interleaved_suspension #交错负重轮
+        
+                    armor_type_slot = tank_cast_armor #焊接装甲
+        
+                    engine_type_slot = tank_gasoline_engine #汽油引擎
+        
+                    special_type_slot_1 = tank_radio_2 #先进无线电
+                    special_type_slot_2 = smoke_launchers #烟雾发生器
+                    special_type_slot_3 = additional_machine_guns #附加机枪
+                    special_type_slot_4 = sloped_armor #倾斜装甲
+        
+                }
+                upgrades = {
+                    tank_nsb_engine_upgrade = 8 #四级引擎
+                    tank_nsb_armor_upgrade = 10 #四级装甲
+                }
+            }
+            division_template = {
+                name = "GER-Panzer-Division"
+                division_names_group = GER_Inf_01
+                is_locked = no
+                regiments = {
+                    medium_armor = { x = 0 y = 0 }
+                    medium_armor = { x = 0 y = 1 }
+                    medium_armor = { x = 0 y = 2 }
+                    mechanized = { x = 1 y = 0 }
+                    motorized = { x = 1 y = 1 }
+                    motorized = { x = 1 y = 2 }
+                    motorized = { x = 1 y = 3 }
+                }
+                
+                support = {
+                    engineer = { x = 0 y = 0 }
+                    anti_air = { x = 0 y = 1 }
+                    mot_recon = { x = 0 y = 2 }
+                    field_hospital = { x = 0 y = 3 }
+                    signal_company = { x = 0 y = 4 }
+                }
+            }
+        }
+        add_equipment_to_stockpile = {
+            type = medium_tank_chassis_3
+            variant_name = "Panther Ausf. G"
+            amount = 800
+        }
+        capital_scope = {
+            create_unit = { 
+                division = "name = \"GER Panzer Militia\" division_template = \"GER-Panzer-Division\" start_experience_factor = 0.5"
+                owner = ROOT 
+                count = 4
+            }
+        }
     }
 }
 shared_focus = {
@@ -3317,6 +3599,7 @@ shared_focus = {
     }
 
     completion_reward = {
+        add_ideas = GR1_2_idea
         custom_effect_tooltip = GR1_get_navy
         hidden_effect = {
 
@@ -3475,6 +3758,8 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
+        add_manpower = 150000
+        add_ideas = GR6_idea
     }
 }
 
@@ -3520,6 +3805,10 @@ shared_focus = {
 
     completion_reward = {
         add_ideas = Elite_Veterans
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 500
+        }
     }
 }
 shared_focus = {

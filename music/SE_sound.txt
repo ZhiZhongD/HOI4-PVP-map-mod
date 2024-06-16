@@ -1,0 +1,8 @@
+music = {
+	song = "SE_SOV_VS_USA"
+	chance = { modifier = { factor = 0 } }
+}
+music = {
+	song = "SE_The_New_Order"
+	chance = { modifier = { factor = 0 } }
+}

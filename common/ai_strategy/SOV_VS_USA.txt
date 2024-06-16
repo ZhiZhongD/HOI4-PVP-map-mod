@@ -1,0 +1,54 @@
+SOV_expansion = {
+	allowed = {
+		tag = SOV
+	}
+	enable = {
+        has_global_flag = MEM_SOV_VS_USA_coming_flag
+	}
+	abort = {
+		NOT = {
+			country_exists = USA
+			country_exists = ENG
+            country_exists = FRA
+		}
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 1000
+	}
+    ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 1000
+	}
+}
+USA_expansion = {
+	allowed = {
+        OR = {
+		    tag = USA
+            tag = SOV
+            tag = FRA
+        }
+	}
+	enable = {
+        has_global_flag = MEM_SOV_VS_USA_coming_flag
+	}
+	abort = {
+		NOT = {
+			country_exists = SOV
+		}
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 1000
+	}
+}

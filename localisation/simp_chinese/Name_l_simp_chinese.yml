@@ -119,7 +119,7 @@
  GER_Faction_NDF_occupy_vill_0: "乡村计划"
  GER_Faction_NDF_Recall_retired_generals: "召回退休将领"
  GER_Faction_NDF_The_New_Order: "新秩序"
- GER_Faction_NDF_commander_chief_0: "国防军最高统帅"
+ GER_Faction_NDF_commander_chief_0_desc: "国防军最高统帅"
  GER_Faction_NDF_Defence_city_0_desc: "汉尼拔行动"
  GER_Faction_NDF_Defence_city_1_desc: "坚守柏林"
  GER_Faction_NDF_Defence_city_2_desc: "葡萄弹行动"
@@ -230,8 +230,8 @@
 
  GER_Hitler_Youth_League_desc: "希特勒青年团"
  GER_Search_machine_tools_desc: "搜寻机床"
- GER_setup_factories_desc: "广开工厂"
- GER_Emphasize_stability_desc: "重视稳定"
+ GER_setup_factories_desc: "国有化德国军工厂"
+ GER_Emphasize_stability_desc: "重振信念"
  GER_Surrender_resources_desc: "资源上缴国有"
  GER_Expand_airport_desc: "扩建机场"
  GER_Expand_antiair_desc: "构筑防空阵地"
@@ -254,13 +254,26 @@
  MEM_event.1.a: "我们别无选择"
  MEM_event.1.b: "跟德佬爆了"
 
+ news.1947.t: "美苏关系恶化"
+ news.1947.d: "1947年，第二次世界大战的硝烟仍未散去，德国在苟延残喘的状态下惊人的挡住了同盟国和苏联的进攻。对于德国的敌人而言，近在咫尺的胜利曙光似乎遥不可及。随着对德战争的失利，美苏之间的分歧和矛盾开始迅速扩大，双方开始指责对面导致了战局失利。"
+ news.1947.a: "这是个机会"
+
+ news.1948.t: "美苏关系继续恶化"
+ news.1948.d: "近一个月来，同盟国和苏联之间的冲突愈演愈烈，边界处频繁发生摩擦，其中的一些冲突演变为流血事件，预示着另一场战争可能一触即发。"
+ news.1948.a: "这是个机会"
 
 
+ SE_title: "这是默认超事件标题"
+ SE_desc: "这是默认超事件文本"
+ SE_option: "这是默认超事件选项"
 
+ SE_title_SOV_VS_USA: "中欧危机"
+ SE_desc_SOV_VS_USA: "柏林久攻不克，苏盟双方争执不休，铁幕演说、集安联盟\n。。。。。。直至一场全面战争！"
+ SE_option_SOV_VS_USA: "秩序将从战火中建立"
 
-
-
-
+ SE_title_The_New_Order: "新秩序！"
+ SE_desc_The_New_Order: "从英吉利海峡的伦敦到高加索山旁的巴库，一个属于德意志的新秩序已经建立，现在千年帝国来到了世间。"
+ SE_option_The_New_Order: "这是最终的胜利！"
 
 #民族精神
  Hitler_Leader: "元首"
@@ -282,8 +295,8 @@
  Allies_Terrifying_bombing_3: "盟军的骇人轰炸"
  Allies_Terrifying_bombing_4: "盟军的骇人轰炸"
  Rebuild_tech: "重组科技"
- Modern_tank_produce: "现代坦克生产"
- Modern_plane_produce: "现代喷气机生产"
+ Modern_tank_produce: "E系列装甲计划"
+ Modern_plane_produce: "“飞燕”计划"
  Modern_helicopter_produce: "现代直升机生产"
  Waffen_SS_idea: "最后的党卫军"
  Apocalypse_weapon_main_idea: "末日武器"
@@ -325,7 +338,7 @@
  state_cooperation: "地区合作"
  By_Blood_Alone: "唯有浴血"
  Hitler_Youth_League: "希特勒青年团"
- Emphasize_stability: "重视稳定"
+ Emphasize_stability: "重振信念"
  Gestapo: "盖世太保"
 
  GER_underground_city: "“地下城”计划"
@@ -345,7 +358,13 @@
 
  trait_Efficient_Industry: "高效工业"
  unlock_Efficient_Industry_tt: "所有军工企业：\n解锁§Y高效工业§!特质"
-
+ 
+ GR4_idea: "东部边区集团军群"
+ GR1_1_idea: "第三装甲军团"
+ GR1_2_idea: "海狼"
+ GR6_idea: "库尔兰集团军群"
+ GR5_idea: "意大利集团军群"
+ GR2_idea: "维斯瓦河集团军群"
 
  State_of_Wehrmacht: "党卫军现状"
  GER_political_power_gain: "政治点获取"
@@ -377,9 +396,9 @@
  Einheitspakt: "团结协定"
 
 #国名
- GER: "维斯瓦河集团军群"
- GER_DEF: "维斯瓦河集团军群"
- GER_ADJ: "维斯瓦河集团军群"
+#  GER: "维斯瓦河集团军群"
+#  GER_DEF: "维斯瓦河集团军群"
+#  GER_ADJ: "维斯瓦河集团军群"
 
  GR1: "第三装甲军团"
  GR1_DEF: "第三装甲军团"

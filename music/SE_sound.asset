@@ -1,0 +1,10 @@
+music = {
+	name = "SE_SOV_VS_USA"
+	file = "SOV_VS_USA.ogg"
+	volume = 1
+}
+music = {
+	name = "SE_The_New_Order"
+	file = "The_New_Order.ogg"
+	volume = 1
+}

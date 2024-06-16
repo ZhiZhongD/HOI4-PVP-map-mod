@@ -1,0 +1,25 @@
+
+scripted_gui = {
+	TNO_super_events = {
+		context_type = player_context
+		window_name = "TNO_SG_Super_Event"
+
+		visible = {
+			is_ai = no
+			has_global_flag = SE_open
+		}
+		triggers = {
+
+		}
+		properties = {
+			SE_image = { image = "[GetSuperEventImage]" }
+		}
+		effects = {
+			SE_option_click = {
+				clr_global_flag = SE_open
+				clr_global_flag = SOV_VS_USA_flag
+				clr_global_flag = The_New_Order
+			}
+		}
+	}
+}

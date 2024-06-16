@@ -12,6 +12,7 @@ on_actions = {
 						tag = GR6
 					}
                 }
+				set_major = yes
 				set_temp_variable = {
 					var = State_of_Wehrmacht_war_support_temp
 					value = root.has_war_support
@@ -635,6 +636,33 @@ on_actions = {
 						amount = 20
 					}
 				}
+			}
+		}
+	}
+	on_declare_war = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						OR = {
+							tag = SOV
+							tag = USA
+							tag = ENG
+							tag = FRA
+						}
+					}
+					FROM = {
+						OR = {
+							tag = SOV
+							tag = USA
+							tag = ENG
+							tag = FRA
+						}
+					}
+				}
+				set_global_flag = SE_open
+				set_global_flag = SOV_VS_USA_flag
+				play_song = "SE_SOV_VS_USA"
 			}
 		}
 	}
