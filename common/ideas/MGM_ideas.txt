@@ -1085,7 +1085,7 @@ ideas = {
             }
         }
         GR4_idea = {
-            picture = generic_army_war_college
+            picture = generic_war_preparation
             allowed = {
                 always = yes
             }
@@ -1093,7 +1093,7 @@ ideas = {
                 always = yes
             }
             modifier = {
-                production_speed_bunker_factor = 1
+                production_speed_bunker_factor = 0.5
                 production_speed_anti_air_building_factor = 1
                 production_speed_infrastructure_factor = 0.5
                 production_speed_rail_way_factor = 0.5
@@ -1101,7 +1101,7 @@ ideas = {
             }
         }
         GR1_1_idea = {
-            picture = generic_army_war_college
+            picture = generic_war_preparation
             allowed = {
                 always = yes
             }
@@ -1120,7 +1120,7 @@ ideas = {
             }
         }
         GR1_2_idea = {
-            picture = generic_army_war_college
+            picture = generic_sea_focused_navy
             allowed = {
                 always = yes
             }
@@ -1139,7 +1139,7 @@ ideas = {
             }
         }
         GR6_idea = {
-            picture = generic_army_war_college
+            picture = generic_war_preparation
             allowed = {
                 always = yes
             }
@@ -1154,7 +1154,7 @@ ideas = {
             }
         }
         GR5_idea = {
-            picture = generic_army_war_college
+            picture = generic_war_preparation
             allowed = {
                 always = yes
             }
@@ -1172,7 +1172,7 @@ ideas = {
             }
         }
         GR2_idea = {
-            picture = generic_army_war_college
+            picture = generic_war_preparation
             allowed = {
                 always = yes
             }

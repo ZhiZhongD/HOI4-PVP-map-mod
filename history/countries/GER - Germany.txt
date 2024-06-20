@@ -1,5 +1,5 @@
 ﻿capital = 1650
-
+set_cosmetic_tag = GR2
 # if = {
 # 	limit = {
 # 		NOT = {

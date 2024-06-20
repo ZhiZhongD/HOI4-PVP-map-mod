@@ -12722,6 +12722,12 @@ news_event = {
 	
 	trigger = {
 		date > 1947.1.1
+		SOV = {
+			controls_state = 508
+		}
+		FRA = {
+			controls_state = 3004
+		}
 	}
 	fire_only_once = yes
 	option = {
@@ -12757,6 +12763,12 @@ news_event = {
 	
 	trigger = {
 		date > 1947.2.1
+		SOV = {
+			controls_state = 508
+		}
+		FRA = {
+			controls_state = 3004
+		}
 	}
 	fire_only_once = yes
 	option = {

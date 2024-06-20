@@ -39,6 +39,12 @@ country_event = {
     trigger = {
         date > 1947.4.1
         tag = USA
+        SOV = {
+			controls_state = 508
+		}
+		FRA = {
+			controls_state = 3004
+		}
     }
 
     fire_only_once = yes

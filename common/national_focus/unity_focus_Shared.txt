@@ -3129,7 +3129,8 @@ shared_focus = {
 
     completion_reward = {
         add_political_power = 100
-        set_cosmetic_tag = GR2
+        add_ideas = GR2_idea
+        # set_cosmetic_tag = GR2
         random_owned_controlled_state = {
             limit = {
                 NOT = {

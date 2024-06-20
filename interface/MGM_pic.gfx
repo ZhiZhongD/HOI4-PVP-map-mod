@@ -2529,4 +2529,8 @@ spriteType = {
 		name = "GFX_SE_pic_The_New_Order"
 		textureFile = "gfx/interface/The_New_Order.png"
 	}
+	spriteType = {
+		name = "GFX_SE_pic_OVO"
+		textureFile = "gfx/interface/OVO.png"
+	}
 }

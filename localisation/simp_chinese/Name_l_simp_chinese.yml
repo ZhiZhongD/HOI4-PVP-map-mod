@@ -143,7 +143,7 @@
  Get_navy_tt: "获得由§Y3§!战列 §Y3§!重巡 §Y4§!轻巡 §Y10§!驱逐组成的舰队"
  GR5_national_focus_Po_River_group: "波河集团军"
 
- GR4_national_focus: "东部集团军群"
+ GR4_national_focus: "东部边区集团军群"
  GR4_national_focus_Snow_flower: "雪绒花"
  GR4_national_focus_Green_Demon: "绿魔"
  GR4_national_focus_Nibelungen: "尼伯龙根"
@@ -154,7 +154,7 @@
  GER_national_focus_Leader_Together: "元首与我们同在"
  GER_railway_gun: "元首列车炮"
 
- GER_national_focus: "德意志国"
+ GER_national_focus: "维斯瓦河集团军群"
  GER_national_focus_Supply_mobilization: "补给动员"
  GER_national_focus_Battle_of_Berlin: "柏林保卫战"
  GER_national_focus_STG44: "STG44"
@@ -197,7 +197,7 @@
  GR5_national_focus_take_fleet_desc: "夺取舰队"
  GR5_national_focus_Po_River_group_desc: "波河集团军"
 
- GR4_national_focus_desc: "东部集团军群"
+ GR4_national_focus_desc: "东部边区集团军群"
  GR4_national_focus_Snow_flower_desc: "雪绒花"
  GR4_national_focus_Green_Demon_desc: "绿魔"
  GR4_national_focus_Nibelungen_desc: "尼伯龙根"
@@ -208,7 +208,7 @@
  GER_national_focus_Leader_Together_desc: "元首与我们同在"
  GER_railway_gun_desc: "元首列车炮"
 
- GER_national_focus_desc: "德意志国"
+ GER_national_focus_desc: "维斯瓦河集团军群"
  GER_national_focus_Supply_mobilization_desc: "补给动员"
  GER_national_focus_Battle_of_Berlin_desc: "柏林保卫战"
  GER_national_focus_STG44_desc: "STG44"
@@ -263,9 +263,9 @@
  news.1948.a: "这是个机会"
 
 
- SE_title: "这是默认超事件标题"
- SE_desc: "这是默认超事件文本"
- SE_option: "这是默认超事件选项"
+ SE_title: "新秩序！"
+ SE_desc: "从英吉利海峡的伦敦到高加索山旁的巴库，一个属于德丽莎的新秩序已经建立，现在千年帝国来到了世间。"
+ SE_option: "德丽莎世界第一可爱"
 
  SE_title_SOV_VS_USA: "中欧危机"
  SE_desc_SOV_VS_USA: "柏林久攻不克，苏盟双方争执不休，铁幕演说、集安联盟\n。。。。。。直至一场全面战争！"
@@ -360,7 +360,7 @@
  unlock_Efficient_Industry_tt: "所有军工企业：\n解锁§Y高效工业§!特质"
  
  GR4_idea: "东部边区集团军群"
- GR1_1_idea: "第三装甲军团"
+ GR1_1_idea: "第三装甲集团军群"
  GR1_2_idea: "海狼"
  GR6_idea: "库尔兰集团军群"
  GR5_idea: "意大利集团军群"
@@ -396,17 +396,17 @@
  Einheitspakt: "团结协定"
 
 #国名
-#  GER: "维斯瓦河集团军群"
-#  GER_DEF: "维斯瓦河集团军群"
-#  GER_ADJ: "维斯瓦河集团军群"
+ GER: "德意志国"
+ GER_DEF: "德意志国"
+ GER_ADJ: "德意志国"
 
- GR1: "第三装甲军团"
- GR1_DEF: "第三装甲军团"
- GR1_ADJ: "第三装甲军团"
+ GR1: "第三装甲集团军群"
+ GR1_DEF: "第三装甲集团军群"
+ GR1_ADJ: "第三装甲集团军群"
 
- GR2: "维斯瓦河集团军"
- GR2_DEF: "维斯瓦河集团军"
- GR2_ADJ: "维斯瓦河集团军"
+ GR2: "维斯瓦河集团军群"
+ GR2_DEF: "维斯瓦河集团军群"
+ GR2_ADJ: "维斯瓦河集团军群"
 
  GR3: "中央集团军群"
  GR3_DEF: "中央集团军群"
@@ -432,6 +432,9 @@
  GR6_EST_DEF: "东方专员辖区"
  GR6_EST_ADJ: "东方专员辖区"
 
+#其他
+ SE_SOV_VS_USA: "美苏之战"
+ SE_The_New_Order: "新秩序"
 #人名  不知道什么原因导致本地化不生效，只能把名字编码到人物那里了
  GER_erich_brandenberger: "埃里希·布兰登贝尔格"
  GER_traugott_herr: "特劳戈特·赫尔"

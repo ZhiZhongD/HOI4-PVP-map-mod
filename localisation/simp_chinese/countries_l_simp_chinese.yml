@@ -570,10 +570,6 @@
  GEO_DEF:0 "格鲁吉亚国"
  GEO_ADJ:0 "格鲁吉亚"
 
- GER: "德意志国"
- GER_DEF: "德意志国"
- GER_ADJ: "德意志国"
-
  DDR_communism:0 "德意志民主共和国"
  DDR_communism_DEF:0 "德意志民主共和国"
  DDR_communism_ADJ:0 "德国"
